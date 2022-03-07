@@ -1,0 +1,9 @@
+libaircrack_util_la-trampoline_x86.lo: trampoline_x86.c \
+ /usr/include/stdc-predef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/cpuid.h trampoline.h
+
+/usr/include/stdc-predef.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/cpuid.h:
+
+trampoline.h:

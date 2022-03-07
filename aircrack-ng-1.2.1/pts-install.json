@@ -1,0 +1,26 @@
+{
+    "test_installation": {
+        "status": "INSTALLED",
+        "environment": {
+            "test_identifier": "pts\/aircrack-ng-1.2.1",
+            "test_version": "1.2.1",
+            "install_checksum": "f0122f41002aaa6b68741f9aad709527",
+            "system_hash": "MiB4IEludGVsIFhlb24gUGxhdGludW0gODI2OF9fVWJ1bnR1IDIwLjA0X19HQ0MgOS4zLjAgKyBDbGFuZyAxMC4wLjAtNHVidW50dTEgKyBMTFZNIDEwLjAuMF9f",
+            "compiler_data": {
+                "compiler-type": "CXX",
+                "compiler": "g++",
+                "compiler-options": "-O3 -fvisibility=hidden -masm=intel -fcommon -rdynamic -lpthread -lz -lcrypto -lhwloc -ldl -lm -pthread"
+            },
+            "install_footnote": null
+        },
+        "history": {
+            "install_date_time": "2022-03-02 03:08:24",
+            "last_run_date_time": null,
+            "install_time_length": 26,
+            "times_run": 0,
+            "average_runtime": null,
+            "latest_runtime": null,
+            "per_run_times": []
+        }
+    }
+}

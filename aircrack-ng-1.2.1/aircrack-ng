@@ -1,0 +1,4 @@
+#!/bin/sh
+cd aircrack-ng-1.5.2
+./src/aircrack-ng -p $NUM_CPU_CORES $@  2>&1 | tr '\r' '\n' | awk -v max=0 '{if($1>max){max=$1}}END{print max " k/s"}' > $LOG_FILE
+echo $? > ~/test-exit-status

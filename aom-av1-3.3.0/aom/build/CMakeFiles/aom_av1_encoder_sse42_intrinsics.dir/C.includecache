@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/var/lib/phoronix-test-suite/installed-tests/pts/aom-av1-3.3.0/aom/av1/encoder/x86/hash_sse42.c
+stdint.h
+-
+smmintrin.h
+-
+

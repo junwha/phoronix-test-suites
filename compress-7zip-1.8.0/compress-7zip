@@ -1,0 +1,3 @@
+#!/bin/sh
+./CPP/7zip/Bundles/Alone2/_o/7zz b > $LOG_FILE 2>&1
+echo $? > ~/test-exit-status

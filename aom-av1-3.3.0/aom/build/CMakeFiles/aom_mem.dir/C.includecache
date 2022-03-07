@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../aom/aom_integer.h
+stddef.h
+-
+stdint.h
+-
+inttypes.h
+-
+
+/var/lib/phoronix-test-suite/installed-tests/pts/aom-av1-3.3.0/aom/aom_mem/aom_mem.c
+aom_mem.h
+/var/lib/phoronix-test-suite/installed-tests/pts/aom-av1-3.3.0/aom/aom_mem/aom_mem.h
+assert.h
+-
+stdlib.h
+-
+string.h
+-
+include/aom_mem_intrnl.h
+/var/lib/phoronix-test-suite/installed-tests/pts/aom-av1-3.3.0/aom/aom_mem/include/aom_mem_intrnl.h
+aom/aom_integer.h
+/var/lib/phoronix-test-suite/installed-tests/pts/aom-av1-3.3.0/aom/aom_mem/aom/aom_integer.h
+
+/var/lib/phoronix-test-suite/installed-tests/pts/aom-av1-3.3.0/aom/aom_mem/aom_mem.h
+aom/aom_integer.h
+/var/lib/phoronix-test-suite/installed-tests/pts/aom-av1-3.3.0/aom/aom_mem/aom/aom_integer.h
+config/aom_config.h
+/var/lib/phoronix-test-suite/installed-tests/pts/aom-av1-3.3.0/aom/aom_mem/config/aom_config.h
+lddk.h
+-
+string.h
+-
+
+/var/lib/phoronix-test-suite/installed-tests/pts/aom-av1-3.3.0/aom/aom_mem/include/aom_mem_intrnl.h
+config/aom_config.h
+/var/lib/phoronix-test-suite/installed-tests/pts/aom-av1-3.3.0/aom/aom_mem/include/config/aom_config.h
+
+config/aom_config.h
+

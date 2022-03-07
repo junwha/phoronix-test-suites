@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/var/lib/phoronix-test-suite/installed-tests/pts/aom-av1-3.3.0/aom/build/gen_src/aom_av1_dummy.c
+
+/var/lib/phoronix-test-suite/installed-tests/pts/aom-av1-3.3.0/aom/build/gen_src/aom_dsp_dummy.c
+

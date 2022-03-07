@@ -1,0 +1,557 @@
+configure.ac:69: installing './compile'
+configure.ac:50: installing './config.guess'
+configure.ac:50: installing './config.sub'
+configure.ac:60: installing './install-sh'
+configure.ac:60: installing './missing'
+src/Makefile.am: installing './depcomp'
+parallel-tests: installing './test-driver'
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking target system type... x86_64-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking whether make supports nested variables... (cached) yes
+checking whether make supports the include directive... yes (GNU style)
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking dependency style of gcc... gcc3
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking Default static library search path...  		/usr/lib/gcc/x86_64-linux-gnu/9/ /usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/9/ /usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/../lib/ /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/9/ /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/ /lib/x86_64-linux-gnu/9/ /lib/x86_64-linux-gnu/ /lib/../lib/ /usr/lib/x86_64-linux-gnu/9/ /usr/lib/x86_64-linux-gnu/ /usr/lib/../lib/ /usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/ /usr/lib/gcc/x86_64-linux-gnu/9/../../../ /lib/ /usr/lib/ 		/opt/lib/x86_64-linux-gnu 		/opt/lib 		/usr/local/lib/x86_64-linux-gnu 		/usr/local/lib 		/usr/lib/x86_64-linux-gnu 		/usr/lib 		/lib 		/opt/lib/x86_64-linux-gnu 		/opt/lib 	
+checking for OPENSSL_init in -lcrypto... yes
+checking openssl/crypto.h usability... yes
+checking openssl/crypto.h presence... yes
+checking for openssl/crypto.h... yes
+checking whether gcrypt is enabled... 
+checking for OpenSSL or libgcrypt... OpenSSL
+checking openssl/cmac.h usability... yes
+checking openssl/cmac.h presence... yes
+checking for openssl/cmac.h... yes
+checking for ethtool... /usr/sbin/ethtool
+checking for LIBNL3X... yes
+checking for python... python
+checking for greadlink... no
+checking for readlink... readlink
+checking for HWLOC... yes
+checking pcap header directories... not found
+checking pcap.h usability... no
+checking pcap.h presence... no
+checking for pcap.h... no
+checking for PCRE... yes
+checking for rfkill... /usr/sbin/rfkill
+checking for SQLite3 header... found; /usr/include/sqlite3.h
+checking sqlite3.h usability... yes
+checking sqlite3.h presence... yes
+checking for sqlite3.h... yes
+checking for sqlite3_open in -lsqlite3... yes
+checking for SQLite3 library version >= 3.0.0... yes
+checking for ZLIB... yes
+checking for CMOCKA... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking whether to add -D_FORTIFY_SOURCE=2 to CPPFLAGS... no
+checking whether gcc is Clang... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking whether more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking for pthread_create in -lpthread... yes
+checking for pthread_setaffinity_np... yes
+checking for library containing gethostbyname... none required
+checking for library containing socket... none required
+checking for dlopen in -ldl... yes
+checking for sin in -lm... yes
+checking for posix_memalign... yes
+checking whether to build with code coverage support... no
+checking for valgrind... no
+checking for C compiler vendor... gnu
+checking for C compiler version... 9.3.0
+checking CFLAGS for maximum warnings... -Wall
+checking CXXFLAGS for maximum warnings... -Wall
+checking whether C compiler accepts -O3... yes
+checking whether C compiler accepts -std=gnu99... yes
+checking whether C compiler accepts -fno-strict-aliasing... yes
+checking whether C compiler accepts -Wpointer-arith... yes
+checking whether C compiler accepts -Wstrict-overflow=2... yes
+checking whether C compiler accepts -fvisibility=hidden... yes
+checking whether C compiler accepts -fstack-protector-strong... yes
+checking whether C compiler accepts -Wno-unused-but-set-variable... yes
+checking whether C compiler accepts -Wno-array-bounds... yes
+checking for C++ compiler vendor... gnu
+checking for C++ compiler version... 9.3.0
+checking CFLAGS for maximum warnings... (cached) -Wall
+checking CXXFLAGS for maximum warnings... (cached) -Wall
+checking whether C++ compiler accepts -O3... yes
+checking whether C++ compiler accepts -fvisibility=hidden... yes
+checking whether C++ compiler accepts -fstack-protector-strong... yes
+checking whether C++ compiler accepts -Wno-unused-but-set-variable... yes
+checking whether C++ compiler accepts -Wno-array-bounds... yes
+checking for C compiler vendor... (cached) gnu
+checking for C compiler version... (cached) 9.3.0
+checking whether C compiler accepts -mavx2... yes
+checking whether C compiler accepts -mavx... yes
+checking whether C compiler accepts -msse2... yes
+checking whether C compiler accepts -mmmx... yes
+checking for C++ compiler vendor... (cached) gnu
+checking for C++ compiler version... (cached) 9.3.0
+checking whether C++ compiler accepts -masm=intel... yes
+checking whether C++ compiler accepts -mavx2... yes
+checking whether C++ compiler accepts -mavx... yes
+checking whether C++ compiler accepts -msse2... yes
+checking whether C++ compiler accepts -mmmx... yes
+checking for malloc in -lduma... no
+checking for C compiler vendor... (cached) gnu
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating manpages/Makefile
+config.status: creating scripts/Makefile
+config.status: creating scripts/airdrop-ng/Makefile
+config.status: creating scripts/airdrop-ng/doc/Makefile
+config.status: creating scripts/airgraph-ng/Makefile
+config.status: creating scripts/airgraph-ng/man/Makefile
+config.status: creating scripts/versuck-ng/Makefile
+config.status: creating src/Makefile
+config.status: creating src/aircrack-crypto/Makefile
+config.status: creating src/aircrack-util/Makefile
+config.status: creating src/include/Makefile
+config.status: creating src/aircrack-osdep/Makefile
+config.status: creating src/aircrack-osdep/radiotap/Makefile
+config.status: creating test/Makefile
+config.status: creating test/test-env.sh
+config.status: creating test/cryptounittest/Makefile
+config.status: creating test/unit/Makefile
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+aircrack-ng 1.5.2
+
+  Build Environment:
+    Build Machine:               x86_64-pc-linux-gnu
+    Host Machine:                x86_64-pc-linux-gnu
+    Target Machine:              x86_64-pc-linux-gnu
+
+    Install Prefix:              /usr/local
+
+  Compiler Environment:
+    C Compiler:                  gcc
+    C++ Compiler:                g++
+    Python:                      python
+
+    CFLAGS:                      -O3 -fcommon
+    CXXFLAGS:                    -O3 -fcommon
+    CPPFLAGS:                     -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE
+    LDFLAGS:                     
+    LIBS:                         -ldl -lm
+
+    Optimized CFLAGS:              -Wall -O3 -std=gnu99 -fno-strict-aliasing -Wpointer-arith -Wstrict-overflow=2 -Wstrict-prototypes -fvisibility=hidden -fstack-protector-strong -Wno-unused-but-set-variable -Wno-array-bounds
+    Optimized CXXFLAGS:            -Wall -O3 -fvisibility=hidden -fstack-protector-strong -Wno-unused-but-set-variable -Wno-array-bounds -masm=intel
+    Optimized CPPFLAGS:          
+    Optimized LIBS:              
+
+  Target Environment:
+    OS:                          linux
+    ASAN:                        no
+    CPU L1 cache-line size:      64
+
+  Crypto Libraries:
+    Crypto Engine:               openssl
+    Gcrypt:                      
+    OpenSSL:                     -lcrypto
+
+  Required Libraries:
+    Ethtool:                     yes, found /usr/sbin/ethtool
+    Libnl:                       yes, found libnl-3.0
+
+  Optional Libraries:
+    Airpcap:                     no
+    Cmocka:                      no
+    DUMA:                        no
+    Hwloc:                       yes
+    Jemalloc:                    no
+    Pcap:                        no
+    Pcre:                        yes
+    Sqlite:                      yes
+    Tcmalloc:                    no
+    Zlib:                        yes
+
+  Features:
+    CMAC Support:                yes
+    Experimental Extra Scripts:  no
+    Experimental Features:       no
+
+Making all in manpages
+make[1]: Entering directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/manpages'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/manpages'
+Making all in scripts
+make[1]: Entering directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/scripts'
+make[2]: Entering directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/scripts'
+cp "/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/scripts/airmon-ng.linux" "/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/scripts/airmon-ng"
+chmod +x "/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/scripts/airmon-ng"
+make[2]: Leaving directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/scripts'
+make[1]: Leaving directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/scripts'
+Making all in src
+make[1]: Entering directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/src'
+Making all in aircrack-crypto
+make[2]: Entering directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/src/aircrack-crypto'
+  CC       libaircrack_crypto_la-memory.lo
+  CC       libaircrack_crypto_la-sha1-git.lo
+  CC       libaircrack_crypto_la-wpapsk.lo
+  CC       libaircrack_crypto_la-crypto_engine.lo
+  CPPAS    sha1-sse2.lo
+  CC       libaircrack_crypto_x86_avx2_la-memory.lo
+  CC       libaircrack_crypto_x86_avx2_la-sha1-git.lo
+  CC       libaircrack_crypto_x86_avx2_la-wpapsk.lo
+  CC       libaircrack_crypto_x86_avx2_la-simd-intrinsics.lo
+  CC       libaircrack_crypto_x86_avx2_la-crypto_engine.lo
+  CC       libaircrack_crypto_x86_avx_la-memory.lo
+  CC       libaircrack_crypto_x86_avx_la-sha1-git.lo
+  CC       libaircrack_crypto_x86_avx_la-wpapsk.lo
+  CC       libaircrack_crypto_x86_sse2_la-memory.lo
+  CC       libaircrack_crypto_x86_avx_la-simd-intrinsics.lo
+  CC       libaircrack_crypto_x86_avx_la-crypto_engine.lo
+  CC       libaircrack_crypto_x86_sse2_la-sha1-git.lo
+  CC       libaircrack_crypto_x86_sse2_la-simd-intrinsics.lo
+  CC       libaircrack_crypto_x86_sse2_la-wpapsk.lo
+  CC       libaircrack_crypto_x86_sse2_la-crypto_engine.lo
+  CCLD     libaircrack-crypto.la
+  CCLD     libaircrack-crypto-x86-avx2.la
+  CCLD     libaircrack-crypto-x86-avx.la
+  CCLD     libaircrack-crypto-x86-sse2.la
+make[2]: Leaving directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/src/aircrack-crypto'
+Making all in aircrack-util
+make[2]: Entering directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/src/aircrack-util'
+  CC       libaircrack_util_la-circular_buffer.lo
+  CC       libaircrack_util_la-circular_queue.lo
+  CC       libaircrack_util_la-common.lo
+  CC       libaircrack_util_la-console.lo
+  CC       libaircrack_util_la-crypto_engine_loader.lo
+  CC       libaircrack_util_la-mcs_index_rates.lo
+  CC       libaircrack_util_la-simd_cpuid.lo
+  CC       libaircrack_util_la-trampoline_x86.lo
+  CC       libaircrack_util_la-verifyssid.lo
+  CC       libaircrack_util_la-avl_tree.lo
+  CC       libaircrack_util_la-cpuset_hwloc.lo
+  CCLD     libaircrack-util.la
+make[2]: Leaving directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/src/aircrack-util'
+Making all in include
+make[2]: Entering directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/src/include'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/src/include'
+Making all in aircrack-osdep
+make[2]: Entering directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/src/aircrack-osdep'
+Making all in radiotap
+make[3]: Entering directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/src/aircrack-osdep/radiotap'
+  CC       radiotap.lo
+  CCLD     libradiotap.la
+make[3]: Leaving directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/src/aircrack-osdep/radiotap'
+make[3]: Entering directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/src/aircrack-osdep'
+  CC       libaircrack_osdep_la-osdep.lo
+  CC       libaircrack_osdep_la-network.lo
+  CC       libaircrack_osdep_la-file.lo
+  CC       libaircrack_osdep_la-linux.lo
+  CC       libaircrack_osdep_la-linux_tap.lo
+  CC       libaircrack_osdep_la-common.lo
+In file included from /usr/include/string.h:495,
+                 from linux_tap.c:33:
+In function ‘strncpy’,
+    inlined from ‘ti_do_open_linux’ at linux_tap.c:73:2,
+    inlined from ‘ti_open_linux’ at linux_tap.c:196:7,
+    inlined from ‘ti_open’ at linux_tap.c:210:52:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ output may be truncated copying 15 bytes from a string of length 63 [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/string.h:495,
+                 from linux.c:36:
+In function ‘strncpy’,
+    inlined from ‘do_linux_open.constprop’ at linux.c:2111:3:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ specified bound depends on the length of the source argument [-Wstringop-overflow=]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+linux.c: In function ‘do_linux_open.constprop’:
+linux.c:2111:3: note: length computed here
+ 2111 |   strncpy(dev->main_if, iface, strlen(iface));
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/string.h:495,
+                 from linux.c:36:
+In function ‘strncpy’,
+    inlined from ‘do_linux_open.constprop’ at linux.c:2116:3:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ specified bound depends on the length of the source argument [-Wstringop-overflow=]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+linux.c: In function ‘do_linux_open.constprop’:
+linux.c:2116:3: note: length computed here
+ 2116 |   strncpy(iface, buf, strlen(buf));
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CCLD     libaircrack-osdep.la
+make[3]: Leaving directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/src/aircrack-osdep'
+make[2]: Leaving directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/src/aircrack-osdep'
+make[2]: Entering directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/src'
+  CC       aircrack_ng-aircrack-ng.o
+  CXX      linecount.o
+  CC       libaclib_la-crypto.lo
+  CC       libaclib_la-uniqueiv.lo
+  CC       libaclib_la-session.lo
+  CC       libptw_la-aircrack-ptw-lib.lo
+  CC       airdecap_ng-airdecap-ng.o
+  CC       packetforge_ng-packetforge-ng.o
+  CC       ivstools-ivstools.o
+  CC       kstats-kstats.o
+  CC       makeivs_ng-makeivs-ng.o
+  CC       airolib_ng-airolib-ng.o
+  CC       airdecloak_ng-airdecloak-ng.o
+  CC       wpaclean-wpaclean.o
+  CC       libcow_la-cowpatty.lo
+  CC       airbase_ng-airbase-ng.o
+  CC       aireplay_ng-aireplay-ng.o
+  CC       airodump_ng-airodump-ng.o
+  CC       airtun_ng-airtun-ng.o
+  CC       airserv_ng-airserv-ng.o
+In file included from /usr/include/string.h:495,
+                 from airdecloak-ng.c:39:
+In function ‘strncpy’,
+    inlined from ‘main’ at airdecloak-ng.c:1792:5:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ specified bound depends on the length of the source argument [-Wstringop-overflow=]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+airdecloak-ng.c: In function ‘main’:
+airdecloak-ng.c:1794:7: note: length computed here
+ 1794 |       strlen(input_filename) + 9 + 5 - 1);
+      |       ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/string.h:495,
+                 from airdecloak-ng.c:39:
+In function ‘strncpy’,
+    inlined from ‘main’ at airdecloak-ng.c:1799:5:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ specified bound depends on the length of the source argument [-Wstringop-overflow=]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+airdecloak-ng.c: In function ‘main’:
+airdecloak-ng.c:1801:7: note: length computed here
+ 1801 |       strlen(input_filename) + 10 + 5 - 1);
+      |       ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/string.h:495,
+                 from aircrack-ng.c:56:
+In function ‘strncpy’,
+    inlined from ‘display_wpa_hash_information’ at aircrack-ng.c:4326:3:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ output may be truncated copying 32 bytes from a string of length 32 [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CCLD     libcow.la
+In function ‘strncpy’,
+    inlined from ‘crack_wpa_pmkid_thread’ at aircrack-ng.c:4032:2:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ output may be truncated copying 32 bytes from a string of length 32 [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In function ‘strncpy’,
+    inlined from ‘crack_wpa_thread’ at aircrack-ng.c:3909:2:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ output may be truncated copying 32 bytes from a string of length 32 [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/string.h:495,
+                 from airodump-ng.c:51:
+In function ‘strncat’,
+    inlined from ‘dump_print’ at airodump-ng.c:3601:4:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:136:10: warning: ‘__builtin___strncat_chk’ output may be truncated copying between 0 and 511 bytes from a string of length 511 [-Wstringop-truncation]
+  136 |   return __builtin___strncat_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In function ‘strncat’,
+    inlined from ‘dump_print’ at airodump-ng.c:3591:4:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:136:10: warning: ‘__builtin___strncat_chk’ output may be truncated copying between 0 and 511 bytes from a string of length 511 [-Wstringop-truncation]
+  136 |   return __builtin___strncat_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CCLD     libptw.la
+  CCLD     libaclib.la
+airodump-ng.c: In function ‘dump_add_packet’:
+airodump-ng.c:3022:10: warning: assuming pointer wraparound does not occur when comparing P +- C1 with P +- C2 [-Wstrict-overflow]
+ 3022 |    while (p <= h80211 + 16 && p <= h80211 + caplen)
+      |          ^
+copying selected object files to avoid basename conflicts...
+In function ‘strncpy’,
+    inlined from ‘main’ at aircrack-ng.c:6108:5:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ output truncated before terminating nul copying as many bytes from a string as its length [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aircrack-ng.c: In function ‘main’:
+aircrack-ng.c:6108:5: note: length computed here
+ 6108 |     strncpy(opt.logKeyToFile, optarg, strlen(optarg));
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/string.h:495,
+                 from aircrack-ng.c:56:
+In function ‘strncpy’,
+    inlined from ‘main’ at aircrack-ng.c:6149:5:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ output truncated before terminating nul copying as many bytes from a string as its length [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aircrack-ng.c: In function ‘main’:
+aircrack-ng.c:6149:5: note: length computed here
+ 6149 |     strncpy(opt.hccapx, optarg, strlen(optarg));
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/string.h:495,
+                 from aircrack-ng.c:56:
+In function ‘strncpy’,
+    inlined from ‘main’ at aircrack-ng.c:6135:5:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ output truncated before terminating nul copying as many bytes from a string as its length [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aircrack-ng.c: In function ‘main’:
+aircrack-ng.c:6135:5: note: length computed here
+ 6135 |     strncpy(opt.hccap, optarg, strlen(optarg));
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/string.h:495,
+                 from aircrack-ng.c:56:
+In function ‘strncpy’,
+    inlined from ‘main’ at aircrack-ng.c:6121:5:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ output truncated before terminating nul copying as many bytes from a string as its length [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aircrack-ng.c: In function ‘main’:
+aircrack-ng.c:6121:5: note: length computed here
+ 6121 |     strncpy(opt.wkp, optarg, strlen(optarg));
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/string.h:495,
+                 from aircrack-ng.c:56:
+In function ‘strncpy’,
+    inlined from ‘perform_wpa_crack’ at aircrack-ng.c:5396:3,
+    inlined from ‘main’ at aircrack-ng.c:6778:9:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ output may be truncated copying 32 bytes from a string of length 32 [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CCLD     airdecap-ng
+  CCLD     packetforge-ng
+  CCLD     ivstools
+  CCLD     kstats
+  CCLD     makeivs-ng
+  CCLD     airdecloak-ng
+  CCLD     wpaclean
+  CCLD     airolib-ng
+  CCLD     airserv-ng
+  CCLD     airtun-ng
+  CCLD     airbase-ng
+  CXXLD    aircrack-ng
+In file included from /usr/include/string.h:495,
+                 from airodump-ng.c:51:
+In function ‘strncpy’,
+    inlined from ‘getchannels’ at airodump-ng.c:6615:2,
+    inlined from ‘main’ at airodump-ng.c:7498:20:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ output truncated before terminating nul copying as many bytes from a string as its length [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+airodump-ng.c: In function ‘main’:
+airodump-ng.c:6615:2: note: length computed here
+ 6615 |  strncpy(optchan, optarg, strlen(optarg));
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/string.h:495,
+                 from airodump-ng.c:51:
+In function ‘strncpy’,
+    inlined from ‘getfrequencies’ at airodump-ng.c:6735:2,
+    inlined from ‘main’ at airodump-ng.c:7969:21:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ output truncated before terminating nul copying as many bytes from a string as its length [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+airodump-ng.c: In function ‘main’:
+airodump-ng.c:6735:2: note: length computed here
+ 6735 |  strncpy(optfreq, optarg, strlen(optarg));
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CCLD     aireplay-ng
+  CCLD     airodump-ng
+make[2]: Leaving directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/src'
+make[1]: Leaving directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/src'
+Making all in test
+make[1]: Entering directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/test'
+Making all in cryptounittest
+make[2]: Entering directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/test/cryptounittest'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/test/cryptounittest'
+make[2]: Entering directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/test'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/test'
+make[1]: Leaving directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2/test'
+make[1]: Entering directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/var/lib/phoronix-test-suite/installed-tests/pts/aircrack-ng-1.2.1/aircrack-ng-1.5.2'
