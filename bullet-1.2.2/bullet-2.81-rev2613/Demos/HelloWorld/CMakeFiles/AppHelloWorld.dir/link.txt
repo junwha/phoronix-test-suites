@@ -1,0 +1,1 @@
+/tmp/pts-compiler-mask-bullet1.2.2/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/AppHelloWorld.dir/HelloWorld.o  -o AppHelloWorld  ../../src/BulletDynamics/libBulletDynamics.a ../../src/BulletCollision/libBulletCollision.a ../../src/LinearMath/libLinearMath.a 

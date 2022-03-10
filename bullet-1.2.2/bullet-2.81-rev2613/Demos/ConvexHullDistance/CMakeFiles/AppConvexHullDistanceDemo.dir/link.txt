@@ -1,0 +1,1 @@
+/tmp/pts-compiler-mask-bullet1.2.2/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/AppConvexHullDistanceDemo.dir/ConvexHullDistanceDemo.o  -o AppConvexHullDistanceDemo  ../OpenGL/libOpenGLSupport.a ../../src/BulletDynamics/libBulletDynamics.a ../../src/BulletCollision/libBulletCollision.a ../../src/LinearMath/libLinearMath.a -lglut -lGL -lGLU 

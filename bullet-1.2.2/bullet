@@ -1,0 +1,5 @@
+#!/bin/sh
+cd bullet-2.81-rev2613/Demos/Benchmarks
+./AppBenchmarks > $LOG_FILE 2>&1
+echo "\n" >> $LOG_FILE
+echo $? > ~/test-exit-status

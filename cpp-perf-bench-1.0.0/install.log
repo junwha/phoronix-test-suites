@@ -1,0 +1,134 @@
+Archive:  CppPerformanceBenchmarks-9.zip
+4e2fab6d0f509388651a521bdc549168821cdec5
+   creating: CppPerformanceBenchmarks-master/
+  inflating: CppPerformanceBenchmarks-master/LICENSE_1_0_0.txt  
+  inflating: CppPerformanceBenchmarks-master/README.txt  
+  inflating: CppPerformanceBenchmarks-master/absolute_value.cpp  
+  inflating: CppPerformanceBenchmarks-master/atol.cpp  
+  inflating: CppPerformanceBenchmarks-master/benchmark_algorithms.h  
+  inflating: CppPerformanceBenchmarks-master/benchmark_results.h  
+  inflating: CppPerformanceBenchmarks-master/benchmark_shared_tests.h  
+  inflating: CppPerformanceBenchmarks-master/benchmark_stdint.hpp  
+  inflating: CppPerformanceBenchmarks-master/benchmark_timer.h  
+  inflating: CppPerformanceBenchmarks-master/benchmark_typenames.h  
+  inflating: CppPerformanceBenchmarks-master/bitarrays.cpp  
+  inflating: CppPerformanceBenchmarks-master/byte_order.cpp  
+  inflating: CppPerformanceBenchmarks-master/clock_time.cpp  
+  inflating: CppPerformanceBenchmarks-master/count_sequence.cpp  
+  inflating: CppPerformanceBenchmarks-master/ctype.cpp  
+  inflating: CppPerformanceBenchmarks-master/divide.cpp  
+  inflating: CppPerformanceBenchmarks-master/exceptions.c  
+  inflating: CppPerformanceBenchmarks-master/functionobjects.cpp  
+  inflating: CppPerformanceBenchmarks-master/histogram.cpp  
+  inflating: CppPerformanceBenchmarks-master/inner_product.cpp  
+  inflating: CppPerformanceBenchmarks-master/iostreams.cpp  
+  inflating: CppPerformanceBenchmarks-master/locales.cpp  
+  inflating: CppPerformanceBenchmarks-master/lookup_table.cpp  
+  inflating: CppPerformanceBenchmarks-master/loop_fusion.cpp  
+  inflating: CppPerformanceBenchmarks-master/loop_induction.cpp  
+  inflating: CppPerformanceBenchmarks-master/loop_normalize.cpp  
+  inflating: CppPerformanceBenchmarks-master/loop_removal.cpp  
+  inflating: CppPerformanceBenchmarks-master/loop_unroll.cpp  
+  inflating: CppPerformanceBenchmarks-master/machine.cpp  
+  inflating: CppPerformanceBenchmarks-master/machine.manifest  
+  inflating: CppPerformanceBenchmarks-master/makefile  
+  inflating: CppPerformanceBenchmarks-master/makefile.nt  
+  inflating: CppPerformanceBenchmarks-master/mathlib.cpp  
+  inflating: CppPerformanceBenchmarks-master/memset.cpp  
+  inflating: CppPerformanceBenchmarks-master/minmax.cpp  
+  inflating: CppPerformanceBenchmarks-master/random_numbers.cpp  
+  inflating: CppPerformanceBenchmarks-master/reference_normalization.cpp  
+  inflating: CppPerformanceBenchmarks-master/rotate_bits.cpp  
+  inflating: CppPerformanceBenchmarks-master/rtti.cpp  
+  inflating: CppPerformanceBenchmarks-master/scalar_replacement_array_reduction.cpp  
+  inflating: CppPerformanceBenchmarks-master/scalar_replacement_arrays.cpp  
+  inflating: CppPerformanceBenchmarks-master/scalar_replacement_structs.cpp  
+  inflating: CppPerformanceBenchmarks-master/shift.cpp  
+  inflating: CppPerformanceBenchmarks-master/simple_types_algebraic_simplification.cpp  
+  inflating: CppPerformanceBenchmarks-master/simple_types_constant_folding.cpp  
+  inflating: CppPerformanceBenchmarks-master/simple_types_loop_invariant.cpp  
+  inflating: CppPerformanceBenchmarks-master/stepanov_abstraction.cpp  
+  inflating: CppPerformanceBenchmarks-master/stepanov_array.cpp  
+  inflating: CppPerformanceBenchmarks-master/stepanov_inherit.cpp  
+  inflating: CppPerformanceBenchmarks-master/stepanov_vector.cpp  
+g++  -std=c++11 -I. -O3   machine.cpp   -o machine
+g++  -std=c++11 -I. -O3   stepanov_abstraction.cpp   -o stepanov_abstraction
+g++  -std=c++11 -I. -O3   stepanov_vector.cpp   -o stepanov_vector
+g++  -std=c++11 -I. -O3   stepanov_inherit.cpp   -o stepanov_inherit
+g++  -std=c++11 -I. -O3   stepanov_array.cpp   -o stepanov_array
+g++  -std=c++11 -I. -O3   loop_unroll.cpp   -o loop_unroll
+g++  -std=c++11 -I. -O3   simple_types_loop_invariant.cpp   -o simple_types_loop_invariant
+g++  -std=c++11 -I. -O3   functionobjects.cpp   -o functionobjects
+g++  -std=c++11 -I. -O3   simple_types_constant_folding.cpp   -o simple_types_constant_folding
+g++  -std=c++11 -I. -O3   atol.cpp   -o atol
+atol.cpp: In function ‘void check_sum64(int64_t)’:
+atol.cpp:102:36: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘int64_t’ {aka ‘long int’} [-Wformat=]
+  102 |         printf("test %i failed (%lld, %llu)\n", current_test, result, global_u64_sum);
+      |                                 ~~~^                          ~~~~~~
+      |                                    |                          |
+      |                                    long long int              int64_t {aka long int}
+      |                                 %ld
+atol.cpp:102:42: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 4 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+  102 |         printf("test %i failed (%lld, %llu)\n", current_test, result, global_u64_sum);
+      |                                       ~~~^                            ~~~~~~~~~~~~~~
+      |                                          |                            |
+      |                                          long long unsigned int       uint64_t {aka long unsigned int}
+      |                                       %lu
+atol.cpp: In function ‘void check_sum64(uint64_t)’:
+atol.cpp:109:36: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 3 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+  109 |         printf("test %i failed (%llu, %llu)\n", current_test, result, global_u64_sum);
+      |                                 ~~~^                          ~~~~~~
+      |                                    |                          |
+      |                                    long long unsigned int     uint64_t {aka long unsigned int}
+      |                                 %lu
+atol.cpp:109:42: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 4 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+  109 |         printf("test %i failed (%llu, %llu)\n", current_test, result, global_u64_sum);
+      |                                       ~~~^                            ~~~~~~~~~~~~~~
+      |                                          |                            |
+      |                                          long long unsigned int       uint64_t {aka long unsigned int}
+      |                                       %lu
+atol.cpp: In function ‘int main(int, char**)’:
+atol.cpp:543:45: warning: format ‘%lld’ expects argument of type ‘long long int*’, but argument 3 has type ‘int64_t*’ {aka ‘long int*’} [-Wformat=]
+  543 |             sscanf( integer_strings[j], "%lld", &result );
+      |                                          ~~~^   ~~~~~~~
+      |                                             |   |
+      |                                             |   int64_t* {aka long int*}
+      |                                             long long int*
+      |                                          %ld
+atol.cpp:643:41: warning: format ‘%llX’ expects argument of type ‘long long unsigned int*’, but argument 3 has type ‘int64_t*’ {aka ‘long int*’} [-Wformat=]
+  643 |             sscanf( hex_strings[j], "%llX", &result );
+      |                                      ~~~^   ~~~~~~~
+      |                                         |   |
+      |                                         |   int64_t* {aka long int*}
+      |                                         long long unsigned int*
+      |                                      %lX
+g++  -std=c++11 -I. -O3   ctype.cpp   -o ctype
+g++  -std=c++11 -I. -O3   scalar_replacement_arrays.cpp   -o scalar_replacement_arrays
+g++  -std=c++11 -I. -O3   scalar_replacement_array_reduction.cpp   -o scalar_replacement_array_reduction
+g++  -std=c++11 -I. -O3   scalar_replacement_structs.cpp   -o scalar_replacement_structs
+g++  -std=c++11 -I. -O3   byte_order.cpp   -o byte_order
+cc -I. -O3 -o exceptions exceptions.c -lm
+g++ -std=c++11 -I. -O3 -D TEST_WITH_EXCEPTIONS=1 -o exceptions_cpp exceptions.c -lm
+g++  -std=c++11 -I. -O3   mathlib.cpp   -o mathlib
+g++  -std=c++11 -I. -O3   shift.cpp   -o shift
+g++  -std=c++11 -I. -O3   absolute_value.cpp   -o absolute_value
+g++  -std=c++11 -I. -O3   divide.cpp   -o divide
+g++  -std=c++11 -I. -O3   loop_normalize.cpp   -o loop_normalize
+g++  -std=c++11 -I. -O3   random_numbers.cpp   -o random_numbers
+g++  -std=c++11 -I. -O3   clock_time.cpp   -o clock_time
+g++  -std=c++11 -I. -O3   inner_product.cpp   -o inner_product
+g++  -std=c++11 -I. -O3   rotate_bits.cpp   -o rotate_bits
+g++  -std=c++11 -I. -O3   rtti.cpp   -o rtti
+g++  -std=c++11 -I. -O3   locales.cpp   -o locales
+g++  -std=c++11 -I. -O3   lookup_table.cpp   -o lookup_table
+g++  -std=c++11 -I. -O3   loop_induction.cpp   -o loop_induction
+g++  -std=c++11 -I. -O3   loop_removal.cpp   -o loop_removal
+g++  -std=c++11 -I. -O3   minmax.cpp   -o minmax
+g++  -std=c++11 -I. -O3   bitarrays.cpp   -o bitarrays
+g++  -std=c++11 -I. -O3   histogram.cpp   -o histogram
+g++  -std=c++11 -I. -O3   iostreams.cpp   -o iostreams
+g++  -std=c++11 -I. -O3   loop_fusion.cpp   -o loop_fusion
+g++  -std=c++11 -I. -O3   count_sequence.cpp   -o count_sequence
+g++  -std=c++11 -I. -O3   memset.cpp   -o memset
+g++  -std=c++11 -I. -O3   reference_normalization.cpp   -o reference_normalization
+g++  -std=c++11 -I. -O3   simple_types_algebraic_simplification.cpp   -o simple_types_algebraic_simplification

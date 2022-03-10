@@ -1,0 +1,4 @@
+#!/bin/sh
+cd CppPerformanceBenchmarks-master/
+./$@ > $LOG_FILE 2>1
+echo $? > ~/test-exit-status

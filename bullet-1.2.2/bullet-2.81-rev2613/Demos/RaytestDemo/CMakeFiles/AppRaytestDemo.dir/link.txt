@@ -1,0 +1,1 @@
+/tmp/pts-compiler-mask-bullet1.2.2/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/AppRaytestDemo.dir/main.o CMakeFiles/AppRaytestDemo.dir/RaytestDemo.o  -o AppRaytestDemo  ../OpenGL/libOpenGLSupport.a ../../src/BulletDynamics/libBulletDynamics.a ../../src/BulletCollision/libBulletCollision.a ../../src/LinearMath/libLinearMath.a -lglut -lGL -lGLU 
