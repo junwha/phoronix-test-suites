@@ -1,0 +1,7 @@
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/CMakeFiles/install/strip.dir
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/CMakeFiles/install/local.dir
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/CMakeFiles/install.dir
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/CMakeFiles/list_install_components.dir
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/CMakeFiles/rebuild_cache.dir
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/CMakeFiles/edit_cache.dir
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/CMakeFiles/basisu.dir

@@ -1,0 +1,1380 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /tmp/pts-compiler-mask-basis1.1.1/cc
+-- Check for working C compiler: /tmp/pts-compiler-mask-basis1.1.1/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /tmp/pts-compiler-mask-basis1.1.1/c++
+-- Check for working CXX compiler: /tmp/pts-compiler-mask-basis1.1.1/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Initial BUILD_X64=ON
+Initial CMAKE_BUILD_TYPE=Release
+basisu build type: Release
+Building 64-bit
+SSE disabled
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13
+Scanning dependencies of target basisu
+[  4%] Building CXX object CMakeFiles/basisu.dir/basisu_tool.cpp.o
+[  9%] Building CXX object CMakeFiles/basisu.dir/encoder/basisu_kernels_sse.cpp.o
+[ 13%] Building CXX object CMakeFiles/basisu.dir/encoder/basisu_basis_file.cpp.o
+[ 18%] Building CXX object CMakeFiles/basisu.dir/encoder/basisu_enc.cpp.o
+[ 22%] Building CXX object CMakeFiles/basisu.dir/encoder/basisu_etc.cpp.o
+[ 27%] Building CXX object CMakeFiles/basisu.dir/encoder/basisu_frontend.cpp.o
+[ 31%] Building CXX object CMakeFiles/basisu.dir/encoder/basisu_pvrtc1_4.cpp.o
+[ 36%] Building CXX object CMakeFiles/basisu.dir/encoder/basisu_resampler.cpp.o
+[ 40%] Building CXX object CMakeFiles/basisu.dir/encoder/basisu_resample_filters.cpp.o
+[ 45%] Building CXX object CMakeFiles/basisu.dir/encoder/basisu_backend.cpp.o
+[ 50%] Building CXX object CMakeFiles/basisu.dir/encoder/basisu_comp.cpp.o
+[ 54%] Building CXX object CMakeFiles/basisu.dir/encoder/lodepng.cpp.o
+[ 59%] Building CXX object CMakeFiles/basisu.dir/encoder/basisu_global_selector_palette_helpers.cpp.o
+[ 63%] Building C object CMakeFiles/basisu.dir/encoder/apg_bmp.c.o
+[ 68%] Building CXX object CMakeFiles/basisu.dir/encoder/basisu_gpu_texture.cpp.o
+[ 72%] Building CXX object CMakeFiles/basisu.dir/encoder/basisu_ssim.cpp.o
+[ 77%] Building CXX object CMakeFiles/basisu.dir/encoder/jpgd.cpp.o
+[ 81%] Building CXX object CMakeFiles/basisu.dir/encoder/basisu_astc_decomp.cpp.o
+[ 90%] Building CXX object CMakeFiles/basisu.dir/encoder/basisu_bc7enc.cpp.o
+[ 90%] Building CXX object CMakeFiles/basisu.dir/encoder/basisu_uastc_enc.cpp.o
+[ 95%] Building CXX object CMakeFiles/basisu.dir/transcoder/basisu_transcoder.cpp.o
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_astc_decomp.cpp: In function ‘void basisu_astc::astc::{anonymous}::decodeISETritBlock(basisu_astc::astc::{anonymous}::ISEDecodedResult*, int, basisu_astc::astc::{anonymous}::BitAccessStream&, int)’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_astc_decomp.cpp:695:16: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  695 |   case 1: T23  = 0;
+      |           ~~~~~^~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_astc_decomp.cpp:696:3: note: here
+  696 |   case 2: T4  = 0;
+      |   ^~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_astc_decomp.cpp:696:15: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  696 |   case 2: T4  = 0;
+      |           ~~~~^~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_astc_decomp.cpp:697:3: note: here
+  697 |   case 3: T56  = 0;
+      |   ^~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_astc_decomp.cpp:697:16: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  697 |   case 3: T56  = 0;
+      |           ~~~~~^~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_astc_decomp.cpp:698:3: note: here
+  698 |   case 4: T7  = 0;
+      |   ^~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_astc_decomp.cpp: In function ‘void basisu_astc::astc::{anonymous}::decodeISEQuintBlock(basisu_astc::astc::{anonymous}::ISEDecodedResult*, int, basisu_astc::astc::{anonymous}::BitAccessStream&, int)’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_astc_decomp.cpp:744:16: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  744 |   case 1: Q34  = 0;
+      |           ~~~~~^~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_astc_decomp.cpp:745:3: note: here
+  745 |   case 2: Q56  = 0;
+      |   ^~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.h: In member function ‘void basisu::pvrtc4_image::set_to_black()’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.h:234:58: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basisu::pvrtc4_block’; use assignment or value-initialization instead [-Wclass-memaccess]
+  234 |    memset(m_blocks.get_ptr(), 0, m_blocks.size_in_bytes());
+      |                                                          ^
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.h:28:9: note: ‘struct basisu::pvrtc4_block’ declared here
+   28 |  struct pvrtc4_block
+      |         ^~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_kernels_sse.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = basisu::vec<4, float>]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2710:20:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_kernels_sse.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.cpp: In function ‘bool basisu::load_tga(const char*, basisu::image&)’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.cpp:257:26: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const uint32_t’ {aka ‘const unsigned int’} [-Wsign-compare]
+  257 |    if ((w * h * n_chans) > MAX_32BIT_ALLOC_SIZE)
+      |        ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_kernels_sse.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘void basisu::vector<T>::erase(uint32_t, uint32_t) [with T = basisu::vec<4, float>; uint32_t = unsigned int]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:697:10:   required from ‘void basisu::vector<T>::erase(T*, T*) [with T = basisu::vec<4, float>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:154:58:   required from ‘void basisu::clear_vector(T&) [with T = basisu::vector<basisu::vec<4, float> >]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2720:25:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:650:20: warning: ‘void* memmove(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  650 |             memmove(pDst, pSrc, num_to_move * sizeof(T));
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_kernels_sse.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_ssim.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_ssim.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = basisu::vec<4, float>]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2710:20:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_ssim.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_ssim.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = basisu::vec<4, float>]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2710:20:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_etc.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.cpp:17:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.h: In member function ‘void basisu::pvrtc4_image::set_to_black()’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.h:234:58: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basisu::pvrtc4_block’; use assignment or value-initialization instead [-Wclass-memaccess]
+  234 |    memset(m_blocks.get_ptr(), 0, m_blocks.size_in_bytes());
+      |                                                          ^
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.h:28:9: note: ‘struct basisu::pvrtc4_block’ declared here
+   28 |  struct pvrtc4_block
+      |         ^~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = basisu::vec<4, float>]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2710:20:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_etc.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:18,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::etc1_global_palette_entry_modifier]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:71:27:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘class basist::etc1_global_palette_entry_modifier’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:19,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:21:8: note: ‘class basist::etc1_global_palette_entry_modifier’ declared here
+   21 |  class etc1_global_palette_entry_modifier
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::etc1_selector_palette_entry]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:117:27:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basist::etc1_selector_palette_entry’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:19,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:108:9: note: ‘struct basist::etc1_selector_palette_entry’ declared here
+  108 |  struct etc1_selector_palette_entry
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basisu::pixel_block]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:37:33:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basisu::pixel_block’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:27:9: note: ‘struct basisu::pixel_block’ declared here
+   27 |  struct pixel_block
+      |         ^~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_ssim.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_ssim.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘void basisu::vector<T>::erase(uint32_t, uint32_t) [with T = basisu::vec<4, float>; uint32_t = unsigned int]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:697:10:   required from ‘void basisu::vector<T>::erase(T*, T*) [with T = basisu::vec<4, float>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:154:58:   required from ‘void basisu::clear_vector(T&) [with T = basisu::vector<basisu::vec<4, float> >]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2720:25:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:650:20: warning: ‘void* memmove(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  650 |             memmove(pDst, pSrc, num_to_move * sizeof(T));
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_ssim.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_ssim.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_uastc_enc.cpp: In function ‘void basisu::compute_bc1_hints(bool&, bool&, const basisu::uastc_encode_results&, const basisu::color_rgba (*)[4], const basisu::color_rgba (*)[4])’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_uastc_enc.cpp:2563:36: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basist::unpacked_uastc_block’; use assignment or value-initialization instead [-Wclass-memaccess]
+ 2563 |   memset(&ublock, 0, sizeof(ublock));
+      |                                    ^
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_uastc_enc.h:18,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_uastc_enc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_transcoder_uastc.h:215:9: note: ‘struct basist::unpacked_uastc_block’ declared here
+  215 |  struct unpacked_uastc_block
+      |         ^~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_bc7enc.h:15,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_bc7enc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = basisu::vec<4, float>]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2710:20:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_bc7enc.h:15,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_bc7enc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘void basisu::vector<T>::erase(uint32_t, uint32_t) [with T = basisu::vec<4, float>; uint32_t = unsigned int]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:697:10:   required from ‘void basisu::vector<T>::erase(T*, T*) [with T = basisu::vec<4, float>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:154:58:   required from ‘void basisu::clear_vector(T&) [with T = basisu::vector<basisu::vec<4, float> >]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2720:25:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:650:20: warning: ‘void* memmove(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  650 |             memmove(pDst, pSrc, num_to_move * sizeof(T));
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_etc.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘void basisu::vector<T>::erase(uint32_t, uint32_t) [with T = basisu::vec<4, float>; uint32_t = unsigned int]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:697:10:   required from ‘void basisu::vector<T>::erase(T*, T*) [with T = basisu::vec<4, float>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:154:58:   required from ‘void basisu::clear_vector(T&) [with T = basisu::vector<basisu::vec<4, float> >]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2720:25:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:650:20: warning: ‘void* memmove(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  650 |             memmove(pDst, pSrc, num_to_move * sizeof(T));
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_etc.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:18,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_uastc_enc.cpp: In function ‘void basisu::encode_uastc(const uint8_t*, basist::uastc_block&, uint32_t)’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_uastc_enc.cpp:3378:54: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basist::unpacked_uastc_block’; use assignment or value-initialization instead [-Wclass-memaccess]
+ 3378 |   memset(&unpacked_ublock, 0, sizeof(unpacked_ublock));
+      |                                                      ^
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_uastc_enc.h:18,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_uastc_enc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_transcoder_uastc.h:215:9: note: ‘struct basist::unpacked_uastc_block’ declared here
+  215 |  struct unpacked_uastc_block
+      |         ^~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>::vector(const basisu::vector<T>&) [with T = basisu::gpu_image]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:979:13:   required from ‘static void basisu::vector<T>::object_mover(void*, void*, uint32_t) [with T = basisu::vector<basisu::gpu_image>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:990:81:   required from ‘bool basisu::vector<T>::increase_capacity(uint32_t, bool, bool) [with T = basisu::vector<basisu::gpu_image>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:505:13:   required from ‘void basisu::vector<T>::push_back(const T&) [with T = basisu::vector<basisu::gpu_image>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:128:16:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:275:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::gpu_image’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  275 |             memcpy(m_p, other.m_p, m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:22:8: note: ‘class basisu::gpu_image’ declared here
+   22 |  class gpu_image
+      |        ^~~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.cpp: In member function ‘bool basisu::gpu_image::unpack(basisu::image&) const’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.cpp:1218:62: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘struct basisu::pvrtc4_block’ from an array of ‘const uint64_t’ {aka ‘const long unsigned int’} [-Wclass-memaccess]
+ 1218 |    memcpy(&pi.get_blocks()[0], get_ptr(), get_size_in_bytes());
+      |                                                              ^
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.cpp:17:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.h:28:9: note: ‘struct basisu::pvrtc4_block’ declared here
+   28 |  struct pvrtc4_block
+      |         ^~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:1814:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.h: In member function ‘void basisu::pvrtc4_image::set_to_black()’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.h:234:58: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basisu::pvrtc4_block’; use assignment or value-initialization instead [-Wclass-memaccess]
+  234 |    memset(m_blocks.get_ptr(), 0, m_blocks.size_in_bytes());
+      |                                                          ^
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_pvrtc1_4.h:28:9: note: ‘struct basisu::pvrtc4_block’ declared here
+   28 |  struct pvrtc4_block
+      |         ^~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_etc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_etc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = basisu::vec<4, float>]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2710:20:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_etc.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_etc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_bc7enc.h:15,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_bc7enc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘void basisu::vector<T>::erase(uint32_t, uint32_t) [with T = basisu::vec<4, float>; uint32_t = unsigned int]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:697:10:   required from ‘void basisu::vector<T>::erase(T*, T*) [with T = basisu::vec<4, float>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:154:58:   required from ‘void basisu::clear_vector(T&) [with T = basisu::vector<basisu::vec<4, float> >]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2720:25:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:650:20: warning: ‘void* memmove(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  650 |             memmove(pDst, pSrc, num_to_move * sizeof(T));
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_bc7enc.h:15,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_bc7enc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.cpp:18:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = basisu::vec<4, float>]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2710:20:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:18,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.cpp:18:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.cpp:18:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::etc1_global_palette_entry_modifier]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:71:27:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘class basist::etc1_global_palette_entry_modifier’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:20,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.cpp:18:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:21:8: note: ‘class basist::etc1_global_palette_entry_modifier’ declared here
+   21 |  class etc1_global_palette_entry_modifier
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.cpp:18:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::etc1_selector_palette_entry]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:117:27:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basist::etc1_selector_palette_entry’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:20,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.cpp:18:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:108:9: note: ‘struct basist::etc1_selector_palette_entry’ declared here
+  108 |  struct etc1_selector_palette_entry
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.cpp:18:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basisu::pixel_block]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:37:33:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basisu::pixel_block’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:19,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:21,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.cpp:18:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:27:9: note: ‘struct basisu::pixel_block’ declared here
+   27 |  struct pixel_block
+      |         ^~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_etc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_etc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘void basisu::vector<T>::erase(uint32_t, uint32_t) [with T = basisu::vec<4, float>; uint32_t = unsigned int]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:697:10:   required from ‘void basisu::vector<T>::erase(T*, T*) [with T = basisu::vec<4, float>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:154:58:   required from ‘void basisu::clear_vector(T&) [with T = basisu::vector<basisu::vec<4, float> >]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2720:25:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:650:20: warning: ‘void* memmove(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  650 |             memmove(pDst, pSrc, num_to_move * sizeof(T));
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_etc.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_etc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.cpp:18:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basisu::etc1_endpoint_palette_entry]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:68:19:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basisu::etc1_endpoint_palette_entry’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.cpp:18:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:55:9: note: ‘struct basisu::etc1_endpoint_palette_entry’ declared here
+   55 |  struct etc1_endpoint_palette_entry
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.cpp:18:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basisu::basisu_backend_slice_desc]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:116:19:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basisu::basisu_backend_slice_desc’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.cpp:18:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:108:9: note: ‘struct basisu::basisu_backend_slice_desc’ declared here
+  108 |  struct basisu_backend_slice_desc
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = basisu::vec<4, float>]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2710:20:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::etc1_global_palette_entry_modifier]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:71:27:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘class basist::etc1_global_palette_entry_modifier’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_transcoder.h:25,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.cpp:20:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:21:8: note: ‘class basist::etc1_global_palette_entry_modifier’ declared here
+   21 |  class etc1_global_palette_entry_modifier
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::etc1_selector_palette_entry]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:117:27:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basist::etc1_selector_palette_entry’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_transcoder.h:25,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.cpp:20:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:108:9: note: ‘struct basist::etc1_selector_palette_entry’ declared here
+  108 |  struct etc1_selector_palette_entry
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = basisu::vec<4, float>]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2710:20:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_etc.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basisu::ktx_header]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.cpp:1301:33:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of type ‘struct basisu::ktx_header’ with no trivial copy-assignment; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.cpp:1284:9: note: ‘struct basisu::ktx_header’ declared here
+ 1284 |  struct ktx_header
+      |         ^~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.cpp:18:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘void basisu::vector<T>::erase(uint32_t, uint32_t) [with T = basisu::vec<4, float>; uint32_t = unsigned int]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:697:10:   required from ‘void basisu::vector<T>::erase(T*, T*) [with T = basisu::vec<4, float>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:154:58:   required from ‘void basisu::clear_vector(T&) [with T = basisu::vector<basisu::vec<4, float> >]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2720:25:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:650:20: warning: ‘void* memmove(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  650 |             memmove(pDst, pSrc, num_to_move * sizeof(T));
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:18,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.cpp:18:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:19:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = basisu::vec<4, float>]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2710:20:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:21:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:19:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::etc1_global_palette_entry_modifier]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:71:27:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘class basist::etc1_global_palette_entry_modifier’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:19,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:19,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:24:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:21:8: note: ‘class basist::etc1_global_palette_entry_modifier’ declared here
+   21 |  class etc1_global_palette_entry_modifier
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:19:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::etc1_selector_palette_entry]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:117:27:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basist::etc1_selector_palette_entry’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:19,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:19,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:24:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:108:9: note: ‘struct basist::etc1_selector_palette_entry’ declared here
+  108 |  struct etc1_selector_palette_entry
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:19:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basisu::pixel_block]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:37:33:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basisu::pixel_block’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:19,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:24:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:27:9: note: ‘struct basisu::pixel_block’ declared here
+   27 |  struct pixel_block
+      |         ^~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘void basisu::vector<T>::erase(uint32_t, uint32_t) [with T = basisu::vec<4, float>; uint32_t = unsigned int]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:697:10:   required from ‘void basisu::vector<T>::erase(T*, T*) [with T = basisu::vec<4, float>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:154:58:   required from ‘void basisu::clear_vector(T&) [with T = basisu::vector<basisu::vec<4, float> >]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2720:25:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:650:20: warning: ‘void* memmove(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  650 |             memmove(pDst, pSrc, num_to_move * sizeof(T));
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_etc.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.cpp:18:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>::vector(const basisu::vector<T>&) [with T = basisu::gpu_image]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:979:13:   required from ‘static void basisu::vector<T>::object_mover(void*, void*, uint32_t) [with T = basisu::vector<basisu::gpu_image>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:990:81:   required from ‘bool basisu::vector<T>::increase_capacity(uint32_t, bool, bool) [with T = basisu::vector<basisu::gpu_image>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:505:13:   required from ‘void basisu::vector<T>::push_back(const T&) [with T = basisu::vector<basisu::gpu_image>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:128:16:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:275:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::gpu_image’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  275 |             memcpy(m_p, other.m_p, m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:18,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:21,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.cpp:18:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:22:8: note: ‘class basisu::gpu_image’ declared here
+   22 |  class gpu_image
+      |        ^~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:19:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basisu::etc1_endpoint_palette_entry]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:68:19:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basisu::etc1_endpoint_palette_entry’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:25:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:55:9: note: ‘struct basisu::etc1_endpoint_palette_entry’ declared here
+   55 |  struct etc1_endpoint_palette_entry
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:19:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basisu::basisu_backend_slice_desc]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:116:19:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basisu::basisu_backend_slice_desc’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:25:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:108:9: note: ‘struct basisu::basisu_backend_slice_desc’ declared here
+  108 |  struct basisu_backend_slice_desc
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:19:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::basis_file_header]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:34:22:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of type ‘struct basist::basis_file_header’ with no trivial copy-assignment; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:20,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:24:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_file_headers.h:80:9: note: ‘struct basist::basis_file_header’ declared here
+   80 |  struct basis_file_header
+      |         ^~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>::vector(const basisu::vector<T>&) [with T = basisu::gpu_image]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:979:13:   required from ‘static void basisu::vector<T>::object_mover(void*, void*, uint32_t) [with T = basisu::vector<basisu::gpu_image>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:990:81:   required from ‘bool basisu::vector<T>::increase_capacity(uint32_t, bool, bool) [with T = basisu::vector<basisu::gpu_image>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:505:13:   required from ‘void basisu::vector<T>::push_back(const T&) [with T = basisu::vector<basisu::gpu_image>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:128:16:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:275:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::gpu_image’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  275 |             memcpy(m_p, other.m_p, m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:22:8: note: ‘class basisu::gpu_image’ declared here
+   22 |  class gpu_image
+      |        ^~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_etc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_uastc_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_uastc_enc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = basisu::vec<4, float>]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2710:20:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_etc.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_uastc_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_uastc_enc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_transcoder_internal.h:32,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_file_headers.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = basisu::vec<4, float>]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2710:20:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:18,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:19:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = std::__cxx11::basic_string<char>]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:835:37:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class std::__cxx11::basic_string<char>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_transcoder_internal.h:32,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_file_headers.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::etc1_global_palette_entry_modifier]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:71:27:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘class basist::etc1_global_palette_entry_modifier’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:20,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:21:8: note: ‘class basist::etc1_global_palette_entry_modifier’ declared here
+   21 |  class etc1_global_palette_entry_modifier
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/stdexcept:39,
+                 from /usr/include/c++/9/array:39,
+                 from /usr/include/c++/9/tuple:39,
+                 from /usr/include/c++/9/functional:54,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h:63,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:19:
+/usr/include/c++/9/bits/basic_string.h:77:11: note: ‘class std::__cxx11::basic_string<char>’ declared here
+   77 |     class basic_string
+      |           ^~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_transcoder_internal.h:32,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_file_headers.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::etc1_selector_palette_entry]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:117:27:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basist::etc1_selector_palette_entry’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:20,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:108:9: note: ‘struct basist::etc1_selector_palette_entry’ declared here
+  108 |  struct etc1_selector_palette_entry
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_transcoder_internal.h:32,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_file_headers.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basisu::pixel_block]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:37:33:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basisu::pixel_block’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:19,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:21,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:27:9: note: ‘struct basisu::pixel_block’ declared here
+   27 |  struct pixel_block
+      |         ^~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:20:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_miniz.h: In function ‘tinfl_status tinfl_decompress(tinfl_decompressor*, const mz_uint8*, size_t*, mz_uint8*, mz_uint8*, size_t*, mz_uint32)’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_miniz.h:1169:9: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+ 1169 |         for ( i = 0; i <= 143; ++i) *p++ = 8; for ( ; i <= 255; ++i) *p++ = 9; for ( ; i <= 279; ++i) *p++ = 7; for ( ; i <= 287; ++i) *p++ = 8;
+      |         ^~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_miniz.h:1169:47: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+ 1169 |         for ( i = 0; i <= 143; ++i) *p++ = 8; for ( ; i <= 255; ++i) *p++ = 9; for ( ; i <= 279; ++i) *p++ = 7; for ( ; i <= 287; ++i) *p++ = 8;
+      |                                               ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_transcoder_internal.h:32,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_file_headers.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basisu::etc1_endpoint_palette_entry]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:68:19:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basisu::etc1_endpoint_palette_entry’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:55:9: note: ‘struct basisu::etc1_endpoint_palette_entry’ declared here
+   55 |  struct etc1_endpoint_palette_entry
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_transcoder_internal.h:32,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_file_headers.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basisu::basisu_backend_slice_desc]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:116:19:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basisu::basisu_backend_slice_desc’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:108:9: note: ‘struct basisu::basisu_backend_slice_desc’ declared here
+  108 |  struct basisu_backend_slice_desc
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_transcoder_internal.h:32,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_file_headers.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::basis_file_header]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:34:22:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of type ‘struct basist::basis_file_header’ with no trivial copy-assignment; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_file_headers.h:80:9: note: ‘struct basist::basis_file_header’ declared here
+   80 |  struct basis_file_header
+      |         ^~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_transcoder_internal.h:32,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_file_headers.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::basis_slice_desc]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:89:31:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of type ‘struct basist::basis_slice_desc’ with no trivial copy-assignment; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_file_headers.h:29:9: note: ‘struct basist::basis_slice_desc’ declared here
+   29 |  struct basis_slice_desc
+      |         ^~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘void basisu::vector<T>::erase(uint32_t, uint32_t) [with T = basisu::vec<4, float>; uint32_t = unsigned int]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:697:10:   required from ‘void basisu::vector<T>::erase(T*, T*) [with T = basisu::vec<4, float>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:154:58:   required from ‘void basisu::clear_vector(T&) [with T = basisu::vector<basisu::vec<4, float> >]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2720:25:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:650:20: warning: ‘void* memmove(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  650 |             memmove(pDst, pSrc, num_to_move * sizeof(T));
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_etc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_uastc_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_uastc_enc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘void basisu::vector<T>::erase(uint32_t, uint32_t) [with T = basisu::vec<4, float>; uint32_t = unsigned int]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:697:10:   required from ‘void basisu::vector<T>::erase(T*, T*) [with T = basisu::vec<4, float>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:154:58:   required from ‘void basisu::clear_vector(T&) [with T = basisu::vector<basisu::vec<4, float> >]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2720:25:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:650:20: warning: ‘void* memmove(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  650 |             memmove(pDst, pSrc, num_to_move * sizeof(T));
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_etc.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_uastc_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_uastc_enc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:19:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_containers.h: In instantiation of ‘void basisu::vector<T>::erase(uint32_t, uint32_t) [with T = basisu::vec<4, float>; uint32_t = unsigned int]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_containers.h:697:10:   required from ‘void basisu::vector<T>::erase(T*, T*) [with T = basisu::vec<4, float>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h:154:58:   required from ‘void basisu::clear_vector(T&) [with T = basisu::vector<basisu::vec<4, float> >]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2720:25:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_containers.h:650:20: warning: ‘void* memmove(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  650 |             memmove(pDst, pSrc, num_to_move * sizeof(T));
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:21:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_miniz.h: In function ‘void tdefl_find_match(tdefl_compressor*, mz_uint, mz_uint, mz_uint, mz_uint*, mz_uint*)’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_miniz.h:1953:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1953 |     if (!dist) break; q = (const mz_uint16*)(d->m_dict + probe_pos); if (TDEFL_READ_UNALIGNED_WORD(q) != s01) continue; p = s; probe_len = 32;
+      |     ^~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_miniz.h:1953:23: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1953 |     if (!dist) break; q = (const mz_uint16*)(d->m_dict + probe_pos); if (TDEFL_READ_UNALIGNED_WORD(q) != s01) continue; p = s; probe_len = 32;
+      |                       ^
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_transcoder_internal.h:32,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_file_headers.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘void basisu::vector<T>::erase(uint32_t, uint32_t) [with T = basisu::vec<4, float>; uint32_t = unsigned int]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:697:10:   required from ‘void basisu::vector<T>::erase(T*, T*) [with T = basisu::vec<4, float>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:154:58:   required from ‘void basisu::clear_vector(T&) [with T = basisu::vector<basisu::vec<4, float> >]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2720:25:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:650:20: warning: ‘void* memmove(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  650 |             memmove(pDst, pSrc, num_to_move * sizeof(T));
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:18,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:20:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_miniz.h:621:31: warning: enumeral and non-enumeral type in conditional expression [-Wextra]
+  621 | #define MZ_MIN(a,b) (((a)<(b))?(a):(b))
+      |                      ~~~~~~~~~^~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_miniz.h:1958:42: note: in expansion of macro ‘MZ_MIN’
+ 1958 |       *pMatch_dist = dist; *pMatch_len = MZ_MIN(max_match_len, TDEFL_MAX_MATCH_LEN); break;
+      |                                          ^~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_etc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_uastc_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_uastc_enc.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>::vector(const basisu::vector<T>&) [with T = basisu::gpu_image]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:979:13:   required from ‘static void basisu::vector<T>::object_mover(void*, void*, uint32_t) [with T = basisu::vector<basisu::gpu_image>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:990:81:   required from ‘bool basisu::vector<T>::increase_capacity(uint32_t, bool, bool) [with T = basisu::vector<basisu::gpu_image>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:505:13:   required from ‘void basisu::vector<T>::push_back(const T&) [with T = basisu::vector<basisu::gpu_image>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:128:16:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:275:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::gpu_image’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  275 |             memcpy(m_p, other.m_p, m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_uastc_enc.cpp:17:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:22:8: note: ‘class basisu::gpu_image’ declared here
+   22 |  class gpu_image
+      |        ^~~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_miniz.h: In function ‘mz_bool tdefl_compress_fast(tdefl_compressor*)’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_miniz.h:621:31: warning: enumeral and non-enumeral type in conditional expression [-Wextra]
+  621 | #define MZ_MIN(a,b) (((a)<(b))?(a):(b))
+      |                      ~~~~~~~~~^~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_miniz.h:2086:19: note: in expansion of macro ‘MZ_MIN’
+ 2086 |       dict_size = MZ_MIN(dict_size + cur_match_len, TDEFL_LZ_DICT_SIZE);
+      |                   ^~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_miniz.h:621:31: warning: enumeral and non-enumeral type in conditional expression [-Wextra]
+  621 | #define MZ_MIN(a,b) (((a)<(b))?(a):(b))
+      |                      ~~~~~~~~~^~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_miniz.h:2114:19: note: in expansion of macro ‘MZ_MIN’
+ 2114 |       dict_size = MZ_MIN(dict_size + 1, TDEFL_LZ_DICT_SIZE);
+      |                   ^~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_transcoder_internal.h:32,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_file_headers.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>::vector(const basisu::vector<T>&) [with T = basisu::gpu_image]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:979:13:   required from ‘static void basisu::vector<T>::object_mover(void*, void*, uint32_t) [with T = basisu::vector<basisu::gpu_image>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:990:81:   required from ‘bool basisu::vector<T>::increase_capacity(uint32_t, bool, bool) [with T = basisu::vector<basisu::gpu_image>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:505:13:   required from ‘void basisu::vector<T>::push_back(const T&) [with T = basisu::vector<basisu::gpu_image>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:128:16:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:275:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::gpu_image’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  275 |             memcpy(m_p, other.m_p, m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:18,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:21,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:22:8: note: ‘class basisu::gpu_image’ declared here
+   22 |  class gpu_image
+      |        ^~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:19:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>::vector(const basisu::vector<T>&) [with T = basisu::gpu_image]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_containers.h:979:13:   required from ‘static void basisu::vector<T>::object_mover(void*, void*, uint32_t) [with T = basisu::vector<basisu::gpu_image>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_containers.h:990:81:   required from ‘bool basisu::vector<T>::increase_capacity(uint32_t, bool, bool) [with T = basisu::vector<basisu::gpu_image>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_containers.h:505:13:   required from ‘void basisu::vector<T>::push_back(const T&) [with T = basisu::vector<basisu::gpu_image>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:128:16:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_containers.h:275:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::gpu_image’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  275 |             memcpy(m_p, other.m_p, m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/basisu_tool.cpp:23:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:22:8: note: ‘class basisu::gpu_image’ declared here
+   22 |  class gpu_image
+      |        ^~~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_miniz.h: In function ‘mz_bool tdefl_compress_normal(tdefl_compressor*)’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_miniz.h:621:31: warning: enumeral and non-enumeral type in conditional expression [-Wextra]
+  621 | #define MZ_MIN(a,b) (((a)<(b))?(a):(b))
+      |                      ~~~~~~~~~^~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_miniz.h:2268:22: note: in expansion of macro ‘MZ_MIN’
+ 2268 |     d->m_dict_size = MZ_MIN(d->m_dict_size + len_to_move, TDEFL_LZ_DICT_SIZE);
+      |                      ^~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:20:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = basisu::vec<4, float>]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2710:20:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:21:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:20:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::etc1_global_palette_entry_modifier]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:71:27:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘class basist::etc1_global_palette_entry_modifier’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:19,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:19,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:21:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:21:8: note: ‘class basist::etc1_global_palette_entry_modifier’ declared here
+   21 |  class etc1_global_palette_entry_modifier
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:20:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::etc1_selector_palette_entry]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:117:27:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basist::etc1_selector_palette_entry’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:19,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:19,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:21:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:108:9: note: ‘struct basist::etc1_selector_palette_entry’ declared here
+  108 |  struct etc1_selector_palette_entry
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:20:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basisu::pixel_block]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:37:33:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basisu::pixel_block’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:19,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:21:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:27:9: note: ‘struct basisu::pixel_block’ declared here
+   27 |  struct pixel_block
+      |         ^~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:20:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = basisu::vector<unsigned int>]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:1299:25:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘struct basisu::vector<unsigned int>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:237:10: note: ‘struct basisu::vector<unsigned int>’ declared here
+  237 |    class vector : public rel_ops< vector<T> >
+      |          ^~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = basisu::vec<4, float>]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2710:20:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::etc1_global_palette_entry_modifier]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:71:27:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘class basist::etc1_global_palette_entry_modifier’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:19,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:19,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:21:8: note: ‘class basist::etc1_global_palette_entry_modifier’ declared here
+   21 |  class etc1_global_palette_entry_modifier
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::etc1_selector_palette_entry]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:117:27:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basist::etc1_selector_palette_entry’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:19,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:19,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_global_selector_palette.h:108:9: note: ‘struct basist::etc1_selector_palette_entry’ declared here
+  108 |  struct etc1_selector_palette_entry
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basisu::pixel_block]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:37:33:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basisu::pixel_block’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:19,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_global_selector_palette_helpers.h:27:9: note: ‘struct basisu::pixel_block’ declared here
+   27 |  struct pixel_block
+      |         ^~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basisu::etc1_endpoint_palette_entry]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:68:19:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basisu::etc1_endpoint_palette_entry’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:55:9: note: ‘struct basisu::etc1_endpoint_palette_entry’ declared here
+   55 |  struct etc1_endpoint_palette_entry
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basisu::basisu_backend_slice_desc]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:116:19:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basisu::basisu_backend_slice_desc’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:17,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_backend.h:108:9: note: ‘struct basisu::basisu_backend_slice_desc’ declared here
+  108 |  struct basisu_backend_slice_desc
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::basis_file_header]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_basis_file.h:34:22:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of type ‘struct basist::basis_file_header’ with no trivial copy-assignment; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:20,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_file_headers.h:80:9: note: ‘struct basist::basis_file_header’ declared here
+   80 |  struct basis_file_header
+      |         ^~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = std::__cxx11::basic_string<char>]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:189:9:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class std::__cxx11::basic_string<char>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/stdexcept:39,
+                 from /usr/include/c++/9/array:39,
+                 from /usr/include/c++/9/tuple:39,
+                 from /usr/include/c++/9/functional:54,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:63,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/usr/include/c++/9/bits/basic_string.h:77:11: note: ‘class std::__cxx11::basic_string<char>’ declared here
+   77 |     class basic_string
+      |           ^~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = basisu::image]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:189:9:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::image’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2334:8: note: ‘class basisu::image’ declared here
+ 2334 |  class image
+      |        ^~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = basisu::basisu_frontend::endpoint_cluster_etc_params]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:2503:36:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘struct basisu::basisu_frontend::endpoint_cluster_etc_params’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:21:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:204:10: note: ‘struct basisu::basisu_frontend::endpoint_cluster_etc_params’ declared here
+  204 |   struct endpoint_cluster_etc_params
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘void basisu::vector<T>::erase(uint32_t, uint32_t) [with T = basisu::vec<4, float>; uint32_t = unsigned int]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:697:10:   required from ‘void basisu::vector<T>::erase(T*, T*) [with T = basisu::vec<4, float>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:154:58:   required from ‘void basisu::clear_vector(T&) [with T = basisu::vector<basisu::vec<4, float> >]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2720:25:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:650:20: warning: ‘void* memmove(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  650 |             memmove(pDst, pSrc, num_to_move * sizeof(T));
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>::vector(const basisu::vector<T>&) [with T = basisu::gpu_image]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:979:13:   required from ‘static void basisu::vector<T>::object_mover(void*, void*, uint32_t) [with T = basisu::vector<basisu::gpu_image>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:990:81:   required from ‘bool basisu::vector<T>::increase_capacity(uint32_t, bool, bool) [with T = basisu::vector<basisu::gpu_image>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:505:13:   required from ‘void basisu::vector<T>::push_back(const T&) [with T = basisu::vector<basisu::gpu_image>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:128:16:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:275:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::gpu_image’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  275 |             memcpy(m_p, other.m_p, m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:18,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_comp.cpp:15:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:22:8: note: ‘class basisu::gpu_image’ declared here
+   22 |  class gpu_image
+      |        ^~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:20:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘void basisu::vector<T>::erase(uint32_t, uint32_t) [with T = basisu::vec<4, float>; uint32_t = unsigned int]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:697:10:   required from ‘void basisu::vector<T>::erase(T*, T*) [with T = basisu::vec<4, float>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:154:58:   required from ‘void basisu::clear_vector(T&) [with T = basisu::vector<basisu::vec<4, float> >]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:2720:25:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:650:20: warning: ‘void* memmove(void*, const void*, size_t)’ writing to an object of type ‘class basisu::vec<4, float>’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  650 |             memmove(pDst, pSrc, num_to_move * sizeof(T));
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:21:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:238:8: note: ‘class basisu::vec<4, float>’ declared here
+  238 |  class vec
+      |        ^~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:20:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>::vector(const basisu::vector<T>&) [with T = basisu::gpu_image]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:979:13:   required from ‘static void basisu::vector<T>::object_mover(void*, void*, uint32_t) [with T = basisu::vector<basisu::gpu_image>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:990:81:   required from ‘bool basisu::vector<T>::increase_capacity(uint32_t, bool, bool) [with T = basisu::vector<basisu::gpu_image>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:505:13:   required from ‘void basisu::vector<T>::push_back(const T&) [with T = basisu::vector<basisu::gpu_image>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:128:16:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:275:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::gpu_image’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  275 |             memcpy(m_p, other.m_p, m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:18,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:21:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_gpu_texture.h:22:8: note: ‘class basisu::gpu_image’ declared here
+   22 |  class gpu_image
+      |        ^~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:20:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = basisu::tree_vector_quant<basisu::vec<6, float> >::tsvq_node]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:407:17:   required from ‘void basisu::vector<T>::reserve(size_t) [with T = basisu::tree_vector_quant<basisu::vec<6, float> >::tsvq_node; size_t = long unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1281:4:   required from ‘bool basisu::tree_vector_quant<TrainingVectorType>::generate(uint32_t) [with TrainingVectorType = basisu::vec<6, float>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1709:8:   required from ‘bool basisu::generate_hierarchical_codebook_threaded_internal(Quantizer&, uint32_t, uint32_t, basisu::vector<basisu::vector<unsigned int> >&, basisu::vector<basisu::vector<unsigned int> >&, uint32_t, bool, basisu::job_pool*) [with Quantizer = basisu::tree_vector_quant<basisu::vec<6, float> >; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1885:65:   required from ‘bool basisu::generate_hierarchical_codebook_threaded(Quantizer&, uint32_t, uint32_t, basisu::vector<basisu::vector<unsigned int> >&, basisu::vector<basisu::vector<unsigned int> >&, uint32_t, basisu::job_pool*) [with Quantizer = basisu::tree_vector_quant<basisu::vec<6, float> >; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:622:37:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::tree_vector_quant<basisu::vec<6, float> >::tsvq_node’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:21:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1320:9: note: ‘class basisu::tree_vector_quant<basisu::vec<6, float> >::tsvq_node’ declared here
+ 1320 |   class tsvq_node
+      |         ^~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:20:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘basisu::vector<T>& basisu::vector<T>::operator=(const basisu::vector<T>&) [with T = basisu::tree_vector_quant<basisu::vec<16, float> >::tsvq_node]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:407:17:   required from ‘void basisu::vector<T>::reserve(size_t) [with T = basisu::tree_vector_quant<basisu::vec<16, float> >::tsvq_node; size_t = long unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1281:4:   required from ‘bool basisu::tree_vector_quant<TrainingVectorType>::generate(uint32_t) [with TrainingVectorType = basisu::vec<16, float>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1709:8:   required from ‘bool basisu::generate_hierarchical_codebook_threaded_internal(Quantizer&, uint32_t, uint32_t, basisu::vector<basisu::vector<unsigned int> >&, basisu::vector<basisu::vector<unsigned int> >&, uint32_t, bool, basisu::job_pool*) [with Quantizer = basisu::tree_vector_quant<basisu::vec<16, float> >; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1885:65:   required from ‘bool basisu::generate_hierarchical_codebook_threaded(Quantizer&, uint32_t, uint32_t, basisu::vector<basisu::vector<unsigned int> >&, basisu::vector<basisu::vector<unsigned int> >&, uint32_t, basisu::job_pool*) [with Quantizer = basisu::tree_vector_quant<basisu::vec<16, float> >; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:1532:37:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:316:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class basisu::tree_vector_quant<basisu::vec<16, float> >::tsvq_node’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  316 |             memcpy(m_p, other.m_p, other.m_size * sizeof(T));
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:21:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1320:9: note: ‘class basisu::tree_vector_quant<basisu::vec<16, float> >::tsvq_node’ declared here
+ 1320 |   class tsvq_node
+      |         ^~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:20:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘void basisu::vector<T>::erase(uint32_t, uint32_t) [with T = basisu::tree_vector_quant<basisu::vec<6, float> >::tsvq_node; uint32_t = unsigned int]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:697:10:   required from ‘void basisu::vector<T>::erase(T*, T*) [with T = basisu::tree_vector_quant<basisu::vec<6, float> >::tsvq_node]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:154:58:   required from ‘void basisu::clear_vector(T&) [with T = basisu::vector<basisu::tree_vector_quant<basisu::vec<6, float> >::tsvq_node>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1280:16:   required from ‘bool basisu::tree_vector_quant<TrainingVectorType>::generate(uint32_t) [with TrainingVectorType = basisu::vec<6, float>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1709:8:   required from ‘bool basisu::generate_hierarchical_codebook_threaded_internal(Quantizer&, uint32_t, uint32_t, basisu::vector<basisu::vector<unsigned int> >&, basisu::vector<basisu::vector<unsigned int> >&, uint32_t, bool, basisu::job_pool*) [with Quantizer = basisu::tree_vector_quant<basisu::vec<6, float> >; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1885:65:   required from ‘bool basisu::generate_hierarchical_codebook_threaded(Quantizer&, uint32_t, uint32_t, basisu::vector<basisu::vector<unsigned int> >&, basisu::vector<basisu::vector<unsigned int> >&, uint32_t, basisu::job_pool*) [with Quantizer = basisu::tree_vector_quant<basisu::vec<6, float> >; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:622:37:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:650:20: warning: ‘void* memmove(void*, const void*, size_t)’ writing to an object of type ‘class basisu::tree_vector_quant<basisu::vec<6, float> >::tsvq_node’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  650 |             memmove(pDst, pSrc, num_to_move * sizeof(T));
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:21:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1320:9: note: ‘class basisu::tree_vector_quant<basisu::vec<6, float> >::tsvq_node’ declared here
+ 1320 |   class tsvq_node
+      |         ^~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:69,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:20:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h: In instantiation of ‘void basisu::vector<T>::erase(uint32_t, uint32_t) [with T = basisu::tree_vector_quant<basisu::vec<16, float> >::tsvq_node; uint32_t = unsigned int]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:697:10:   required from ‘void basisu::vector<T>::erase(T*, T*) [with T = basisu::tree_vector_quant<basisu::vec<16, float> >::tsvq_node]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu.h:154:58:   required from ‘void basisu::clear_vector(T&) [with T = basisu::vector<basisu::tree_vector_quant<basisu::vec<16, float> >::tsvq_node>]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1280:16:   required from ‘bool basisu::tree_vector_quant<TrainingVectorType>::generate(uint32_t) [with TrainingVectorType = basisu::vec<16, float>; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1709:8:   required from ‘bool basisu::generate_hierarchical_codebook_threaded_internal(Quantizer&, uint32_t, uint32_t, basisu::vector<basisu::vector<unsigned int> >&, basisu::vector<basisu::vector<unsigned int> >&, uint32_t, bool, basisu::job_pool*) [with Quantizer = basisu::tree_vector_quant<basisu::vec<16, float> >; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1885:65:   required from ‘bool basisu::generate_hierarchical_codebook_threaded(Quantizer&, uint32_t, uint32_t, basisu::vector<basisu::vector<unsigned int> >&, basisu::vector<basisu::vector<unsigned int> >&, uint32_t, basisu::job_pool*) [with Quantizer = basisu::tree_vector_quant<basisu::vec<16, float> >; uint32_t = unsigned int]’
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:1532:37:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/../transcoder/basisu_containers.h:650:20: warning: ‘void* memmove(void*, const void*, size_t)’ writing to an object of type ‘class basisu::tree_vector_quant<basisu::vec<16, float> >::tsvq_node’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+  650 |             memmove(pDst, pSrc, num_to_move * sizeof(T));
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.h:16,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_frontend.cpp:21:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1320:9: note: ‘class basisu::tree_vector_quant<basisu::vec<16, float> >::tsvq_node’ declared here
+ 1320 |   class tsvq_node
+      |         ^~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_transcoder_internal.h:32,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_transcoder.h:23,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_transcoder.cpp:16:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::etc1_global_palette_entry_modifier]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_global_selector_palette.h:71:27:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘class basist::etc1_global_palette_entry_modifier’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_transcoder.h:25,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_transcoder.cpp:16:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_global_selector_palette.h:21:8: note: ‘class basist::etc1_global_palette_entry_modifier’ declared here
+   21 |  class etc1_global_palette_entry_modifier
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_transcoder_internal.h:32,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_transcoder.h:23,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_transcoder.cpp:16:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h: In instantiation of ‘void basisu::clear_obj(T&) [with T = basist::etc1_selector_palette_entry]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_global_selector_palette.h:117:27:   required from here
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu.h:123:62: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct basist::etc1_selector_palette_entry’; use assignment or value-initialization instead [-Wclass-memaccess]
+  123 |  template <typename T> inline void clear_obj(T& obj) { memset(&obj, 0, sizeof(obj)); }
+      |                                                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_transcoder.h:25,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_transcoder.cpp:16:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_global_selector_palette.h:108:9: note: ‘struct basist::etc1_selector_palette_entry’ declared here
+  108 |  struct etc1_selector_palette_entry
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_bc7enc.cpp: In function ‘uint64_t basisu::color_cell_compression_est_astc(uint32_t, uint32_t, const uint32_t*, uint32_t, const basist::color_quad_u8*, uint64_t, const uint32_t*)’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_bc7enc.cpp:1845:22: warning: ‘dots’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1845 |   thresh[i] = (dots[i] + dots[i + 1] + 1) >> 1;
+      |                ~~~~~~^
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_bc7enc.cpp:1845:36: warning: ‘*((void*)& dots +4)’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1845 |   thresh[i] = (dots[i] + dots[i + 1] + 1) >> 1;
+      |                          ~~~~~~~~~~^
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/jpgd.cpp: In function ‘unsigned char* jpgd::decompress_jpeg_image_from_stream(jpgd::jpeg_decoder_stream*, int*, int*, int*, int, uint32_t)’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/jpgd.cpp:3160:17: warning: ‘pScan_line’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 3160 |    const uint8* pScan_line;
+      |                 ^~~~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h: In member function ‘bool basisu::tree_vector_quant<TrainingVectorType>::refine_split(const basisu::tree_vector_quant<TrainingVectorType>::tsvq_node&, TrainingVectorType&, uint64_t&, float&, basisu::vector<unsigned int>&, TrainingVectorType&, uint64_t&, float&, basisu::vector<unsigned int>&) const [with TrainingVectorType = basisu::vec<16, float>]’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:264:83: warning: ‘firstVec.basisu::vec<16, float>::m_v[15]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  264 |   inline bool operator==(const vec &rhs) const { for (uint32_t i = 0; i < N; i++) if (m_v[i] != rhs.m_v[i]) return false; return true; }
+      |                                                                                   ^~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1635:25: note: ‘firstVec.basisu::vec<16, float>::m_v[15]’ was declared here
+ 1635 |      TrainingVectorType firstVec;
+      |                         ^~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:264:83: warning: ‘firstVec.basisu::vec<16, float>::m_v[14]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  264 |   inline bool operator==(const vec &rhs) const { for (uint32_t i = 0; i < N; i++) if (m_v[i] != rhs.m_v[i]) return false; return true; }
+      |                                                                                   ^~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1635:25: note: ‘firstVec.basisu::vec<16, float>::m_v[14]’ was declared here
+ 1635 |      TrainingVectorType firstVec;
+      |                         ^~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:264:83: warning: ‘firstVec.basisu::vec<16, float>::m_v[13]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  264 |   inline bool operator==(const vec &rhs) const { for (uint32_t i = 0; i < N; i++) if (m_v[i] != rhs.m_v[i]) return false; return true; }
+      |                                                                                   ^~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1635:25: note: ‘firstVec.basisu::vec<16, float>::m_v[13]’ was declared here
+ 1635 |      TrainingVectorType firstVec;
+      |                         ^~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:264:83: warning: ‘firstVec.basisu::vec<16, float>::m_v[12]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  264 |   inline bool operator==(const vec &rhs) const { for (uint32_t i = 0; i < N; i++) if (m_v[i] != rhs.m_v[i]) return false; return true; }
+      |                                                                                   ^~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1635:25: note: ‘firstVec.basisu::vec<16, float>::m_v[12]’ was declared here
+ 1635 |      TrainingVectorType firstVec;
+      |                         ^~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:264:83: warning: ‘firstVec.basisu::vec<16, float>::m_v[11]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  264 |   inline bool operator==(const vec &rhs) const { for (uint32_t i = 0; i < N; i++) if (m_v[i] != rhs.m_v[i]) return false; return true; }
+      |                                                                                   ^~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1635:25: note: ‘firstVec.basisu::vec<16, float>::m_v[11]’ was declared here
+ 1635 |      TrainingVectorType firstVec;
+      |                         ^~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:264:83: warning: ‘firstVec.basisu::vec<16, float>::m_v[10]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  264 |   inline bool operator==(const vec &rhs) const { for (uint32_t i = 0; i < N; i++) if (m_v[i] != rhs.m_v[i]) return false; return true; }
+      |                                                                                   ^~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1635:25: note: ‘firstVec.basisu::vec<16, float>::m_v[10]’ was declared here
+ 1635 |      TrainingVectorType firstVec;
+      |                         ^~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:264:83: warning: ‘firstVec.basisu::vec<16, float>::m_v[9]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  264 |   inline bool operator==(const vec &rhs) const { for (uint32_t i = 0; i < N; i++) if (m_v[i] != rhs.m_v[i]) return false; return true; }
+      |                                                                                   ^~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1635:25: note: ‘firstVec.basisu::vec<16, float>::m_v[9]’ was declared here
+ 1635 |      TrainingVectorType firstVec;
+      |                         ^~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:264:83: warning: ‘firstVec.basisu::vec<16, float>::m_v[8]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  264 |   inline bool operator==(const vec &rhs) const { for (uint32_t i = 0; i < N; i++) if (m_v[i] != rhs.m_v[i]) return false; return true; }
+      |                                                                                   ^~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1635:25: note: ‘firstVec.basisu::vec<16, float>::m_v[8]’ was declared here
+ 1635 |      TrainingVectorType firstVec;
+      |                         ^~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:264:83: warning: ‘firstVec.basisu::vec<16, float>::m_v[7]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  264 |   inline bool operator==(const vec &rhs) const { for (uint32_t i = 0; i < N; i++) if (m_v[i] != rhs.m_v[i]) return false; return true; }
+      |                                                                                   ^~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1635:25: note: ‘firstVec.basisu::vec<16, float>::m_v[7]’ was declared here
+ 1635 |      TrainingVectorType firstVec;
+      |                         ^~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:264:83: warning: ‘firstVec.basisu::vec<16, float>::m_v[6]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  264 |   inline bool operator==(const vec &rhs) const { for (uint32_t i = 0; i < N; i++) if (m_v[i] != rhs.m_v[i]) return false; return true; }
+      |                                                                                   ^~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/basisu_enc.h:1635:25: note: ‘firstVec.basisu::vec<16, float>::m_v[6]’ was declared here
+ 1635 |      TrainingVectorType firstVec;
+      |                         ^~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_transcoder.cpp: In function ‘bool basist::transcode_uastc_to_bc7(const basist::unpacked_uastc_block&, basist::bc7_optimization_results&)’:
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_transcoder.cpp:13010:26: warning: ‘*((void*)& best_pbits +4)’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+13010 |    dst_blk.m_pbits[0][1] = best_pbits[1];
+      |    ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/transcoder/basisu_transcoder.cpp:13009:26: warning: ‘best_pbits’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+13009 |    dst_blk.m_pbits[0][0] = best_pbits[0];
+      |    ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+[100%] Linking CXX executable bin/basisu
+[100%] Built target basisu

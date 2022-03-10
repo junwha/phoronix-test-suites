@@ -1,0 +1,4 @@
+#!/bin/sh
+cd basis_universal-1.13/bin
+./basisu $@ ~/sample-*.png > $LOG_FILE 2>&1
+echo $? > ~/test-exit-status

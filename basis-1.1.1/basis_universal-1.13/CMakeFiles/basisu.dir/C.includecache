@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/apg_bmp.c
+apg_bmp.h
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/apg_bmp.h
+assert.h
+-
+stdbool.h
+-
+stdint.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/var/lib/phoronix-test-suite/installed-tests/pts/basis-1.1.1/basis_universal-1.13/encoder/apg_bmp.h
+

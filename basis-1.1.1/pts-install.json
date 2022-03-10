@@ -1,0 +1,26 @@
+{
+    "test_installation": {
+        "status": "INSTALLED",
+        "environment": {
+            "test_identifier": "pts\/basis-1.1.1",
+            "test_version": "1.1.1",
+            "install_checksum": "8bc67dc41ed968e768cdbf6ba7ca0eb2",
+            "system_hash": "MiB4IEludGVsIFhlb24gUGxhdGludW0gODI2OF9fVWJ1bnR1IDIwLjA0X19HQ0MgOS4zLjAgKyBDbGFuZyAxMC4wLjAtNHVidW50dTEgKyBMTFZNIDEwLjAuMF9f",
+            "compiler_data": {
+                "compiler-type": "CXX",
+                "compiler": "g++",
+                "compiler-options": "-std=c++11 -fvisibility=hidden -fPIC -fno-strict-aliasing -O3 -rdynamic -lm -lpthread"
+            },
+            "install_footnote": null
+        },
+        "history": {
+            "install_date_time": "2022-03-02 03:23:24",
+            "last_run_date_time": null,
+            "install_time_length": 12,
+            "times_run": 0,
+            "average_runtime": null,
+            "latest_runtime": null,
+            "per_run_times": []
+        }
+    }
+}
