@@ -1,0 +1,4 @@
+#!/bin/sh
+cd tscp181/
+./tscp $@ > $LOG_FILE 2>&1
+echo $? > ~/test-exit-status

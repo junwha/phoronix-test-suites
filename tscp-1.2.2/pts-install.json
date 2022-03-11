@@ -1,0 +1,26 @@
+{
+    "test_installation": {
+        "status": "INSTALLED",
+        "environment": {
+            "test_identifier": "pts\/tscp-1.2.2",
+            "test_version": "1.2.2",
+            "install_checksum": "2b6aa96ef62f3be03470768dd85d7dc9",
+            "system_hash": "MiB4IEludGVsIFhlb24gUGxhdGludW0gODI2OF9fVWJ1bnR1IDIwLjA0X19HQ0MgOS4zLjAgKyBDbGFuZyAxMC4wLjAtNHVidW50dTEgKyBMTFZNIDEwLjAuMF9f",
+            "compiler_data": {
+                "compiler-type": "CC",
+                "compiler": "gcc",
+                "compiler-options": "-O3 -march=native"
+            },
+            "install_footnote": null
+        },
+        "history": {
+            "install_date_time": "2022-03-02 23:20:47",
+            "last_run_date_time": null,
+            "install_time_length": 1,
+            "times_run": 0,
+            "average_runtime": null,
+            "latest_runtime": null,
+            "per_run_times": null
+        }
+    }
+}

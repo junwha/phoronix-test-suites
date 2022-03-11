@@ -1,0 +1,49 @@
+tscp181/board.c
+tscp181/book.c
+tscp181/book.txt
+tscp181/data.c
+tscp181/data.h
+tscp181/defs.h
+tscp181/eval.c
+tscp181/main.c
+tscp181/protos.h
+tscp181/readme.txt
+tscp181/search.c
+tscp181/PTS-PATCH.patch
+tscp181/
+main.c: In function ‘get_ms’:
+main.c:26:2: warning: ‘ftime’ is deprecated [-Wdeprecated-declarations]
+   26 |  ftime(&timebuffer);
+      |  ^~~~~
+In file included from main.c:21:
+/usr/include/x86_64-linux-gnu/sys/timeb.h:39:12: note: declared here
+   39 | extern int ftime (struct timeb *__timebuf)
+      |            ^~~~~
+main.c: In function ‘main’:
+main.c:94:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+   94 |    scanf("%d", &max_time);
+      |    ^~~~~~~~~~~~~~~~~~~~~~
+main.c:100:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+  100 |    scanf("%d", &max_depth);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~
+main.c: In function ‘move_str’:
+main.c:241:25: warning: ‘__builtin___sprintf_chk’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  241 |   sprintf(str, "%c%d%c%d",
+      |                         ^
+In file included from /usr/include/stdio.h:867,
+                 from main.c:9:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:36:10: note: ‘__builtin___sprintf_chk’ output between 5 and 7 bytes into a destination of size 6
+   36 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   37 |       __bos (__s), __fmt, __va_arg_pack ());
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+main.c:233:25: warning: ‘%c’ directive writing 1 byte into a region of size between 0 and 2 [-Wformat-overflow=]
+  233 |   sprintf(str, "%c%d%c%d%c",
+      |                         ^~
+In file included from /usr/include/stdio.h:867,
+                 from main.c:9:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:36:10: note: ‘__builtin___sprintf_chk’ output between 6 and 8 bytes into a destination of size 6
+   36 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   37 |       __bos (__s), __fmt, __va_arg_pack ());
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
