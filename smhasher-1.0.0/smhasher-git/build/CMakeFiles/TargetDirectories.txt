@@ -1,0 +1,6 @@
+/var/lib/phoronix-test-suite/installed-tests/pts/smhasher-1.0.0/smhasher-git/build/CMakeFiles/rebuild_cache.dir
+/var/lib/phoronix-test-suite/installed-tests/pts/smhasher-1.0.0/smhasher-git/build/CMakeFiles/edit_cache.dir
+/var/lib/phoronix-test-suite/installed-tests/pts/smhasher-1.0.0/smhasher-git/build/CMakeFiles/test.dir
+/var/lib/phoronix-test-suite/installed-tests/pts/smhasher-1.0.0/smhasher-git/build/CMakeFiles/TAGS.dir
+/var/lib/phoronix-test-suite/installed-tests/pts/smhasher-1.0.0/smhasher-git/build/CMakeFiles/SMHasher.dir
+/var/lib/phoronix-test-suite/installed-tests/pts/smhasher-1.0.0/smhasher-git/build/CMakeFiles/SMHasherSupport.dir
