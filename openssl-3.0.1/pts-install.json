@@ -1,0 +1,26 @@
+{
+    "test_installation": {
+        "status": "INSTALLED",
+        "environment": {
+            "test_identifier": "pts\/openssl-3.0.1",
+            "test_version": "3.0.1",
+            "install_checksum": "29eccb32e4df3bf4aef77f027fe16ac3",
+            "system_hash": "MiB4IEludGVsIFhlb24gUGxhdGludW0gODI2OF9fVWJ1bnR1IDIwLjA0X19HQ0MgOS4zLjAgKyBDbGFuZyAxMC4wLjAtNHVidW50dTEgKyBMTFZNIDEwLjAuMF9f",
+            "compiler_data": {
+                "compiler-type": "CC",
+                "compiler": "gcc",
+                "compiler-options": "-pthread -m64 -O3 -lssl -lcrypto -ldl"
+            },
+            "install_footnote": null
+        },
+        "history": {
+            "install_date_time": "2022-03-02 18:32:01",
+            "last_run_date_time": null,
+            "install_time_length": 13,
+            "times_run": 0,
+            "average_runtime": null,
+            "latest_runtime": null,
+            "per_run_times": null
+        }
+    }
+}
