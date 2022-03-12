@@ -1,0 +1,27 @@
+/ac3dparse.c/1.19/Wed Feb  2 06:08:56 2011//
+/ac3dparse.h/1.8/Wed Feb  2 06:10:39 2011//
+/animskull.c/1.12/Sun Jan 30 03:50:54 2011//
+/animspheres.c/1.16/Mon Jan 31 15:26:14 2011//
+/animspheres2.c/1.11/Wed Jul  3 04:59:29 2002//
+/eventio.c/1.3/Fri Feb 12 03:39:14 2016//
+/eventio.h/1.2/Fri Feb 12 03:39:14 2016//
+/fire.c/1.24/Sun Jan 30 04:34:52 2011//
+/getargs.c/1.59/Sat Mar  6 20:49:39 2021//
+/getargs.h/1.26/Sat Mar  6 20:49:39 2021//
+/glwin.c/1.138/Tue Dec 15 05:49:40 2020//
+/glwin.h/1.43/Sat Dec 19 06:25:54 2015//
+/hypertex.c/1.13/Wed Jul  3 04:59:29 2002//
+/mainanim.c/1.15/Sun Jan 30 04:58:13 2011//
+/mgfparse.c/1.14/Wed Feb  2 06:08:56 2011//
+/mgfparse.h/1.3/Wed Feb  2 06:10:39 2011//
+/nffparse.c/1.13/Wed Feb  2 06:08:56 2011//
+/nffparse.h/1.4/Wed Feb  2 06:10:39 2011//
+/parse.c/1.91/Sat Mar  6 20:49:39 2021//
+/parse.h/1.33/Sat Mar  6 20:20:25 2021//
+/spaceball.c/1.7/Wed Nov  5 05:13:12 2014//
+/spaceball.h/1.4/Wed Feb  2 06:10:39 2011//
+/tgatoyuv.c/1.4/Wed Feb  2 06:08:56 2011//
+/trackball.c/1.1/Sun Aug 19 05:57:17 2001//
+/trackball.h/1.1/Sun Aug 19 05:57:17 2001//
+/main.c/1.118/Sat Dec 11 05:41:38 2021//
+D

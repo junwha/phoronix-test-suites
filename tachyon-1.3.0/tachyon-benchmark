@@ -1,0 +1,4 @@
+#!/bin/sh
+cd tachyon/
+./tachyon scenes/teapot.dat -numthreads $NUM_CPU_CORES -fullshade -shade_phong -trans_vmd -shadow_filter_on -aasamples 32 -res 8192 8192 > $LOG_FILE 2>&1
+rm -f outfile.tga
