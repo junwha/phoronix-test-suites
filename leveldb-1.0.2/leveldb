@@ -1,0 +1,5 @@
+#!/bin/sh
+cd ~/KeyDB-5.3.1/
+cd leveldb-1.22/build
+./db_bench --threads=$NUM_CPU_CORES $@ > $LOG_FILE
+
