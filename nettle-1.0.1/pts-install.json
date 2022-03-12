@@ -1,0 +1,26 @@
+{
+    "test_installation": {
+        "status": "INSTALLED",
+        "environment": {
+            "test_identifier": "pts\/nettle-1.0.1",
+            "test_version": "1.0.1",
+            "install_checksum": "a6db9ad08add58af9688e0375975cd12",
+            "system_hash": "MiB4IEludGVsIFhlb24gUGxhdGludW0gODI2OF9fVWJ1bnR1IDIwLjA0X19HQ0MgOS4zLjAgKyBDbGFuZyAxMC4wLjAtNHVidW50dTEgKyBMTFZNIDEwLjAuMF9f",
+            "compiler_data": {
+                "compiler-type": "CC",
+                "compiler": "gcc",
+                "compiler-options": "-O2 -ggdb3 -lnettle -lgmp -lm -lcrypto"
+            },
+            "install_footnote": null
+        },
+        "history": {
+            "install_date_time": "2022-03-02 17:12:26",
+            "last_run_date_time": null,
+            "install_time_length": 10,
+            "times_run": 0,
+            "average_runtime": null,
+            "latest_runtime": null,
+            "per_run_times": null
+        }
+    }
+}
