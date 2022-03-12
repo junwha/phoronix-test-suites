@@ -1,0 +1,4 @@
+#!/bin/sh
+cd sqlite
+./speedtest1 $@ > $LOG_FILE 2>&1
+echo $? > ~/test-exit-status

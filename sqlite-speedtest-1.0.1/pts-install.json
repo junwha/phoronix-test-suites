@@ -1,0 +1,26 @@
+{
+    "test_installation": {
+        "status": "INSTALLED",
+        "environment": {
+            "test_identifier": "pts\/sqlite-speedtest-1.0.1",
+            "test_version": "1.0.1",
+            "install_checksum": "e67bba4e1c8b677ee537bc870b88ab1d",
+            "system_hash": "MiB4IEludGVsIFhlb24gUGxhdGludW0gODI2OF9fVWJ1bnR1IDIwLjA0X19HQ0MgOS4zLjAgKyBDbGFuZyAxMC4wLjAtNHVidW50dTEgKyBMTFZNIDEwLjAuMF9f",
+            "compiler_data": {
+                "compiler-type": "CC",
+                "compiler": "gcc",
+                "compiler-options": "-O2 -ldl -lz -lpthread"
+            },
+            "install_footnote": null
+        },
+        "history": {
+            "install_date_time": "2022-03-03 02:13:45",
+            "last_run_date_time": null,
+            "install_time_length": 32,
+            "times_run": 0,
+            "average_runtime": null,
+            "latest_runtime": null,
+            "per_run_times": []
+        }
+    }
+}

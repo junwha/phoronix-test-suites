@@ -1,0 +1,146 @@
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for int8_t... yes
+checking for int16_t... yes
+checking for int32_t... yes
+checking for int64_t... yes
+checking for intptr_t... yes
+checking for uint8_t... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for uint64_t... yes
+checking for uintptr_t... yes
+checking for sys/types.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking for fdatasync... yes
+checking for gmtime_r... yes
+checking for isnan... yes
+checking for localtime_r... yes
+checking for localtime_s... no
+checking for malloc_usable_size... yes
+checking for strchrnul... yes
+checking for usleep... yes
+checking for utime... yes
+checking for pread... yes
+checking for pread64... yes
+checking for pwrite... yes
+checking for pwrite64... yes
+checking for tclsh8.7... no
+checking for tclsh8.6... tclsh8.6
+configure: Version set to 3.30
+configure: Release set to 3.30.0
+configure: Version number set to 3030000
+checking whether to support threadsafe operation... yes
+checking for library containing pthread_create... -lpthread
+checking for library containing pthread_mutexattr_init... none required
+checking whether to support shared library linked as release mode or not... no
+checking whether to use an in-ram database for temporary tables... no
+checking if executables have the .exe suffix... unknown
+checking for Tcl configuration... found /usr/lib/tclConfig.sh
+checking for existence of /usr/lib/tclConfig.sh... loading
+checking for library containing readline... -ledit
+checking for library containing fdatasync... none required
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for library containing deflate... -lz
+checking for library containing dlopen... -ldl
+checking whether to support MEMSYS5... no
+checking whether to support MEMSYS3... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating sqlite3.pc
+config.status: creating config.h
+config.status: executing libtool commands
+gcc  -g -O2 -o mkkeywordhash   /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/mkkeywordhash.c
+./mkkeywordhash >keywordhash.h
+gcc  -g -O2 -o lemon /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/lemon.c
+cp /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/lempar.c .
+cp /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/parse.y .
+./lemon   parse.y
+cat parse.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbe.c | tclsh8.6 /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/mkopcodeh.tcl >opcodes.h
+tclsh8.6 /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/mkopcodec.tcl opcodes.h >opcodes.c
+tclsh8.6 /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/mkshellc.tcl >shell.c
+gcc  -g -O2 -o mksourceid /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/mksourceid.c
+tclsh8.6 /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/mksqlite3h.tcl /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite >sqlite3.h
+cp /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts5/fts5parse.y .
+rm -f fts5parse.h
+./lemon  fts5parse.y
+tclsh8.6 /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts5/tool/mkfts5c.tcl
+cp /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts5/fts5.h .
+rm -rf tsrc
+mkdir tsrc
+cp -f /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/alter.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/analyze.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/attach.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/auth.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/backup.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/bitvec.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/btmutex.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/btree.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/btree.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/btreeInt.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/build.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/callback.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/complete.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/ctime.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/date.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/dbpage.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/dbstat.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/delete.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/expr.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/fault.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/fkey.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/func.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/global.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/hash.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/hash.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/hwtime.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/insert.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/legacy.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/loadext.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/main.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/malloc.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/mem0.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/mem1.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/mem2.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/mem3.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/mem5.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/memdb.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/memjournal.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/msvc.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/mutex.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/mutex.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/mutex_noop.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/mutex_unix.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/mutex_w32.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/notify.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/os.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/os.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/os_common.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/os_setup.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/os_unix.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/os_win.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/os_win.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/pager.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/pager.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/parse.y /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/pcache.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/pcache.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/pcache1.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/pragma.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/pragma.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/prepare.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/printf.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/random.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/resolve.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/rowset.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/select.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/status.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/shell.c.in /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/sqlite.h.in /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/sqlite3ext.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/sqliteInt.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/sqliteLimit.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/table.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/tclsqlite.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/threads.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/tokenize.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/treeview.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/trigger.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/utf.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/update.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/upsert.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/util.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/vacuum.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbe.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbe.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbeapi.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbeaux.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbeblob.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbemem.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbesort.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbetrace.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbeInt.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/vtab.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/vxworks.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/wal.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/wal.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/walker.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/where.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/wherecode.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/whereexpr.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/whereInt.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/window.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts1/fts1.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts1/fts1.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts1/fts1_hash.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts1/fts1_hash.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts1/fts1_porter.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts1/fts1_tokenizer.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts1/fts1_tokenizer1.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts2/fts2.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts2/fts2.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts2/fts2_hash.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts2/fts2_hash.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts2/fts2_icu.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts2/fts2_porter.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts2/fts2_tokenizer.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts2/fts2_tokenizer.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts2/fts2_tokenizer1.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3Int.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_aux.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_expr.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_hash.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_hash.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_icu.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_porter.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_snippet.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_tokenizer.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_tokenizer.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_tokenizer1.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_tokenize_vtab.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_unicode.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_unicode2.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_write.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/icu/sqliteicu.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/icu/icu.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/rtree/rtree.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/rtree/rtree.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/rtree/geopoly.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/session/sqlite3session.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/session/sqlite3session.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/userauth/userauth.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/userauth/sqlite3userauth.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/rbu/sqlite3rbu.h /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/rbu/sqlite3rbu.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/misc/json1.c /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/misc/stmt.c keywordhash.h opcodes.c opcodes.h parse.c parse.h config.h shell.c sqlite3.h tsrc
+rm tsrc/sqlite.h.in tsrc/parse.y
+tclsh8.6 /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/vdbe-compress.tcl  <tsrc/vdbe.c >vdbe.new
+mv vdbe.new tsrc/vdbe.c
+cp fts5.c fts5.h tsrc
+touch .target_source
+tclsh8.6 /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/mksqlite3c.tcl
+cp tsrc/sqlite3ext.h .
+cp /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/session/sqlite3session.h .
+./libtool --mode=link gcc -g -O2 -DSQLITE_OS_UNIX=1 -I. -I/var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src -I/var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/rtree -I/var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/icu -I/var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3 -I/var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/async -I/var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/session -I/var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/userauth -D_HAVE_SQLITE_CONFIG_H -DBUILD_sqlite -DNDEBUG -I/usr/include/tcl8.6 -DSQLITE_THREADSAFE=1   -DSQLITE_HAVE_ZLIB=1     -o speedtest1 /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/test/speedtest1.c sqlite3.c -ldl -lz -lpthread  
+libtool: link: gcc -g -O2 -DSQLITE_OS_UNIX=1 -I. -I/var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src -I/var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/rtree -I/var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/icu -I/var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3 -I/var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/async -I/var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/session -I/var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/userauth -D_HAVE_SQLITE_CONFIG_H -DBUILD_sqlite -DNDEBUG -I/usr/include/tcl8.6 -DSQLITE_THREADSAFE=1 -DSQLITE_HAVE_ZLIB=1 -o speedtest1 /var/lib/phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/test/speedtest1.c sqlite3.c  -ldl -lz -lpthread
