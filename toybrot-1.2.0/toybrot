@@ -1,0 +1,4 @@
+#!/bin/sh
+cd toyBrot-master/build/
+./$@ > $LOG_FILE
+echo $? > ~/test-exit-status

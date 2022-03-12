@@ -1,0 +1,317 @@
+#ifndef _WD_VEC3_HPP_DEFINED_
+#define _WD_VEC3_HPP_DEFINED_
+
+#include <cmath>
+#include <ostream>
+
+#include "defines.hpp"
+
+/*
+ * I made this class 16-aligned in order to match what's expected from
+ * the GPU side in OpenCL and, particularly, in Vulkan, though it IS
+ * wasteful on the other implementations
+ */
+
+template < typename T >
+class Vec3
+{
+public:
+
+#ifdef _TB_CUDA_HIP_
+    _TB_DUAL_ explicit Vec3(){}
+#else
+    explicit Vec3() : x{0}, y{0}, z{0} {}
+#endif
+    _TB_DUAL_ explicit Vec3(T xVal, T yVal, T zVal): x{xVal}, y{yVal}, z{zVal} {}
+    _TB_DUAL_ Vec3 (const Vec3<T>& ref): x{ref.X()}, y{ref.Y()}, z{ref.Z()} {}
+    _TB_DUAL_ Vec3& operator= (const Vec3<T>& ref) {this->x = ref.X(); this->y = ref.Y(); this->z = ref.Z(); return *this;}
+
+    template < typename U >
+    _TB_DUAL_ operator Vec3<U>() const noexcept
+    {
+        return Vec3<U>{static_cast<U>(x),static_cast<U>(y),static_cast<U>(z)};
+    }
+
+    _TB_DUAL_ T X() const { return x; }
+    _TB_DUAL_ T Y() const { return y; }
+    _TB_DUAL_ T Z() const { return z; }
+    _TB_DUAL_ void setX(T newX) { x = newX; }
+    _TB_DUAL_ void setY(T newY) { y = newY; }
+    _TB_DUAL_ void setZ(T newZ) { z = newZ; }
+
+    _TB_DUAL_ T R() const { return x; }
+    _TB_DUAL_ T G() const { return y; }
+    _TB_DUAL_ T B() const { return z; }
+    _TB_DUAL_ void setR(T r) { x = r; }
+    _TB_DUAL_ void setG(T g) { y = g; }
+    _TB_DUAL_ void setB(T b) { z = b; }
+
+    _TB_DUAL_ Vec3& operator+=(const Vec3& rhs)
+    {
+        this->x += rhs.x;
+        this->y += rhs.y;
+        this->z += rhs.z;
+        return *this;
+    }
+
+    _TB_DUAL_ Vec3& operator*=(const T& f)
+    {
+        x *= f;
+        y *= f;
+        z *= f;
+        return *this;
+    }
+    _TB_DUAL_ Vec3& operator/=(const T& f)
+    {
+        x /= f;
+        y /= f;
+        z /= f;
+        return *this;
+    }
+    _TB_DUAL_ Vec3& operator*=(const Vec3<T>& rhs)
+    {
+        x *= rhs.X();
+        y *= rhs.Y();
+        z *= rhs.Z();
+        return *this;
+    }
+
+    _TB_DUAL_ T sqMod() const
+    {
+        return x*x+y*y+z*z;
+    }
+
+    _TB_DUAL_ T mod()
+    {
+    #pragma clang diagnostic push
+    #pragma clang diagnostic ignored "-Wfloat-conversion"
+    #pragma clang diagnostic ignored "-Wconversion"
+        #ifdef _TB_CUDA_HIP_
+            return sqrt(sqMod());
+        #else
+            return std::sqrt(sqMod());
+        #endif
+    #pragma clang diagnostic pop
+    }
+
+    _TB_DUAL_ Vec3<T> clamp(T min, T max)
+    {
+        Vec3<T> ret{x,y,z};
+        ret.x = x < min ? min : (x > max ? max: x);
+        ret.y = y < min ? min : (y > max ? max: y);
+        ret.z = z < min ? min : (z > max ? max: z);
+//        ret.x = x < min ? - min + x : (x > max ? max - x: x);
+//        ret.y = y < min ? - min + y : (y > max ? max - y: y);
+//        ret.z = z < min ? - min + z : (z > max ? max - z: z);
+        return ret;
+    }
+
+    _TB_DUAL_ Vec3<T>& normalise()
+    {
+        T m = this->mod();
+        x /= m;
+        y /= m;
+        z /= m;
+
+        return *this;
+    }
+
+    static constexpr const double flEpsilon = 0.00001;
+
+    _TB_DUAL_ static bool flEquals(float f1, float f2);
+    _TB_DUAL_ static bool dbEquals(double f1, double f2);
+
+    _TB_DUAL_ static bool flZero(float f);
+    _TB_DUAL_ static bool dbZero(double f);
+
+protected:
+
+
+    T x;
+    T y;
+    T z;
+#ifdef TB_VEC_GL_ALIGN
+} __attribute__ ((aligned(16)));
+#else
+};
+#endif
+
+template <typename T>
+_TB_DUAL_ bool Vec3<T>::flEquals(float f1, float f2)
+{
+    return( fabs(static_cast<double>(f1 - f2)) <= Vec3::flEpsilon);
+}
+
+template <typename T>
+_TB_DUAL_ bool Vec3<T>::dbEquals(double f1, double f2)
+{
+    return( fabs(f1 - f2) <= Vec3::flEpsilon);
+}
+
+template <typename T>
+_TB_DUAL_ bool Vec3<T>::flZero(float f)
+{
+    return( fabs(static_cast<double>(f)) <= Vec3::flEpsilon);
+}
+
+template <typename T>
+_TB_DUAL_ bool Vec3<T>::dbZero(double f)
+{
+    return( fabs(f) <= Vec3::flEpsilon);
+}
+
+template <typename T>
+_TB_DUAL_ Vec3<T> operator+(const Vec3<T>& a, const Vec3<T>& b)
+{
+    Vec3<T> res = a;
+    res += b;
+    return res;
+}
+
+template <typename T>
+_TB_DUAL_ Vec3<T> operator*(const Vec3<T>&a, T f)
+{
+    Vec3<T> res = a;
+    res *= f;
+    return res;
+}
+
+template <typename T>
+_TB_DUAL_ Vec3<T> operator/(const Vec3<T>&a, T f)
+{
+    Vec3<T> res = a;
+    res /= f;
+    return res;
+}
+
+template <typename T>
+_TB_DUAL_ bool operator == (const Vec3<T>&a, const Vec3<T>& b)
+{
+    return ( Vec3<T>::flEquals(a.X(),b.X()) &&
+             Vec3<T>::flEquals(a.Y(),b.Y()) &&
+             Vec3<T>::flEquals(a.Z(),b.Z()) );
+}
+
+template <typename T>
+_TB_DUAL_ bool operator != (const Vec3<T>&a, const Vec3<T>& b)
+{
+    return !(a==b);
+}
+
+template <typename T>
+_TB_DUAL_ std::ostream& operator << (std::ostream& out, const Vec3<T>& vec)
+{
+    out << vec.X() << ", " << vec.Y() << ", " << vec.Z();
+    return out;
+}
+
+
+template <typename T>
+_TB_DUAL_ Vec3<T> operator- (const Vec3<T>& v)
+{
+    Vec3<T> ret( -(v.X()), -(v.Y()), -(v.Z()) );
+    return ret;
+}
+
+template <typename T>
+_TB_DUAL_ Vec3<T> operator- (const Vec3<T>& a, const Vec3<T>& b)
+{
+    return Vec3<T>(a.X() - b.X(), a.Y()-b.Y(), a.Z() - b.Z());
+}
+
+template <typename T>
+_TB_DUAL_ static Vec3<T> crossProd (const Vec3<T>& a, const Vec3<T>& b)
+{
+    return Vec3<T>(a.Y()*b.Z() - a.Z()*b.Y(), a.Z()*b.X() - a.X()*b.Z(), a.X()*b.Y() - a.Y()*b.X());
+}
+
+template <typename T>
+_TB_DUAL_ static T dotProd (const Vec3<T>& a, const Vec3<T>& b)
+{
+    return a.X()*b.X() + a.Y()*b.Y() + a.Z()*b.Z();
+}
+
+template <typename T>
+_TB_DUAL_ static Vec3<T> triNormal(const Vec3<T>& a, const Vec3<T>& b, const Vec3<T>& c)
+{
+    //TODO: winding checks and tuning.
+    //ALSO: I feel this is not the best place for this to be so it's kind of temporary for now
+    Vec3<T> ab = b-a;
+    Vec3<T> ac = c-a;
+
+    Vec3<T> normal = crossProd(ab, ac);
+    normal.normalise();
+    return normal;
+}
+
+
+template <typename T>
+_TB_DUAL_ static Vec3<T> triNormal(const Vec3<T>* v)
+{
+    return triNormal(v[0],v[1],v[2]);
+}
+
+using Vec3f = Vec3<float>;
+using Vec3i = Vec3<int>;
+using Vec3d = Vec3<double>;
+
+template<typename T>
+class Vec4
+{
+public:
+
+#ifdef _TB_CUDA_HIP_
+    _TB_DUAL_ explicit Vec4(){}
+#else
+    explicit Vec4() : x{0}, y{0}, z{0}, w{0} {}
+#endif
+    _TB_DUAL_ explicit Vec4(T xVal, T yVal, T zVal, T wVal): x{xVal}, y{yVal}, z{zVal}, w{wVal} {}
+    _TB_DUAL_ Vec4 (const Vec4<T>& ref): x{ref.X()}, y{ref.Y()}, z{ref.Z()}, w{ref.W()} {}
+    _TB_DUAL_ Vec4 (const Vec3<T>& ref): x{ref.X()}, y{ref.Y()}, z{ref.Z()}, w{0} {}
+    _TB_DUAL_ Vec4 (const Vec3<T>& ref, T wVal): x{ref.X()}, y{ref.Y()}, z{ref.Z()}, w{wVal} {}
+    _TB_DUAL_ Vec4& operator= (const Vec4<T>& ref) {this->x = ref.X(); this->y = ref.Y(); this->z = ref.Z(); this->w = ref.W(); return *this;}
+
+    template < typename U >
+    _TB_DUAL_ operator Vec4<U>() const noexcept
+    {
+        return Vec4<U>{static_cast<U>(x),static_cast<U>(y),static_cast<U>(z),static_cast<U>(w)};
+    }
+
+    _TB_DUAL_ T X() const { return x; }
+    _TB_DUAL_ T Y() const { return y; }
+    _TB_DUAL_ T Z() const { return z; }
+    _TB_DUAL_ T W() const { return w; }
+    _TB_DUAL_ void setX(T newX) { x = newX; }
+    _TB_DUAL_ void setY(T newY) { y = newY; }
+    _TB_DUAL_ void setZ(T newZ) { z = newZ; }
+    _TB_DUAL_ void setW(T newW) { w = newW; }
+
+
+    _TB_DUAL_ T R() const { return x; }
+    _TB_DUAL_ T G() const { return y; }
+    _TB_DUAL_ T B() const { return z; }
+    _TB_DUAL_ T A() const { return w; }
+    _TB_DUAL_ void setR(T r) { x = r; }
+    _TB_DUAL_ void setG(T g) { y = g; }
+    _TB_DUAL_ void setB(T b) { z = b; }
+    _TB_DUAL_ void setA(T a) { w = a; }
+
+private:
+
+    T x,y,z,w;
+
+};
+
+template <typename T>
+_TB_DUAL_ std::ostream& operator << (std::ostream& out, const Vec4<T>& vec)
+{
+    out << vec.X() << ", " << vec.Y() << ", " << vec.Z() << ", " << vec.W();
+    return out;
+}
+
+
+using Vec4f = Vec4<float>;
+using Vec4i = Vec4<int>;
+using Vec4d = Vec4<double>;
+
+#endif //WD_VEC3_HPP_DEFINED
