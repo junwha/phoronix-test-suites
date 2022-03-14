@@ -54,7 +54,7 @@ if(CMAKE_CXX_COMPILER MATCHES "aomp")
 ##    set_source_files_properties(${OMP_OMP_SRCS} PROPERTIES
 ##                                                COMPILE_FLAGS "-O3 -target x86_64-pc-linux-gnu -w -fopenmp -fopenmp-targets=amdgcn-amd-amdhsa -Xopenmp-target=amdgcn-amd-amdhsa -march=${AMD_GPU_ARCH}")
 else()
-    set(OMP_FLAGS "${OMP_FLAGS} -fopenmp -march=native")
+    set(OMP_FLAGS "${OMP_FLAGS} -target x86_64-pc-linux-gnu -fopenmp=libomp -march=znver1")
 endif()
 
 separate_arguments(OMP_FLAGS UNIX_COMMAND ${OMP_FLAGS})
