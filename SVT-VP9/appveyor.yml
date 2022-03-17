@@ -1,0 +1,91 @@
+image: Visual Studio 2019
+configuration:
+  - Release
+  - Debug
+
+environment:
+  APPVEYOR_SAVE_CACHE_ON_ERROR: true
+  MSYSTEM: MINGW64
+  MSYS2_PATH_TYPE: inherit
+  PKG_CONFIG_PATH: C:/msys64/mingw64/lib/pkgconfig
+  matrix:
+    - generator: Visual Studio 2019
+    - generator: Unix Makefiles
+
+matrix:
+  exclude:
+    - configuration: Debug
+      generator: Unix Makefiles
+
+install:
+  - set "PATH=C:\msys64\mingw64\bin;C:\msys64\usr\bin;%PATH%"
+  - pacman -Syyuu --ask=20 --noconfirm --noprogressbar --needed
+  - ps: if ("$env:generator" -match "Unix") { $env:packages = "mingw-w64-x86_64-ccache mingw-w64-x86_64-gcc make" }
+  - pacman -Suu --ask=20 --noconfirm --noprogressbar --needed mingw-w64-x86_64-yasm %packages%
+  - pacman -Sc --noconfirm
+  - ps: |
+      if ("$env:generator" -match "Visual*") {
+        cmake -S . -B Build -G "Visual Studio 16 2019" -A x64 -DCMAKE_INSTALL_PREFIX=C:/msys64/mingw64 -DBUILD_SHARED_LIBS=ON
+      } elseif ($null -ne $env:generator){
+        cmake -S . -B Build -G "$env:generator" -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_BUILD_TYPE="$env:CONFIGURATION" -DCMAKE_INSTALL_PREFIX=C:/msys64/mingw64 -DBUILD_SHARED_LIBS=off
+      } else {
+        cmake -S . -B Build -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_BUILD_TYPE="$env:CONFIGURATION" -DCMAKE_INSTALL_PREFIX=C:/msys64/mingw64 -DBUILD_SHARED_LIBS=off
+      }
+
+for:
+  - matrix:
+      only:
+        - generator: Unix Makefiles
+          configuration: Release
+    build_script:
+      - make -C Build -j install
+      - pkg-config --debug --exists --print-errors SvtVp9Enc
+      - ps: Invoke-WebRequest -UseBasicParsing -OutFile ffmpeg.zip -Uri "https://github.com/FFmpeg/FFmpeg/archive/n4.2.2.zip"
+      - 7z x -aoa -offmpeg ffmpeg.zip
+      - ps: Get-ChildItem ffmpeg/FFmpeg-*/* | ForEach-Object {Move-Item $_.FullName ffmpeg}
+      - cd ffmpeg
+      - patch --binary -s -N -p1 -i "%APPVEYOR_BUILD_FOLDER%/ffmpeg_plugin/0001-Add-ability-for-ffmpeg-to-run-svt-vp9.patch"
+      - ps: |
+          $path = ([System.Environment]::GetEnvironmentVariable('PATH', 'Machine').Split(';') | Where-Object { $_ -notmatch 'Git' }) -join ';'
+          [System.Environment]::SetEnvironmentVariable('PATH', $path, 'Machine')
+      - bash -c './configure --arch=x86_64 --cc="ccache gcc" --cxx="ccache g++" --enable-libsvtvp9 --enable-encoder=libsvt_vp9 || cat ffbuild/config.log'
+      - make -j 10
+      - ps: (New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/OpenVisualCloud/SVT-AV1-Resources/master/video.tar.gz', "$PWD\video.tar.gz")
+      - tar xf video.tar.gz
+      - ffmpeg -i ./akiyo_cif.y4m -c:v libsvt_vp9 akiyo.ivf
+      - cd ..
+      #- ps: if ($env:APPVEYOR_REPO_BRANCH -eq "master" -and $null -eq $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { Push-AppveyorArtifact -FileName ffmpeg.exe $(Get-ChildItem "ffmpeg\ffmpeg.exe").FullName }
+
+  #- branches:
+  #    only:
+  #      - master
+  #  matrix:
+  #    only:
+  #      - generator: Visual Studio 2019
+  #        configuration: Release
+  #  artifacts:
+  #    - path: bin\Release\SvtVp9EncApp.exe
+  #      name: $(APPVEYOR_PROJECT_NAME)
+  #    - path: bin\Release\SvtVp9Enc.dll
+  #      name: $(APPVEYOR_PROJECT_NAME)
+  #    - path: bin\Release\SvtVp9DecApp.exe
+  #      name: $(APPVEYOR_PROJECT_NAME)
+  #    - path: bin\Release\SvtVp9Dec.dll
+  #      name: $(APPVEYOR_PROJECT_NAME)
+  #  deploy:
+  #    - provider: GitHub
+  #      artifact: $(APPVEYOR_PROJECT_NAME)
+  #      auth_token:
+  #        secure: "sf0pQXlPI+X6LoAR8QUJB74jjzNxcLGOXI3H0nbxJq8llvGPG/TAUd87hq5iHZXo"
+  #      prerelease: true
+  #      on:
+  #        appveyor_repo_tag: true
+  #        generator: Visual Studio 2019
+  #        configuration: Release
+
+build:
+  project: Build\svt-vp9.sln
+
+cache:
+  - 'C:\msys64\home\appveyor\.ccache'
+  - 'C:\msys64\var\cache\pacman\pkg'
