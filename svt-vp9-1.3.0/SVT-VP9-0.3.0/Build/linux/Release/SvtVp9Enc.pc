@@ -1,9 +1,0 @@
-prefix=/usr/local
-includedir=/usr/local/include/svt-vp9
-libdir=/usr/local/lib
-
-Name: SvtVp9Enc
-Description: SVT (Scalable Video Technology) for VP9 encoder library
-Version: 0.3.0
-Libs: -L${libdir} -lSvtVp9Enc -lm -lpthread 
-Cflags: -I${includedir}

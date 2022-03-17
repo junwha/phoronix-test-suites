@@ -1,2 +1,0 @@
-# Hashes of file build rules.
-424739c8a1cf7fdae3f1170cbe7cb2e4 Source/Lib/Common/Codec/CMakeFiles/EbVersionHeaderGen
