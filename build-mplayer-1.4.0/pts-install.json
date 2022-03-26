@@ -1,0 +1,22 @@
+{
+    "test_installation": {
+        "status": "INSTALLED",
+        "environment": {
+            "test_identifier": "pts\/build-mplayer-1.4.0",
+            "test_version": "1.4.0",
+            "install_checksum": "3e5942a40bf423ac6e1922c86fecc6f7",
+            "system_hash": "MiB4IEludGVsIFhlb24gUGxhdGludW0gODI2OF9fVWJ1bnR1IDIwLjA0X19HQ0MgOS4zLjAgKyBDbGFuZyAxMC4wLjAtNHVidW50dTEgKyBMTFZNIDEwLjAuMF9f",
+            "compiler_data": false,
+            "install_footnote": null
+        },
+        "history": {
+            "install_date_time": "2022-03-02 04:31:09",
+            "last_run_date_time": null,
+            "install_time_length": 1,
+            "times_run": 0,
+            "average_runtime": null,
+            "latest_runtime": null,
+            "per_run_times": null
+        }
+    }
+}
