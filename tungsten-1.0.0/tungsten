@@ -1,0 +1,4 @@
+#!/bin/bash
+cd tungsten-master/build/release
+./tungsten -t $NUM_CPU_CORES $@ > $LOG_FILE
+echo $? > ~/test-exit-status

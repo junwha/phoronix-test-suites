@@ -1,0 +1,26 @@
+{
+    "test_installation": {
+        "status": "INSTALLED",
+        "environment": {
+            "test_identifier": "pts\/tungsten-1.0.0",
+            "test_version": "1.0.0",
+            "install_checksum": "998ea69ccdc8fcedc3d8b74b017c7afd",
+            "system_hash": "MiB4IEludGVsIFhlb24gUGxhdGludW0gODI2OF9fVWJ1bnR1IDIwLjA0X19HQ0MgOS4zLjAgKyBDbGFuZyAxMC4wLjAtNHVidW50dTEgKyBMTFZNIDEwLjAuMF9f",
+            "compiler_data": {
+                "compiler-type": "CXX",
+                "compiler": "g++",
+                "compiler-options": "-std=c++0x -msse2 -msse3 -mssse3 -msse4.1 -msse4.2 -mfma -mbmi2 -mavx512f -mavx512vl -mavx512cd -mavx512dq -mavx512bw -mno-sse4a -mno-avx -mno-avx2 -mno-xop -mno-fma4 -mno-avx512pf -mno-avx512er -mno-avx512ifma -mno-avx512vbmi -fstrict-aliasing -O3 -rdynamic -lIlmImf -lIlmThread -lImath -lHalf -lIex -lz -ljpeg -lpthread -ldl"
+            },
+            "install_footnote": null
+        },
+        "history": {
+            "install_date_time": "2022-03-02 23:22:05",
+            "last_run_date_time": null,
+            "install_time_length": 43,
+            "times_run": 0,
+            "average_runtime": null,
+            "latest_runtime": null,
+            "per_run_times": null
+        }
+    }
+}
