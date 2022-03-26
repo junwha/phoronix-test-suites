@@ -1,0 +1,4 @@
+#!/bin/sh
+cd mafft_/
+./mafft --thread $NUM_CPU_CORES --auto mafft-ex1-lsu-rna.txt > $LOG_FILE
+echo $? > ~/test-exit-status

@@ -1,0 +1,827 @@
+mafft-7.471-without-extensions/
+mafft-7.471-without-extensions/MPI/
+mafft-7.471-without-extensions/MPI/nodepair_mpi.c
+mafft-7.471-without-extensions/MPI/pairlocalalign_mpi.c
+mafft-7.471-without-extensions/MPI/mpiscript.tmpl
+mafft-7.471-without-extensions/MPI/mltaln9_mpi.c
+mafft-7.471-without-extensions/MPI/Makefile
+mafft-7.471-without-extensions/license
+mafft-7.471-without-extensions/test/
+mafft-7.471-without-extensions/test/sample.ginsi.allowshift
+mafft-7.471-without-extensions/test/sample.fftnsi
+mafft-7.471-without-extensions/test/samplerna
+mafft-7.471-without-extensions/test/sample.lins1
+mafft-7.471-without-extensions/test/sample.parttree
+mafft-7.471-without-extensions/test/sample.linsi
+mafft-7.471-without-extensions/test/samplerna.qinsi
+mafft-7.471-without-extensions/test/sample.fftns2
+mafft-7.471-without-extensions/test/sample.gins1
+mafft-7.471-without-extensions/test/samplerna.xinsi
+mafft-7.471-without-extensions/test/sample
+mafft-7.471-without-extensions/test/sample.dpparttree
+mafft-7.471-without-extensions/test/script
+mafft-7.471-without-extensions/test/sample.ginsi
+mafft-7.471-without-extensions/binaries/
+mafft-7.471-without-extensions/binaries/.gitkeep
+mafft-7.471-without-extensions/scripts/
+mafft-7.471-without-extensions/scripts/.gitkeep
+mafft-7.471-without-extensions/core/
+mafft-7.471-without-extensions/core/setcore.c
+mafft-7.471-without-extensions/core/mafft-profile.c
+mafft-7.471-without-extensions/core/mafft-homologs.1
+mafft-7.471-without-extensions/core/pairash.c
+mafft-7.471-without-extensions/core/setdirection.c
+mafft-7.471-without-extensions/core/fft.h
+mafft-7.471-without-extensions/core/Falign_localhom.c
+mafft-7.471-without-extensions/core/nj.c
+mafft-7.471-without-extensions/core/dndfast7.c
+mafft-7.471-without-extensions/core/constants.c
+mafft-7.471-without-extensions/core/sextet5.c
+mafft-7.471-without-extensions/core/dndblast.c
+mafft-7.471-without-extensions/core/MSalign11.c
+mafft-7.471-without-extensions/core/regtable2seq.c
+mafft-7.471-without-extensions/core/dndpre.c
+mafft-7.471-without-extensions/core/mafft-distance.c
+mafft-7.471-without-extensions/core/serial.c
+mafft-7.471-without-extensions/core/interface.c
+mafft-7.471-without-extensions/core/JTT.c
+mafft-7.471-without-extensions/core/mtxutl.h
+mafft-7.471-without-extensions/core/rna.c
+mafft-7.471-without-extensions/core/miyata5.h
+mafft-7.471-without-extensions/core/pairlocalalignmain.c
+mafft-7.471-without-extensions/core/blosum.c
+mafft-7.471-without-extensions/core/mafft.bat.win10
+mafft-7.471-without-extensions/core/rnatest.c
+mafft-7.471-without-extensions/core/Lalignmm.c
+mafft-7.471-without-extensions/core/makemergetable.rb
+mafft-7.471-without-extensions/core/dndfast4.c
+mafft-7.471-without-extensions/core/multi2hat3s.c
+mafft-7.471-without-extensions/core/seekquencer_premafft.tmpl
+mafft-7.471-without-extensions/core/countlen.c
+mafft-7.471-without-extensions/core/univscript.tmpl
+mafft-7.471-without-extensions/core/Salignmm.c
+mafft-7.471-without-extensions/core/dp.h
+mafft-7.471-without-extensions/core/miyata.h
+mafft-7.471-without-extensions/core/compileoncygwin
+mafft-7.471-without-extensions/core/regionalrealignment.rb
+mafft-7.471-without-extensions/core/Makefile.sos
+mafft-7.471-without-extensions/core/Lalign11.c
+mafft-7.471-without-extensions/core/mafftash_premafft.tmpl
+mafft-7.471-without-extensions/core/Galign11.c
+mafft-7.471-without-extensions/core/fft.c
+mafft-7.471-without-extensions/core/maffttext2hex.c
+mafft-7.471-without-extensions/core/restoreu.c
+mafft-7.471-without-extensions/core/share.h
+mafft-7.471-without-extensions/core/compileonmsys
+mafft-7.471-without-extensions/core/score.c
+mafft-7.471-without-extensions/core/dndpre_score.c
+mafft-7.471-without-extensions/core/contrafoldwrap.c
+mafft-7.471-without-extensions/core/mtxutl.c
+mafft-7.471-without-extensions/core/tddis.c
+mafft-7.471-without-extensions/core/getlag.c
+mafft-7.471-without-extensions/core/iteration.c
+mafft-7.471-without-extensions/core/nodepair.c
+mafft-7.471-without-extensions/core/mafft.1
+mafft-7.471-without-extensions/core/treeOperation.c
+mafft-7.471-without-extensions/core/SAalignmm.c
+mafft-7.471-without-extensions/core/replaceu.c
+mafft-7.471-without-extensions/core/version.c
+mafft-7.471-without-extensions/core/mafft.h
+mafft-7.471-without-extensions/core/MSalignmm.c
+mafft-7.471-without-extensions/core/fftFunctions.c
+mafft-7.471-without-extensions/core/tditeration.c
+mafft-7.471-without-extensions/core/pairlocalalign.c
+mafft-7.471-without-extensions/core/dvtditr.c
+mafft-7.471-without-extensions/core/newick2mafft.rb
+mafft-7.471-without-extensions/core/hex2maffttext.c
+mafft-7.471-without-extensions/core/blosum.h
+mafft-7.471-without-extensions/core/suboptalign11.c
+mafft-7.471-without-extensions/core/genalign11.c
+mafft-7.471-without-extensions/core/mccaskillwrap.c
+mafft-7.471-without-extensions/core/mafft-sparsecore.tmpl
+mafft-7.471-without-extensions/core/seq2regtable.c
+mafft-7.471-without-extensions/core/DNA.h
+mafft-7.471-without-extensions/core/partSalignmm.c
+mafft-7.471-without-extensions/core/Dalignmm.c
+mafft-7.471-without-extensions/core/addfunctions.c
+mafft-7.471-without-extensions/core/mingw64mingw32dll
+mafft-7.471-without-extensions/core/splittbfast.c
+mafft-7.471-without-extensions/core/makedirectionlist.c
+mafft-7.471-without-extensions/core/mafft-homologs.tmpl
+mafft-7.471-without-extensions/core/io.c
+mafft-7.471-without-extensions/core/f2cl.c
+mafft-7.471-without-extensions/core/mafft.ps1
+mafft-7.471-without-extensions/core/mafft.bat
+mafft-7.471-without-extensions/core/functions.h
+mafft-7.471-without-extensions/core/dash_client.go
+mafft-7.471-without-extensions/core/Falign.c
+mafft-7.471-without-extensions/core/tbfast.c
+mafft-7.471-without-extensions/core/Makefile
+mafft-7.471-without-extensions/core/mltaln9.c
+mafft-7.471-without-extensions/core/mafft.tmpl
+mafft-7.471-without-extensions/core/mltaln.h
+mafft-7.471-without-extensions/core/defs.c
+mafft-7.471-without-extensions/core/disttbfast.c
+mafft-7.471-without-extensions/core/addsingle.c
+mafft-7.471-without-extensions/readme
+rm -f *.o *.a *.exe *~ mafftash_premafft.pl seekquencer_premafft.pl dvtditr dndfast7 dndblast sextet5 mafft-distance pairlocalalign multi2hat3s pairash addsingle maffttext2hex hex2maffttext splittbfast disttbfast tbfast nodepair mafft-profile f2cl mccaskillwrap contrafoldwrap countlen seq2regtable regtable2seq score getlag dndpre setcore replaceu restoreu setdirection makedirectionlist version  mafft mafft-homologs.rb mafft-sparsecore.rb libdisttbfast.so libdisttbfast.dylib libdisttbfast.dll *.gcda *.gcno 
+cp mafftash_premafft.tmpl mafftash_premafft.pl
+cp seekquencer_premafft.tmpl seekquencer_premafft.pl
+gcc  -Denablemultithread  -std=c99 -O3 -c mtxutl.c
+gcc  -Denablemultithread  -std=c99 -O3 -c io.c
+gcc  -Denablemultithread  -std=c99 -O3 -c mltaln9.c
+gcc  -Denablemultithread  -std=c99 -O3 -c tddis.c
+gcc  -Denablemultithread  -std=c99 -O3 -c constants.c
+gcc  -Denablemultithread  -std=c99 -O3 -c nj.c
+gcc  -Denablemultithread  -std=c99 -O3 -c partSalignmm.c  
+gcc  -Denablemultithread  -std=c99 -O3 -c Lalignmm.c 
+gcc  -Denablemultithread  -std=c99 -O3 -c rna.c 
+gcc  -Denablemultithread  -std=c99 -O3 -c Salignmm.c 
+gcc  -Denablemultithread  -std=c99 -O3 -c Dalignmm.c 
+gcc  -Denablemultithread  -std=c99 -O3 -c Falign.c
+gcc  -Denablemultithread  -std=c99 -O3 -c Falign_localhom.c
+gcc  -Denablemultithread  -std=c99 -O3 -c Galign11.c 
+gcc  -Denablemultithread  -std=c99 -O3 -c Lalign11.c 
+gcc  -Denablemultithread  -std=c99 -O3 -c genalign11.c 
+gcc  -Denablemultithread  -std=c99 -O3 -c MSalignmm.c 
+gcc  -Denablemultithread  -std=c99 -O3 -c fftFunctions.c
+gcc  -Denablemultithread  -std=c99 -O3 -c fft.c 
+gcc  -Denablemultithread  -std=c99 -O3 -c tditeration.c
+gcc  -Denablemultithread  -std=c99 -O3 -c dvtditr.c
+gcc  -Denablemultithread  -std=c99 -O3 -c defs.c
+gcc  -Denablemultithread  -std=c99 -O3 -c SAalignmm.c -o SAalignmm.o
+gcc  -Denablemultithread  -std=c99 -O3 -c treeOperation.c
+gcc  -Denablemultithread  -std=c99 -O3 -c addfunctions.c
+gcc  -Denablemultithread  -std=c99 -O3 -c dndfast7.c
+gcc  -Denablemultithread  -std=c99 -O3 -c dndblast.c
+gcc  -Denablemultithread  -std=c99 -O3 -c sextet5.c
+gcc  -Denablemultithread  -std=c99 -O3 -c mafft-distance.c
+gcc  -Denablemultithread  -std=c99 -O3 -c MSalign11.c 
+gcc  -Denablemultithread  -std=c99 -O3 -c suboptalign11.c 
+gcc  -Denablemultithread  -std=c99 -O3 -c pairlocalalignmain.c
+gcc  -Denablemultithread  -std=c99 -O3 -c pairlocalalign.c
+gcc  -Denablemultithread  -std=c99 -O3 -c multi2hat3s.c
+gcc  -Denablemultithread  -std=c99 -O3 -c pairash.c
+gcc  -Denablemultithread  -std=c99 -O3 -c addsingle.c
+gcc -o maffttext2hex maffttext2hex.c  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o hex2maffttext hex2maffttext.c  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc  -Denablemultithread  -std=c99 -O3 -c splittbfast.c
+gcc  -Denablemultithread  -std=c99 -O3 -c disttbfast.c
+gcc  -Denablemultithread  -std=c99 -O3 -c tbfast.c
+gcc  -Denablemultithread  -std=c99 -O3 -c nodepair.c
+gcc  -Denablemultithread  -std=c99 -O3 -c mafft-profile.c
+gcc  -Denablemultithread  -std=c99 -O3 -c f2cl.c
+gcc  -Denablemultithread  -std=c99 -O3 -c mccaskillwrap.c
+gcc  -Denablemultithread  -std=c99 -O3 -c contrafoldwrap.c
+gcc  -Denablemultithread  -std=c99 -O3 -c countlen.c
+gcc  -Denablemultithread  -std=c99 -O3 -c seq2regtable.c
+gcc  -Denablemultithread  -std=c99 -O3 -c regtable2seq.c
+gcc  -Denablemultithread  -std=c99 -O3 -c score.c
+gcc  -Denablemultithread  -std=c99 -O3 -c getlag.c
+gcc  -Denablemultithread  -std=c99 -O3 -c dndpre.c
+gcc  -Denablemultithread  -std=c99 -O3 -c setcore.c
+gcc  -Denablemultithread  -std=c99 -O3 -c replaceu.c
+gcc  -Denablemultithread  -std=c99 -O3 -c restoreu.c
+gcc  -Denablemultithread  -std=c99 -O3 -c setdirection.c
+gcc  -Denablemultithread  -std=c99 -O3 -c makedirectionlist.c
+gcc -o version version.c  -Denablemultithread  -std=c99 -O3  -lm  -lpthread 
+sed "s:_LIBDIR:/var/lib/phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/libexec/mafft:" mafft.tmpl  > mafft
+sed "s:_BINDIR:/var/lib/phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/bin:" mafft-homologs.tmpl  > mafft-homologs.rb
+sed "s:_BINDIR:/var/lib/phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/bin:" mafft-sparsecore.tmpl  > mafft-sparsecore.rb
+maffttext2hex.c: In function ‘main’:
+maffttext2hex.c:55:4: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+   55 |    fgets( (char *)buf, 999, fp );
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rna.c: In function ‘rnaalifoldcall’:
+rna.c:225:2: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+  225 |  system( cmd );
+      |  ^~~~~~~~~~~~~
+rna.c:245:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  245 |   fgets( gett, 999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+rna.c:285:2: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+  285 |  system( cmd );
+      |  ^~~~~~~~~~~~~
+In file included from constants.c:7:
+blosum.c: In function ‘overridematrix’:
+blosum.c:370:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  370 |   fgets( buf, 499, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~
+pairash.c: In function ‘prepareash’:
+pairash.c:639:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  639 |   fgets( line, 999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+pairash.c:681:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  681 |   fgets( line, 999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+pairash.c: In function ‘callrash’:
+pairash.c:485:3: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+  485 |   system( com );
+      |   ^~~~~~~~~~~~~
+pairash.c: In function ‘readrash’:
+pairash.c:277:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  277 |   fgets( line, 999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+pairash.c:284:4: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  284 |    fgets( line, 999, fp );
+      |    ^~~~~~~~~~~~~~~~~~~~~~
+pairash.c:289:4: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  289 |    fgets( line, 999, fp );
+      |    ^~~~~~~~~~~~~~~~~~~~~~
+pairash.c:294:4: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  294 |    fgets( line, 999, fp );
+      |    ^~~~~~~~~~~~~~~~~~~~~~
+pairash.c: In function ‘preparetmalign’:
+pairash.c:530:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  530 |   fgets( line, 999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+pairash.c:576:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  576 |   fgets( line, 999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+pairash.c:587:4: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+  587 |    system( command );
+      |    ^~~~~~~~~~~~~~~~~
+pairash.c: In function ‘checkcbeta’:
+pairash.c:321:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  321 |   fgets( linec, 999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~~
+pairash.c: In function ‘calltmalign’:
+pairash.c:347:3: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+  347 |   system( com );
+      |   ^~~~~~~~~~~~~
+pairash.c:356:4: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  356 |    fgets( com, 100, fp );
+      |    ^~~~~~~~~~~~~~~~~~~~~
+pairash.c: In function ‘readtmalign’:
+pairash.c:228:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  228 |   fgets( line, 999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+pairash.c:232:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  232 |  fgets( line, nlenmax*2, fp );
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+pairash.c:235:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  235 |  fgets( line, nlenmax*2, fp );
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+pairash.c:238:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  238 |  fgets( line, nlenmax*2, fp );
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+f2cl.c: In function ‘main’:
+f2cl.c:287:4: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  287 |    fgets( gett, B-1, orderfp );
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+dndblast.c: In function ‘main’:
+dndblast.c:201:4: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+  201 |    system( com );
+      |    ^~~~~~~~~~~~~
+dndblast.c:382:2: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+  382 |  system( com );
+      |  ^~~~~~~~~~~~~
+dvtditr.c: In function ‘main’:
+dvtditr.c:1020:5: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+ 1020 |     system( "cp infile.tree GuideTree" ); // tekitou
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dndfast7.c: In function ‘main’:
+regtable2seq.c: In function ‘readereg’:
+mccaskillwrap.c: In function ‘main’:
+dndfast7.c:326:2: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+  326 |  system( com );
+      |  ^~~~~~~~~~~~~
+regtable2seq.c:69:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+   69 |  fgets( gett, 999, regfp );
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~
+mccaskillwrap.c:372:4: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+  372 |    system( "tr -d '\\r' < _mccaskillinorg > _mccaskillin" ); // for cygwin, wakaran
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+regtable2seq.c:97:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+   97 |   fgets( gett, 999, regfp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+mccaskillwrap.c: In function ‘athread’:
+mccaskillwrap.c:115:3: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+  115 |   system( com );
+      |   ^~~~~~~~~~~~~
+regtable2seq.c: In function ‘readreg’:
+mccaskillwrap.c:117:3: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+  117 |   system( com );
+      |   ^~~~~~~~~~~~~
+mccaskillwrap.c:129:3: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+  129 |   system( com ); // for cygwin, wakaran
+      |   ^~~~~~~~~~~~~
+regtable2seq.c:120:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  120 |   fgets( gett, 999, regfp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+mccaskillwrap.c:155:4: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+  155 |    system( com );
+      |    ^~~~~~~~~~~~~
+mccaskillwrap.c: In function ‘readrawmccaskill’:
+mccaskillwrap.c:46:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+   46 |   fgets( gett, 999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+io.c: In function ‘PreRead’:
+io.c:1096:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 1096 |  fgets( b, B-1, fp ); *locnjob = atoi( b );
+      |  ^~~~~~~~~~~~~~~~~~~
+io.c:1101:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 1101 |   fgets( b, B-1, fp );
+      |   ^~~~~~~~~~~~~~~~~~~
+io.c:1105:4: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 1105 |    fgets( b, B-1, fp ); nleni = atoi( b );
+      |    ^~~~~~~~~~~~~~~~~~~
+io.c: In function ‘FRead’:
+io.c:1141:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 1141 |  fgets( b, B-1, fp );
+      |  ^~~~~~~~~~~~~~~~~~~
+io.c:1231:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 1231 |   fgets( b, B-1, fp ); nlen[i] = atoi( b );      /* seq i no nagasa */
+      |   ^~~~~~~~~~~~~~~~~~~
+restoreu.c: In function ‘main’:
+restoreu.c:177:4: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  177 |    fgets( gett, 999, dlfp );
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~
+tbfast.c: In function ‘main’:
+tbfast.c:3194:5: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+ 3194 |     system( "cp infile.tree GuideTree" ); // tekitou
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+io.c: In function ‘readhat2_doublehalf_part_pointer’:
+io.c:2666:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2666 |     fgets( b, B, fp );
+      |     ^~~~~~~~~~~~~~~~~
+io.c:2667:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2667 |     fgets( b, B, fp ); b[5] = 0; nseq0 = atoi( b ); if( nseq != nseq0 )
+      |     ^~~~~~~~~~~~~~~~~
+io.c:2672:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2672 |     fgets( b, B, fp );
+      |     ^~~~~~~~~~~~~~~~~
+io.c: In function ‘readhat2_doublehalf_pointer’:
+io.c:2702:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2702 |     fgets( b, B, fp );
+      |     ^~~~~~~~~~~~~~~~~
+io.c:2703:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2703 |     fgets( b, B, fp ); b[5] = 0; nseq0 = atoi( b ); if( nseq != nseq0 )
+      |     ^~~~~~~~~~~~~~~~~
+io.c:2708:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2708 |     fgets( b, B, fp );
+      |     ^~~~~~~~~~~~~~~~~
+io.c: In function ‘readhat2_doublehalf’:
+io.c:2736:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2736 |     fgets( b, B, fp );
+      |     ^~~~~~~~~~~~~~~~~
+io.c:2737:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2737 |     fgets( b, B, fp ); b[5] = 0; nseq0 = atoi( b ); if( nseq != nseq0 ) ErrorExit( "hat2 is wrong." );
+      |     ^~~~~~~~~~~~~~~~~
+io.c:2738:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2738 |     fgets( b, B, fp );
+      |     ^~~~~~~~~~~~~~~~~
+io.c: In function ‘readhat2_double’:
+io.c:2766:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2766 |     fgets( b, B, fp );
+      |     ^~~~~~~~~~~~~~~~~
+io.c:2767:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2767 |     fgets( b, B, fp ); b[5] = 0; nseq0 = atoi( b ); if( nseq != nseq0 ) ErrorExit( "hat2 is wrong." );
+      |     ^~~~~~~~~~~~~~~~~
+io.c:2768:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2768 |     fgets( b, B, fp );
+      |     ^~~~~~~~~~~~~~~~~
+io.c: In function ‘readhat2_int’:
+io.c:2796:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2796 |     fgets( b, B, fp );
+      |     ^~~~~~~~~~~~~~~~~
+io.c:2797:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2797 |     fgets( b, B, fp ); b[5] = 0; nseq0 = atoi( b ); if( nseq != nseq0 ) ErrorExit( "hat2 is wrong." );
+      |     ^~~~~~~~~~~~~~~~~
+io.c:2798:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2798 |     fgets( b, B, fp );
+      |     ^~~~~~~~~~~~~~~~~
+io.c: In function ‘readhat2_pointer’:
+io.c:2827:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2827 |     fgets( b, B, fp );
+      |     ^~~~~~~~~~~~~~~~~
+io.c:2828:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2828 |     fgets( b, B, fp ); b[5] = 0; nseq0 = atoi( b ); if( nseq != nseq0 ) ErrorExit( "hat2 is wrong." );
+      |     ^~~~~~~~~~~~~~~~~
+io.c:2829:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2829 |     fgets( b, B, fp );
+      |     ^~~~~~~~~~~~~~~~~
+io.c: In function ‘readhat2’:
+io.c:2857:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2857 |     fgets( b, B, fp );
+      |     ^~~~~~~~~~~~~~~~~
+io.c:2858:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2858 |     fgets( b, B, fp ); b[5] = 0; nseq0 = atoi( b ); if( nseq != nseq0 ) ErrorExit( "hat2 is wrong." );
+      |     ^~~~~~~~~~~~~~~~~
+io.c:2859:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2859 |     fgets( b, B, fp );
+      |     ^~~~~~~~~~~~~~~~~
+io.c: In function ‘ReadFasta_sub’:
+io.c:3059:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3059 |         fgets( b, B-1, fp );
+      |         ^~~~~~~~~~~~~~~~~~~
+io.c:3074:13: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3074 |             fgets( b, B-1, fp );
+      |             ^~~~~~~~~~~~~~~~~~~
+io.c: In function ‘ReadSsearch’:
+io.c:3093:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3093 |         fgets( b, B-1, fp );
+      |         ^~~~~~~~~~~~~~~~~~~
+io.c: In function ‘ReadBlastm7_avscore’:
+io.c:3221:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3221 |   fgets( b, B-1, fp );
+      |   ^~~~~~~~~~~~~~~~~~~
+io.c:3228:4: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3228 |    fgets( b, B-1, fp );
+      |    ^~~~~~~~~~~~~~~~~~~
+io.c:3229:4: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3229 |    fgets( b, B-1, fp );
+      |    ^~~~~~~~~~~~~~~~~~~
+splittbfast.c: In function ‘main’:
+splittbfast.c:3218:3: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+ 3218 |   system( com );
+      |   ^~~~~~~~~~~~~
+io.c: In function ‘ReadBlastm7_scoreonly’:
+io.c:3344:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3344 |   fgets( b, B-1, fp );
+      |   ^~~~~~~~~~~~~~~~~~~
+io.c:3351:4: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3351 |    fgets( b, B-1, fp );
+      |    ^~~~~~~~~~~~~~~~~~~
+io.c:3352:4: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3352 |    fgets( b, B-1, fp );
+      |    ^~~~~~~~~~~~~~~~~~~
+io.c: In function ‘ReadBlastm7’:
+io.c:3462:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3462 |   fgets( b, B-1, fp );
+      |   ^~~~~~~~~~~~~~~~~~~
+io.c:3469:4: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3469 |    fgets( b, B-1, fp );
+      |    ^~~~~~~~~~~~~~~~~~~
+io.c:3470:4: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3470 |    fgets( b, B-1, fp );
+      |    ^~~~~~~~~~~~~~~~~~~
+io.c: In function ‘ReadFasta34noalign’:
+io.c:3494:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3494 |         fgets( b, B-1, fp );
+      |         ^~~~~~~~~~~~~~~~~~~
+io.c: In function ‘ReadFasta34m10_nuc’:
+contrafoldwrap.c: In function ‘readcontrafold’:
+io.c:3531:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3531 |         fgets( b, B-1, fp );
+      |         ^~~~~~~~~~~~~~~~~~~
+io.c:3557:4: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3557 |    fgets( b, B-1, fp );
+      |    ^~~~~~~~~~~~~~~~~~~
+contrafoldwrap.c:57:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+   57 |   fgets( gett, 9999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~~
+io.c: In function ‘ReadFasta34m10’:
+io.c:3670:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3670 |         fgets( b, B-1, fp );
+      |         ^~~~~~~~~~~~~~~~~~~
+io.c:3694:4: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3694 |    fgets( b, B-1, fp );
+      |    ^~~~~~~~~~~~~~~~~~~
+io.c: In function ‘ReadFasta34m10_scoreonly_nucbk’:
+io.c:3797:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3797 |         fgets( b, B-1, fp );
+      |         ^~~~~~~~~~~~~~~~~~~
+setdirection.c: In function ‘main’:
+io.c: In function ‘ReadFasta34m10_scoreonly_nuc’:
+io.c:3847:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3847 |         fgets( b, B-1, fp );
+      |         ^~~~~~~~~~~~~~~~~~~
+setdirection.c:132:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  132 |   fgets( line, 99, difp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~~
+io.c: In function ‘ReadFasta34m10_scoreonly’:
+io.c:3908:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3908 |         fgets( b, B-1, fp );
+      |         ^~~~~~~~~~~~~~~~~~~
+io.c: In function ‘ReadFasta34’:
+io.c:3964:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3964 |         fgets( b, B-1, fp );
+      |         ^~~~~~~~~~~~~~~~~~~
+io.c:3990:10: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3990 |          fgets( b, B-1, fp ); // initn:
+      |          ^~~~~~~~~~~~~~~~~~~
+io.c:3993:10: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 3993 |          fgets( b, B-1, fp ); // Smith-Waterman score
+      |          ^~~~~~~~~~~~~~~~~~~
+io.c:4005:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 4005 |         fgets( b, B-1, fp );
+      |         ^~~~~~~~~~~~~~~~~~~
+io.c: In function ‘ReadFasta3’:
+io.c:4027:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 4027 |         fgets( b, B-1, fp );
+      |         ^~~~~~~~~~~~~~~~~~~
+io.c: In function ‘ReadFasta’:
+io.c:4052:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 4052 |         fgets( b, B-1, fp );
+      |         ^~~~~~~~~~~~~~~~~~~
+io.c: In function ‘ReadOpt’:
+io.c:4089:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 4089 |         fgets( b, B-1, fp );
+      |         ^~~~~~~~~~~~~~~~~~~
+io.c: In function ‘ReadOpt2’:
+io.c:4110:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 4110 |         fgets( b, B-1, fp );
+      |         ^~~~~~~~~~~~~~~~~~~
+io.c: In function ‘readOtherOptions’:
+io.c:4206:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 4206 |   fgets( b, B-1, fp );
+      |   ^~~~~~~~~~~~~~~~~~~
+io.c: In function ‘loadaamtx’:
+io.c:5464:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 5464 |   fgets( inorder, 999, mf );
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+io.c:5496:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 5496 |   fgets( line, 999, mf );
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+io.c:5519:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 5519 |   fgets( line, 999, mf );
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+io.c: In function ‘readsubalignmentstable’:
+io.c:5675:4: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 5675 |    fgets( line, linelen-1, fp );
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+io.c:5696:4: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 5696 |    fgets( line, linelen-1, fp );
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+io.c: In function ‘readmccaskill’:
+io.c:5750:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 5750 |  fgets( gett, 999, fp );
+      |  ^~~~~~~~~~~~~~~~~~~~~~
+io.c:5760:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 5760 |   fgets( gett, 999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+io.c: In function ‘readpairfoldalign’:
+io.c:5819:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 5819 |   fgets( gett, 999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+io.c:5832:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 5832 |   fgets( gett, 999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+io.c:5839:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 5839 |   fgets( gett, 999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+io.c:5853:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 5853 |   fgets( gett, 999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+io.c:5859:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 5859 |   fgets( gett, 999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+io.c: In function ‘readexternalanchors’:
+io.c:6297:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 6297 |   fgets( buf, 9999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+disttbfast.c: In function ‘disttbfast’:
+disttbfast.c:4578:6: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+ 4578 |      system( "cp infile.tree GuideTree" ); // tekitou
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+pairlocalalign.c: In function ‘calllast_once’:
+pairlocalalign.c:1055:3: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+ 1055 |   system( command );
+      |   ^~~~~~~~~~~~~~~~~
+pairlocalalign.c:1091:3: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+ 1091 |   system( command );
+      |   ^~~~~~~~~~~~~~~~~
+pairlocalalign.c: In function ‘readlastresx’:
+pairlocalalign.c:607:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  607 |   fgets( gett, 9999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~~
+pairlocalalign.c: In function ‘calllast_fast’:
+pairlocalalign.c:980:3: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+  980 |   system( command );
+      |   ^~~~~~~~~~~~~~~~~
+pairlocalalign.c: In function ‘lastcallthread’:
+pairlocalalign.c:871:5: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+  871 |     system( command );
+      |     ^~~~~~~~~~~~~~~~~
+pairlocalalign.c: In function ‘readlastresx_singleq’:
+pairlocalalign.c:373:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+  373 |   fgets( gett, 9999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~~
+pairlocalalign.c: In function ‘readhat4’:
+pairlocalalign.c:1531:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 1531 |  fgets( oneline, 999, fp );
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~
+pairlocalalign.c:1543:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 1543 |   fgets( oneline, 999, fp );
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+pairlocalalign.c: In function ‘recalllara’:
+pairlocalalign.c:1244:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 1244 |  fgets( com, 999, fp );
+      |  ^~~~~~~~~~~~~~~~~~~~~
+pairlocalalign.c: In function ‘callmxscarna_giving_bpp’:
+pairlocalalign.c:1407:2: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+ 1407 |  system( com );
+      |  ^~~~~~~~~~~~~
+pairlocalalign.c:1409:2: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+ 1409 |  system( com );
+      |  ^~~~~~~~~~~~~
+pairlocalalign.c:1429:2: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+ 1429 |  system( com ); // for cygwin, wakaran
+      |  ^~~~~~~~~~~~~
+pairlocalalign.c:1450:2: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+ 1450 |  system( com ); // for cygwin, wakaran
+      |  ^~~~~~~~~~~~~
+pairlocalalign.c:1464:2: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+ 1464 |  system( com ); // for cygwin, wakaran
+      |  ^~~~~~~~~~~~~
+pairlocalalign.c:1484:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 1484 |  fgets( com, 999, fp );
+      |  ^~~~~~~~~~~~~~~~~~~~~
+pairlocalalign.c:1486:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 1486 |  fgets( com, 999, fp );
+      |  ^~~~~~~~~~~~~~~~~~~~~
+pairlocalalign.c: In function ‘calldafs_giving_bpp’:
+pairlocalalign.c:1290:2: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+ 1290 |  system( com );
+      |  ^~~~~~~~~~~~~
+pairlocalalign.c:1292:2: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+ 1292 |  system( com );
+      |  ^~~~~~~~~~~~~
+pairlocalalign.c:1312:2: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+ 1312 |  system( com ); // for cygwin, wakaran
+      |  ^~~~~~~~~~~~~
+pairlocalalign.c:1333:2: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+ 1333 |  system( com ); // for cygwin, wakaran
+      |  ^~~~~~~~~~~~~
+pairlocalalign.c:1343:2: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+ 1343 |  system( com ); // for cygwin, wakaran
+      |  ^~~~~~~~~~~~~
+pairlocalalign.c:1363:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 1363 |  fgets( com, 999, fp );
+      |  ^~~~~~~~~~~~~~~~~~~~~
+pairlocalalign.c:1365:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 1365 |  fgets( com, 999, fp );
+      |  ^~~~~~~~~~~~~~~~~~~~~
+pairlocalalign.c:1367:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 1367 |  fgets( com, 999, fp );
+      |  ^~~~~~~~~~~~~~~~~~~~~
+pairlocalalign.c: In function ‘pairalign_node’:
+pairlocalalign.c:3438:2: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+ 3438 |  system( "rm -rf hat3dir" ); // toriaezu
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+pairlocalalign.c:3439:2: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+ 3439 |  system( "mkdir hat3dir" ); // toriaezu
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~
+pairlocalalign.c:3444:3: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+ 3444 |   system( fn );
+      |   ^~~~~~~~~~~~
+mltaln9.c: In function ‘check_guidetreefile’:
+mltaln9.c:2850:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+ 2850 |  fgets( string, 999, fp );
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~
+pairash.c: In function ‘callrash.isra.0’:
+pairash.c:428:29: warning: ‘.’ directive writing 1 byte into a region of size between 0 and 9999 [-Wformat-overflow=]
+  428 |   sprintf( cachefile, "%s/%s.%s.rash", cachedir, fname1, fname2 );
+      |                             ^
+In file included from /usr/include/stdio.h:867,
+                 from mltaln.h:12,
+                 from pairash.c:1:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:36:10: note: ‘__builtin___sprintf_chk’ output 8 or more bytes (assuming 10007) into a destination of size 10000
+   36 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   37 |       __bos (__s), __fmt, __va_arg_pack ());
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+pairash.c:484:22: warning: ‘%s’ directive writing up to 9999 bytes into a region of size 9996 [-Wformat-overflow=]
+  484 |   sprintf( com, "cat %s > %s.rashout", cachefile, pairid );
+      |                      ^~                ~~~~~~~~~
+In file included from /usr/include/stdio.h:867,
+                 from mltaln.h:12,
+                 from pairash.c:1:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:36:10: note: ‘__builtin___sprintf_chk’ output between 16 and 11014 bytes into a destination of size 10000
+   36 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   37 |       __bos (__s), __fmt, __va_arg_pack ());
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mltaln9.c: In function ‘readlocalhomtable2_single_bin_noseek’:
+mltaln9.c:15182:2: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+15182 |  fread( &size, sizeof( int ), 1, fp );
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mltaln9.c:15183:2: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+15183 |  fread( &opt, sizeof( double ), 1, fp );
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mltaln9.c:15186:2: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+15186 |  fread( m, size*sizeof( int ), 3, fp );
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mltaln9.c:15222:2: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+15222 |  fread( &c, sizeof( char ), 1, fp );
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+pairash.c: In function ‘calltmalign.isra.0’:
+pairash.c:346:27: warning: ‘%s’ directive writing up to 9999 bytes into a region of size 9991 [-Wformat-overflow=]
+  346 |   sprintf( com, "mkdir -p %s", cachedir );
+      |                           ^~   ~~~~~~~~
+In file included from /usr/include/stdio.h:867,
+                 from mltaln.h:12,
+                 from pairash.c:1:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:36:10: note: ‘__builtin___sprintf_chk’ output between 10 and 10009 bytes into a destination of size 10000
+   36 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   37 |       __bos (__s), __fmt, __va_arg_pack ());
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+pairash.c:349:31: warning: ‘-’ directive writing 1 byte into a region of size between 0 and 9999 [-Wformat-overflow=]
+  349 |   sprintf( cachefile, "%s/%s%s-%s%s", cachedir, fname1, chain1, fname2, chain2 );
+      |                               ^
+In file included from /usr/include/stdio.h:867,
+                 from mltaln.h:12,
+                 from pairash.c:1:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:36:10: note: ‘__builtin___sprintf_chk’ output 3 or more bytes (assuming 10002) into a destination of size 10000
+   36 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   37 |       __bos (__s), __fmt, __va_arg_pack ());
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+pairash.c: In function ‘preparetmalign.constprop’:
+pairash.c:586:26: warning: ‘%s’ directive writing up to 999 bytes into a region of size 997 [-Wformat-overflow=]
+  586 |    sprintf( command, "cp %s %s.pdb", sline, fname );
+      |                          ^~
+In file included from /usr/include/stdio.h:867,
+                 from mltaln.h:12,
+                 from pairash.c:1:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:36:10: note: ‘__builtin___sprintf_chk’ output between 9 and 2007 bytes into a destination of size 1000
+   36 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   37 |       __bos (__s), __fmt, __va_arg_pack ());
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+pairash.c:588:44: warning: ‘%s’ directive writing up to 999 bytes into a region of size 983 [-Wformat-overflow=]
+  588 |    sprintf( command, "perl \"%s/clean.pl\" %s.pdb", whereispairalign, fname );
+      |                                            ^~                         ~~~~~
+In file included from /usr/include/stdio.h:867,
+                 from mltaln.h:12,
+                 from pairash.c:1:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:36:10: note: ‘__builtin___sprintf_chk’ output 22 or more bytes (assuming 1021) into a destination of size 1000
+   36 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   37 |       __bos (__s), __fmt, __va_arg_pack ());
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/stdio.h:867,
+                 from mltaln.h:12,
+                 from mltaln9.c:1:
+In function ‘fgets’,
+    inlined from ‘check_guidetreefile’ at mltaln9.c:2850:2:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:263:9: warning: call to ‘__fgets_chk_warn’ declared with attribute warning: fgets called with bigger size than length of destination buffer [-Wattribute-warning]
+  263 |  return __fgets_chk_warn (__s, __bos (__s), __n, __stream);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o f2cl mtxutl.o io.o f2cl.o constants.o defs.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o countlen mtxutl.o io.o countlen.o defs.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o seq2regtable mtxutl.o io.o seq2regtable.o defs.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o dvtditr mtxutl.o io.o mltaln9.o tddis.o constants.o nj.o partSalignmm.o Lalignmm.o rna.o Salignmm.o Dalignmm.o Falign.o Falign_localhom.o Galign11.o Lalign11.o genalign11.o MSalignmm.o fftFunctions.o fft.o tditeration.o dvtditr.o defs.o SAalignmm.o treeOperation.o addfunctions.o   -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o dndfast7 dndfast7.o io.o constants.o mtxutl.o mltaln9.o tddis.o defs.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o dndblast dndblast.o io.o constants.o mtxutl.o mltaln9.o tddis.o defs.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o sextet5 io.o constants.o mtxutl.o mltaln9.o tddis.o sextet5.o defs.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o mafft-distance io.o constants.o mtxutl.o mltaln9.o tddis.o mafft-distance.o defs.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o pairlocalalign mtxutl.o io.o mltaln9.o tddis.o constants.o partSalignmm.o Lalignmm.o rna.o Salignmm.o Dalignmm.o Falign.o MSalignmm.o Galign11.o Lalign11.o genalign11.o MSalign11.o suboptalign11.o SAalignmm.o pairlocalalignmain.o pairlocalalign.o defs.o fft.o fftFunctions.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o multi2hat3s mtxutl.o io.o mltaln9.o tddis.o constants.o multi2hat3s.o defs.o fft.o fftFunctions.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o pairash mtxutl.o io.o mltaln9.o tddis.o constants.o partSalignmm.o Lalignmm.o rna.o Salignmm.o Dalignmm.o Falign.o MSalignmm.o Galign11.o Lalign11.o genalign11.o MSalign11.o suboptalign11.o SAalignmm.o pairash.o defs.o fft.o fftFunctions.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o addsingle mtxutl.o io.o mltaln9.o tddis.o constants.o MSalignmm.o partSalignmm.o Lalignmm.o rna.o Salignmm.o Dalignmm.o Falign.o Falign_localhom.o Galign11.o Lalign11.o genalign11.o SAalignmm.o addsingle.o defs.o fft.o fftFunctions.o addfunctions.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o splittbfast mtxutl.o io.o mltaln9.o tddis.o constants.o partSalignmm.o Lalignmm.o rna.o Salignmm.o  Dalignmm.o Falign.o Falign_localhom.o Galign11.o Lalign11.o genalign11.o SAalignmm.o MSalignmm.o splittbfast.o defs.o fft.o fftFunctions.o   -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o disttbfast mtxutl.o io.o mltaln9.o tddis.o constants.o partSalignmm.o Lalignmm.o rna.o Salignmm.o Dalignmm.o Falign.o Falign_localhom.o Galign11.o Lalign11.o genalign11.o SAalignmm.o MSalignmm.o disttbfast.o defs.o fft.o fftFunctions.o addfunctions.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o tbfast mtxutl.o io.o mltaln9.o tddis.o constants.o MSalignmm.o partSalignmm.o Lalignmm.o rna.o Salignmm.o Dalignmm.o Falign.o Falign_localhom.o Galign11.o Lalign11.o genalign11.o SAalignmm.o tbfast.o defs.o fft.o fftFunctions.o addfunctions.o pairlocalalign.o MSalign11.o   -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o nodepair mtxutl.o io.o mltaln9.o tddis.o constants.o MSalignmm.o partSalignmm.o Lalignmm.o rna.o Salignmm.o Dalignmm.o Falign.o Falign_localhom.o Galign11.o Lalign11.o genalign11.o SAalignmm.o nodepair.o defs.o fft.o fftFunctions.o addfunctions.o pairlocalalign.o MSalign11.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o mafft-profile io.o mtxutl.o mltaln9.o tddis.o constants.o partSalignmm.o MSalignmm.o Lalignmm.o rna.o Salignmm.o Dalignmm.o SAalignmm.o Galign11.o Lalign11.o genalign11.o Falign.o Falign_localhom.o fftFunctions.o fft.o mafft-profile.o defs.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o mccaskillwrap mtxutl.o io.o mccaskillwrap.o constants.o defs.o mltaln9.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o contrafoldwrap mtxutl.o io.o contrafoldwrap.o constants.o defs.o mltaln9.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o regtable2seq mtxutl.o io.o regtable2seq.o defs.o mltaln9.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o score io.o mtxutl.o mltaln9.o score.o constants.o defs.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o getlag mtxutl.o io.o mltaln9.o tddis.o constants.o partSalignmm.o Lalignmm.o rna.o Salignmm.o Falign.o Falign_localhom.o Galign11.o Lalign11.o genalign11.o SAalignmm.o MSalignmm.o Dalignmm.o getlag.o defs.o fft.o fftFunctions.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o dndpre dndpre.o io.o constants.o mtxutl.o mltaln9.o defs.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o setcore mtxutl.o io.o mltaln9.o tddis.o constants.o partSalignmm.o Lalignmm.o rna.o Salignmm.o Dalignmm.o Falign.o Falign_localhom.o Galign11.o Lalign11.o genalign11.o SAalignmm.o MSalignmm.o setcore.o defs.o fft.o fftFunctions.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o replaceu mtxutl.o io.o replaceu.o defs.o mltaln9.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o restoreu mtxutl.o io.o restoreu.o defs.o mltaln9.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o setdirection mtxutl.o io.o setdirection.o defs.o mltaln9.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+gcc -o makedirectionlist mtxutl.o io.o mltaln9.o tddis.o constants.o partSalignmm.o Lalignmm.o rna.o Salignmm.o  Dalignmm.o Falign.o Falign_localhom.o Galign11.o Lalign11.o genalign11.o SAalignmm.o MSalignmm.o makedirectionlist.o defs.o fft.o fftFunctions.o addfunctions.o  -Denablemultithread  -std=c99 -O3  -lm  -lpthread
+cp mafft mafft-homologs.rb mafft-sparsecore.rb ../scripts
+chmod 755 ../scripts/*
+cp mafftash_premafft.pl seekquencer_premafft.pl dvtditr dndfast7 dndblast sextet5 mafft-distance pairlocalalign multi2hat3s pairash addsingle maffttext2hex hex2maffttext splittbfast disttbfast tbfast nodepair mafft-profile f2cl mccaskillwrap contrafoldwrap countlen seq2regtable regtable2seq score getlag dndpre setcore replaceu restoreu setdirection makedirectionlist version  ../binaries
+chmod 755 ../binaries/*
+cp mafft.1 mafft-homologs.1 ../binaries
+done.
+cp mafft mafft-homologs.rb mafft-sparsecore.rb ../scripts
+chmod 755 ../scripts/*
+cp mafftash_premafft.pl seekquencer_premafft.pl dvtditr dndfast7 dndblast sextet5 mafft-distance pairlocalalign multi2hat3s pairash addsingle maffttext2hex hex2maffttext splittbfast disttbfast tbfast nodepair mafft-profile f2cl mccaskillwrap contrafoldwrap countlen seq2regtable regtable2seq score getlag dndpre setcore replaceu restoreu setdirection makedirectionlist version  ../binaries
+chmod 755 ../binaries/*
+cp mafft.1 mafft-homologs.1 ../binaries
+done.
+mkdir -p /var/lib/phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/libexec/mafft
+chmod 755 /var/lib/phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/libexec/mafft
+mkdir -p /var/lib/phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/bin
+chmod 755 /var/lib/phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/bin
+chmod 755 mafft mafft-homologs.rb mafft-sparsecore.rb
+install mafft mafft-homologs.rb mafft-sparsecore.rb  /var/lib/phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/bin
+chmod 755 dvtditr dndfast7 dndblast sextet5 mafft-distance pairlocalalign multi2hat3s pairash addsingle maffttext2hex hex2maffttext splittbfast disttbfast tbfast nodepair mafft-profile f2cl mccaskillwrap contrafoldwrap countlen seq2regtable regtable2seq score getlag dndpre setcore replaceu restoreu setdirection makedirectionlist version  ||:     # in MinGW, it's ok if this fails
+strip dvtditr dndfast7 dndblast sextet5 mafft-distance pairlocalalign multi2hat3s pairash addsingle maffttext2hex hex2maffttext splittbfast disttbfast tbfast nodepair mafft-profile f2cl mccaskillwrap contrafoldwrap countlen seq2regtable regtable2seq score getlag dndpre setcore replaceu restoreu setdirection makedirectionlist version  ||: # may fail for dash_client on mac.
+install dvtditr dndfast7 dndblast sextet5 mafft-distance pairlocalalign multi2hat3s pairash addsingle maffttext2hex hex2maffttext splittbfast disttbfast tbfast nodepair mafft-profile f2cl mccaskillwrap contrafoldwrap countlen seq2regtable regtable2seq score getlag dndpre setcore replaceu restoreu setdirection makedirectionlist version  /var/lib/phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/libexec/mafft
+install mafftash_premafft.pl seekquencer_premafft.pl /var/lib/phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/libexec/mafft
+install -m 644 mafft.1 mafft-homologs.1 /var/lib/phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/libexec/mafft
+( cd /var/lib/phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/bin; \
+rm -f linsi ginsi einsi fftns fftnsi nwns nwnsi xinsi qinsi; \
+rm -f mafft-linsi mafft-ginsi mafft-einsi mafft-fftns mafft-fftnsi mafft-nwns mafft-nwnsi mafft-xinsi mafft-qinsi mafft-randomcore.rb ; \
+ln -s mafft linsi; ln -s mafft ginsi; ln -s mafft fftns; \
+ln -s mafft fftnsi; ln -s mafft nwns; ln -s mafft nwnsi; \
+ln -s mafft einsi; \
+ln -s mafft mafft-linsi; ln -s mafft mafft-ginsi; ln -s mafft mafft-fftns; \
+ln -s mafft mafft-fftnsi; ln -s mafft mafft-nwns; ln -s mafft mafft-nwnsi; \
+ln -s mafft mafft-einsi; ln -s mafft mafft-xinsi; ln -s mafft mafft-qinsi;\
+rm -f mafft-profile mafft-profile.exe; ln -s /var/lib/phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/libexec/mafft/mafft-profile .; \
+rm -f mafft-distance mafft-distance.exe; ln -s /var/lib/phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/libexec/mafft/mafft-distance . )
+mkdir -p /var/lib/phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/share/man/man1
+chmod 755 /var/lib/phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/share/man/man1
+install -m 644 mafft.1 mafft-homologs.1 /var/lib/phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/share/man/man1
