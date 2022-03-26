@@ -1,0 +1,22 @@
+{
+    "test_installation": {
+        "status": "INSTALLED",
+        "environment": {
+            "test_identifier": "pts\/build-imagemagick-1.7.2",
+            "test_version": "1.7.2",
+            "install_checksum": "a4d29e5d50837a34eaabb68244e9d36f",
+            "system_hash": "MiB4IEludGVsIFhlb24gUGxhdGludW0gODI2OF9fVWJ1bnR1IDIwLjA0X19HQ0MgOS4zLjAgKyBDbGFuZyAxMC4wLjAtNHVidW50dTEgKyBMTFZNIDEwLjAuMF9f",
+            "compiler_data": false,
+            "install_footnote": null
+        },
+        "history": {
+            "install_date_time": "2022-03-02 04:29:56",
+            "last_run_date_time": null,
+            "install_time_length": 1,
+            "times_run": 0,
+            "average_runtime": null,
+            "latest_runtime": null,
+            "per_run_times": null
+        }
+    }
+}
