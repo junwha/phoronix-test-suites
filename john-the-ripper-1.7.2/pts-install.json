@@ -1,0 +1,26 @@
+{
+    "test_installation": {
+        "status": "INSTALLED",
+        "environment": {
+            "test_identifier": "pts\/john-the-ripper-1.7.2",
+            "test_version": "1.7.2",
+            "install_checksum": "b82c811e47ea9f5ac7d6bbb4e36a56b8",
+            "system_hash": "NCB4IEludGVsIFhlb24gR29sZCA1MjE4X19VYnVudHUgMjAuMDRfX0dDQyA5LjQuMCArIENsYW5nIDExLjAuMCArIExMVk0gMTEuMC4wX18=",
+            "compiler_data": {
+                "compiler-type": "CC",
+                "compiler": "gcc",
+                "compiler-options": "-m64 -lssl -lcrypto -fopenmp -lgmp -pthread -lm -lz -ldl -lcrypt -lbz2"
+            },
+            "install_footnote": null
+        },
+        "history": {
+            "install_date_time": "2022-03-28 17:53:52",
+            "last_run_date_time": null,
+            "install_time_length": 33,
+            "times_run": 0,
+            "average_runtime": null,
+            "latest_runtime": null,
+            "per_run_times": null
+        }
+    }
+}

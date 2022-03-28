@@ -1,0 +1,26 @@
+{
+    "test_installation": {
+        "status": "INSTALLED",
+        "environment": {
+            "test_identifier": "pts\/graphics-magick-2.0.2",
+            "test_version": "2.0.2",
+            "install_checksum": "750caf415e6c81180b0e3d8aa7a39c4d",
+            "system_hash": "NCB4IEludGVsIFhlb24gR29sZCA1MjE4X19VYnVudHUgMjAuMDRfX0dDQyA5LjQuMCArIENsYW5nIDExLjAuMCArIExMVk0gMTEuMC4wX18=",
+            "compiler_data": {
+                "compiler-type": "CC",
+                "compiler": "gcc",
+                "compiler-options": "-fopenmp -O2 -pthread -ljbig -llcms2 -ltiff -lfreetype -ljpeg -lXext -lSM -lICE -lX11 -llzma -lbz2 -lxml2 -lz -lm -lpthread"
+            },
+            "install_footnote": null
+        },
+        "history": {
+            "install_date_time": "2022-03-28 17:46:50",
+            "last_run_date_time": null,
+            "install_time_length": 37,
+            "times_run": 0,
+            "average_runtime": null,
+            "latest_runtime": null,
+            "per_run_times": null
+        }
+    }
+}
