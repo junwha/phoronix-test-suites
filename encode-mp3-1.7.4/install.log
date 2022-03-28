@@ -1,0 +1,1068 @@
+lame-3.100/
+lame-3.100/README
+lame-3.100/HACKING
+lame-3.100/aclocal.m4
+lame-3.100/vc_solution/
+lame-3.100/compile
+lame-3.100/debian/
+lame-3.100/ChangeLog
+lame-3.100/install-sh
+lame-3.100/COPYING
+lame-3.100/acinclude.m4
+lame-3.100/configure
+lame-3.100/config.h.in
+lame-3.100/Makefile.MSVC
+lame-3.100/ACM/
+lame-3.100/Makefile.unix
+lame-3.100/include/
+lame-3.100/libmp3lame/
+lame-3.100/frontend/
+lame-3.100/configure.in
+lame-3.100/macosx/
+lame-3.100/depcomp
+lame-3.100/misc/
+lame-3.100/missing
+lame-3.100/INSTALL.configure
+lame-3.100/USAGE
+lame-3.100/mpglib/
+lame-3.100/dshow/
+lame-3.100/config.guess
+lame-3.100/API
+lame-3.100/ltmain.sh
+lame-3.100/Makefile.in
+lame-3.100/INSTALL
+lame-3.100/config.sub
+lame-3.100/README.WINGTK
+lame-3.100/STYLEGUIDE
+lame-3.100/lame.spec.in
+lame-3.100/configMS.h
+lame-3.100/doc/
+lame-3.100/Makefile.am
+lame-3.100/Dll/
+lame-3.100/DEFINES
+lame-3.100/lame.spec
+lame-3.100/lame.bat
+lame-3.100/testcase.wav
+lame-3.100/mac/
+lame-3.100/LICENSE
+lame-3.100/TODO
+lame-3.100/config.rpath
+lame-3.100/testcase.mp3
+lame-3.100/Makefile.am.global
+lame-3.100/mac/MacDLLMain.c
+lame-3.100/mac/LAME_Classic_Final.pch
+lame-3.100/mac/LAME_Carbon_Final.pch
+lame-3.100/mac/.DS_Store
+lame-3.100/mac/LAME_Classic_Debug.pch
+lame-3.100/mac/LAME_Carbon_Debug.pch
+lame-3.100/mac/Makefile.am
+lame-3.100/mac/LAME.mcp
+lame-3.100/mac/Precompile_Common.h
+lame-3.100/mac/Makefile.in
+lame-3.100/Dll/BladeMP3EncDLL.def
+lame-3.100/Dll/Makefile.in
+lame-3.100/Dll/LameDLLInterface.htm
+lame-3.100/Dll/README
+lame-3.100/Dll/BladeMP3EncDLL.c
+lame-3.100/Dll/Makefile.am
+lame-3.100/Dll/Makefile.mingw32
+lame-3.100/Dll/MP3export.pas
+lame-3.100/Dll/BladeMP3EncDLL.h
+lame-3.100/Dll/Example.cpp
+lame-3.100/doc/man/
+lame-3.100/doc/Makefile.in
+lame-3.100/doc/html/
+lame-3.100/doc/Makefile.am
+lame-3.100/doc/html/usage.html
+lame-3.100/doc/html/Makefile.am
+lame-3.100/doc/html/index.html
+lame-3.100/doc/html/links.html
+lame-3.100/doc/html/introduction.html
+lame-3.100/doc/html/Makefile.in
+lame-3.100/doc/html/contact.html
+lame-3.100/doc/html/ms_stereo.html
+lame-3.100/doc/html/history.html
+lame-3.100/doc/html/detailed.html
+lame-3.100/doc/html/list.html
+lame-3.100/doc/html/about.html
+lame-3.100/doc/html/cbr.html
+lame-3.100/doc/html/vbr.html
+lame-3.100/doc/html/contributors.html
+lame-3.100/doc/html/abr.html
+lame-3.100/doc/man/lame.1
+lame-3.100/doc/man/Makefile.in
+lame-3.100/doc/man/Makefile.am
+lame-3.100/dshow/resource.h
+lame-3.100/dshow/REG.CPP
+lame-3.100/dshow/Mpegac.h
+lame-3.100/dshow/Makefile.am
+lame-3.100/dshow/PropPage_adv.h
+lame-3.100/dshow/UIDS.H
+lame-3.100/dshow/README
+lame-3.100/dshow/Mpegac.def
+lame-3.100/dshow/aboutprp.cpp
+lame-3.100/dshow/Property.rc
+lame-3.100/dshow/Makefile.in
+lame-3.100/dshow/Encoder.h
+lame-3.100/dshow/Encoder.cpp
+lame-3.100/dshow/elogo.ico
+lame-3.100/dshow/Mpegac.cpp
+lame-3.100/dshow/REG.H
+lame-3.100/dshow/aboutprp.h
+lame-3.100/dshow/PropPage.cpp
+lame-3.100/dshow/PropPage.h
+lame-3.100/dshow/iaudioprops.h
+lame-3.100/dshow/PropPage_adv.cpp
+lame-3.100/mpglib/tabinit.c
+lame-3.100/mpglib/layer1.h
+lame-3.100/mpglib/decode_i386.c
+lame-3.100/mpglib/AUTHORS
+lame-3.100/mpglib/dct64_i386.h
+lame-3.100/mpglib/mpg123.h
+lame-3.100/mpglib/interface.c
+lame-3.100/mpglib/layer2.h
+lame-3.100/mpglib/common.c
+lame-3.100/mpglib/layer3.h
+lame-3.100/mpglib/depcomp
+lame-3.100/mpglib/decode_i386.h
+lame-3.100/mpglib/huffman.h
+lame-3.100/mpglib/dct64_i386.c
+lame-3.100/mpglib/Makefile.in
+lame-3.100/mpglib/layer1.c
+lame-3.100/mpglib/l2tables.h
+lame-3.100/mpglib/README
+lame-3.100/mpglib/tabinit.h
+lame-3.100/mpglib/mpglib.h
+lame-3.100/mpglib/Makefile.am
+lame-3.100/mpglib/common.h
+lame-3.100/mpglib/layer3.c
+lame-3.100/mpglib/layer2.c
+lame-3.100/mpglib/interface.h
+lame-3.100/misc/mlame_corr.c
+lame-3.100/misc/depcomp
+lame-3.100/misc/mlame
+lame-3.100/misc/mk_mp3.sh
+lame-3.100/misc/abx.c
+lame-3.100/misc/auenc
+lame-3.100/misc/Makefile.in
+lame-3.100/misc/lame4dos.bat
+lame-3.100/misc/ath.c
+lame-3.100/misc/mugeco.sh
+lame-3.100/misc/scalartest.c
+lame-3.100/misc/Makefile.am
+lame-3.100/misc/lameid3.pl
+lame-3.100/misc/Lame.vbs
+lame-3.100/misc/lameGUI.html
+lame-3.100/macosx/Makefile.in
+lame-3.100/macosx/Info.plist
+lame-3.100/macosx/Makefile.am
+lame-3.100/macosx/LAME.xcodeproj/
+lame-3.100/macosx/LAME_Prefix.pch
+lame-3.100/macosx/English.lproj/
+lame-3.100/macosx/English.lproj/InfoPlist.strings
+lame-3.100/macosx/English.lproj/Makefile.am
+lame-3.100/macosx/English.lproj/Makefile.in
+lame-3.100/macosx/LAME.xcodeproj/project.pbxproj
+lame-3.100/macosx/LAME.xcodeproj/Makefile.in
+lame-3.100/macosx/LAME.xcodeproj/Makefile.am
+lame-3.100/frontend/timestatus.h
+lame-3.100/frontend/brhist.c
+lame-3.100/frontend/mp3x.c
+lame-3.100/frontend/lametime.h
+lame-3.100/frontend/main.h
+lame-3.100/frontend/get_audio.c
+lame-3.100/frontend/gtkanal.h
+lame-3.100/frontend/rtp.h
+lame-3.100/frontend/console.h
+lame-3.100/frontend/gpkplotting.c
+lame-3.100/frontend/parse.c
+lame-3.100/frontend/rtp.c
+lame-3.100/frontend/lame_main.c
+lame-3.100/frontend/main.c
+lame-3.100/frontend/get_audio.h
+lame-3.100/frontend/gtkanal.c
+lame-3.100/frontend/Makefile.am
+lame-3.100/frontend/lametime.c
+lame-3.100/frontend/timestatus.c
+lame-3.100/frontend/brhist.h
+lame-3.100/frontend/amiga_mpega.c
+lame-3.100/frontend/parse.h
+lame-3.100/frontend/gpkplotting.h
+lame-3.100/frontend/depcomp
+lame-3.100/frontend/mp3rtp.c
+lame-3.100/frontend/console.c
+lame-3.100/frontend/Makefile.in
+lame-3.100/libmp3lame/Makefile.in
+lame-3.100/libmp3lame/psymodel.h
+lame-3.100/libmp3lame/gain_analysis.c
+lame-3.100/libmp3lame/set_get.c
+lame-3.100/libmp3lame/fft.c
+lame-3.100/libmp3lame/lame_global_flags.h
+lame-3.100/libmp3lame/logoe.ico
+lame-3.100/libmp3lame/VbrTag.c
+lame-3.100/libmp3lame/tables.h
+lame-3.100/libmp3lame/vbrquantize.c
+lame-3.100/libmp3lame/version.c
+lame-3.100/libmp3lame/reservoir.h
+lame-3.100/libmp3lame/newmdct.h
+lame-3.100/libmp3lame/machine.h
+lame-3.100/libmp3lame/i386/
+lame-3.100/libmp3lame/lame.rc
+lame-3.100/libmp3lame/quantize.h
+lame-3.100/libmp3lame/Makefile.am
+lame-3.100/libmp3lame/bitstream.c
+lame-3.100/libmp3lame/encoder.c
+lame-3.100/libmp3lame/id3tag.h
+lame-3.100/libmp3lame/mpglib_interface.c
+lame-3.100/libmp3lame/util.h
+lame-3.100/libmp3lame/quantize_pvt.c
+lame-3.100/libmp3lame/vbrquantize.h
+lame-3.100/libmp3lame/version.h
+lame-3.100/libmp3lame/reservoir.c
+lame-3.100/libmp3lame/newmdct.c
+lame-3.100/libmp3lame/fft.h
+lame-3.100/libmp3lame/VbrTag.h
+lame-3.100/libmp3lame/tables.c
+lame-3.100/libmp3lame/takehiro.c
+lame-3.100/libmp3lame/set_get.h
+lame-3.100/libmp3lame/depcomp
+lame-3.100/libmp3lame/lameerror.h
+lame-3.100/libmp3lame/psymodel.c
+lame-3.100/libmp3lame/gain_analysis.h
+lame-3.100/libmp3lame/util.c
+lame-3.100/libmp3lame/quantize_pvt.h
+lame-3.100/libmp3lame/l3side.h
+lame-3.100/libmp3lame/lame-analysis.h
+lame-3.100/libmp3lame/presets.c
+lame-3.100/libmp3lame/id3tag.c
+lame-3.100/libmp3lame/vector/
+lame-3.100/libmp3lame/quantize.c
+lame-3.100/libmp3lame/bitstream.h
+lame-3.100/libmp3lame/lame.c
+lame-3.100/libmp3lame/encoder.h
+lame-3.100/libmp3lame/vector/Makefile.am
+lame-3.100/libmp3lame/vector/xmm_quantize_sub.c
+lame-3.100/libmp3lame/vector/Makefile.in
+lame-3.100/libmp3lame/vector/lame_intrin.h
+lame-3.100/libmp3lame/i386/scalar.nas
+lame-3.100/libmp3lame/i386/Makefile.am
+lame-3.100/libmp3lame/i386/fftfpu.nas
+lame-3.100/libmp3lame/i386/Makefile.in
+lame-3.100/libmp3lame/i386/choose_table.nas
+lame-3.100/libmp3lame/i386/fftsse.nas
+lame-3.100/libmp3lame/i386/fft.nas
+lame-3.100/libmp3lame/i386/nasm.h
+lame-3.100/libmp3lame/i386/ffttbl.nas
+lame-3.100/libmp3lame/i386/fft3dn.nas
+lame-3.100/libmp3lame/i386/cpu_feat.nas
+lame-3.100/include/lame.def
+lame-3.100/include/Makefile.am
+lame-3.100/include/libmp3lame.sym
+lame-3.100/include/lame.h
+lame-3.100/include/Makefile.in
+lame-3.100/ACM/ACMStream.h
+lame-3.100/ACM/lameACM.def
+lame-3.100/ACM/DecodeStream.h
+lame-3.100/ACM/TODO
+lame-3.100/ACM/main.cpp
+lame-3.100/ACM/tinyxml/
+lame-3.100/ACM/lame.ico
+lame-3.100/ACM/ADbg/
+lame-3.100/ACM/adebug.h
+lame-3.100/ACM/DecodeStream.cpp
+lame-3.100/ACM/AEncodeProperties.h
+lame-3.100/ACM/ddk/
+lame-3.100/ACM/Makefile.am
+lame-3.100/ACM/readme.txt
+lame-3.100/ACM/ACM.h
+lame-3.100/ACM/ACMStream.cpp
+lame-3.100/ACM/AEncodeProperties.cpp
+lame-3.100/ACM/Makefile.in
+lame-3.100/ACM/ACM.cpp
+lame-3.100/ACM/acm.rc
+lame-3.100/ACM/resource.h
+lame-3.100/ACM/lame_acm.xml
+lame-3.100/ACM/LameACM.inf
+lame-3.100/ACM/ddk/msacmdrv.h
+lame-3.100/ACM/ddk/Makefile.am
+lame-3.100/ACM/ddk/Makefile.in
+lame-3.100/ACM/ADbg/Makefile.in
+lame-3.100/ACM/ADbg/ADbg.cpp
+lame-3.100/ACM/ADbg/Makefile.am
+lame-3.100/ACM/ADbg/ADbg.h
+lame-3.100/ACM/tinyxml/makedistlinux
+lame-3.100/ACM/tinyxml/tinyxml.h
+lame-3.100/ACM/tinyxml/tinyxmlerror.cpp
+lame-3.100/ACM/tinyxml/xmltest.cpp
+lame-3.100/ACM/tinyxml/tinyxmlparser.cpp
+lame-3.100/ACM/tinyxml/makedistwin.bat
+lame-3.100/ACM/tinyxml/readme.txt
+lame-3.100/ACM/tinyxml/Makefile.in
+lame-3.100/ACM/tinyxml/changes.txt
+lame-3.100/ACM/tinyxml/tinyxml.cpp
+lame-3.100/ACM/tinyxml/Makefile.am
+lame-3.100/ACM/tinyxml/dox
+lame-3.100/ACM/tinyxml/Makefile.tinyxml
+lame-3.100/debian/rules
+lame-3.100/debian/copyright
+lame-3.100/debian/libmp3lame-dev.install
+lame-3.100/debian/compat
+lame-3.100/debian/lame.install
+lame-3.100/debian/changelog
+lame-3.100/debian/CVS/
+lame-3.100/debian/Makefile.in
+lame-3.100/debian/control
+lame-3.100/debian/watch
+lame-3.100/debian/lame.docs
+lame-3.100/debian/source/
+lame-3.100/debian/.cvsignore
+lame-3.100/debian/lame.doc-base
+lame-3.100/debian/Makefile.am
+lame-3.100/debian/lame.manpages
+lame-3.100/debian/libmp3lame0.install
+lame-3.100/debian/source/format
+lame-3.100/debian/source/CVS/
+lame-3.100/debian/source/CVS/Repository
+lame-3.100/debian/source/CVS/Root
+lame-3.100/debian/source/CVS/Entries
+lame-3.100/debian/CVS/Root
+lame-3.100/debian/CVS/Repository
+lame-3.100/debian/CVS/Entries
+lame-3.100/vc_solution/vc9_lame_acm_tinyxml.vcproj
+lame-3.100/vc_solution/Makefile.in
+lame-3.100/vc_solution/vc9_lame_dll.vcproj
+lame-3.100/vc_solution/vc9_lame_clients.sln
+lame-3.100/vc_solution/arch_x87.vsprops
+lame-3.100/vc_solution/vc9_lame_test.vcproj
+lame-3.100/vc_solution/Makefile.am
+lame-3.100/vc_solution/vc9_lame_mp3rtp.vcproj
+lame-3.100/vc_solution/vc9_lame_acm_adbg.vcproj
+lame-3.100/vc_solution/vc9_lame_dll_example.vcproj
+lame-3.100/vc_solution/vc9_lame_config.vsprops
+lame-3.100/vc_solution/vc9_nasm.rules
+lame-3.100/vc_solution/vc9_lame_lame.vcproj
+lame-3.100/vc_solution/vc9_lame.sln
+lame-3.100/vc_solution/vc9_libmp3lame_dll.vcproj
+lame-3.100/vc_solution/vc9_mpglib.vcproj
+lame-3.100/vc_solution/vc9_lame_mp3x.vcproj
+lame-3.100/vc_solution/vc9_lame_acm.vcproj
+lame-3.100/vc_solution/arch_nasm.vsprops
+lame-3.100/vc_solution/vc9_libmp3lame.vcproj
+lame-3.100/vc_solution/arch_sse2.vsprops
+lame-3.100/vc_solution/vc9_lame_dshow.vcproj
+patching file configure.in
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for library containing strerror... none required
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking compiler... gcc
+checking version of GCC... 9.4.0-1ubuntu1~20.04.1)
+checking dmalloc.h usability... no
+checking dmalloc.h presence... no
+checking for dmalloc.h... no
+checking for ANSI C header files... (cached) yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for stdint.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/soundcard.h usability... yes
+checking sys/soundcard.h presence... yes
+checking for sys/soundcard.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for unistd.h... (cached) yes
+checking linux/soundcard.h usability... yes
+checking linux/soundcard.h presence... yes
+checking for linux/soundcard.h... yes
+checking working SSE intrinsics... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking whether byte ordering is bigendian... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking size of short... 2
+checking size of unsigned short... 2
+checking size of int... 4
+checking size of unsigned int... 4
+checking size of long... 8
+checking size of unsigned long... 8
+checking size of long long... 8
+checking size of unsigned long long... 8
+checking size of float... 4
+checking size of double... 8
+checking for long double with more range or precision than double... yes
+checking for uint8_t... yes
+checking for int8_t... yes
+checking for uint16_t... yes
+checking for int16_t... yes
+checking for uint32_t... yes
+checking for int32_t... yes
+checking for uint64_t... yes
+checking for int64_t... yes
+checking for IEEE854 compliant 80 bit floats... no
+checking for ieee754_float64_t... no
+checking for ieee754_float32_t... no
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for gettimeofday... yes
+checking for strtol... yes
+checking for socket... yes
+checking termcap.h usability... yes
+checking termcap.h presence... yes
+checking for termcap.h... yes
+checking ncurses/termcap.h usability... no
+checking ncurses/termcap.h presence... no
+checking for ncurses/termcap.h... no
+checking for initscr in -ltermcap... no
+checking for initscr in -lcurses... yes
+checking for initscr in -lncurses... yes
+checking for ld used by gcc... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking for iconv... yes
+checking for working iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for cos in -lm... yes
+checking for cos in -lffm... no
+checking for cos in -lcpml... no
+checking for gtk-config... no
+checking for GTK - version >= 1.2.0... no
+*** The gtk-config script installed by GTK could not be found
+*** If GTK was installed in PREFIX, make sure PREFIX/bin is in
+*** your path, or set the GTK_CONFIG environment variable to the
+*** full path to gtk-config.
+checking use of ElectricFence malloc debugging... no
+checking use of file io... lame
+checking use of analyzer hooks... yes
+checking use of mpg123 decoder... yes (Layer 1, 2, 3)
+checking if the lame frontend should be build... yes
+checking if mp3x is requested... no
+checking if mp3rtp is requested... no
+checking if dynamic linking of the frontends is requested... no
+checking for termcap... yes
+checking if I have to build the internal vector lib... yes
+checking for nasm... /usr/bin/nasm
+checking for assembler routines for this processor type... no
+checking for additional optimizations... no
+configure: WARNING: LAME doesn't know about your version (9.4.0-1ubuntu1~20.04.1)) of gcc
+checking for debug options... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libmp3lame/Makefile
+config.status: creating libmp3lame/i386/Makefile
+config.status: creating libmp3lame/vector/Makefile
+config.status: creating frontend/Makefile
+config.status: creating mpglib/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/html/Makefile
+config.status: creating doc/man/Makefile
+config.status: creating include/Makefile
+config.status: creating Dll/Makefile
+config.status: creating misc/Makefile
+config.status: creating dshow/Makefile
+config.status: creating ACM/Makefile
+config.status: creating ACM/ADbg/Makefile
+config.status: creating ACM/ddk/Makefile
+config.status: creating ACM/tinyxml/Makefile
+config.status: creating lame.spec
+config.status: creating mac/Makefile
+config.status: creating macosx/Makefile
+config.status: creating macosx/English.lproj/Makefile
+config.status: creating macosx/LAME.xcodeproj/Makefile
+config.status: creating vc_solution/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-recursive
+make[1]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100'
+Making all in mpglib
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/mpglib'
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../libmp3lame -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT common.lo -MD -MP -MF .deps/common.Tpo -c -o common.lo common.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../libmp3lame -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT common.lo -MD -MP -MF .deps/common.Tpo -c common.c  -fPIC -DPIC -o .libs/common.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../libmp3lame -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT common.lo -MD -MP -MF .deps/common.Tpo -c common.c -o common.o >/dev/null 2>&1
+mv -f .deps/common.Tpo .deps/common.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../libmp3lame -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT dct64_i386.lo -MD -MP -MF .deps/dct64_i386.Tpo -c -o dct64_i386.lo dct64_i386.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../libmp3lame -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT dct64_i386.lo -MD -MP -MF .deps/dct64_i386.Tpo -c dct64_i386.c  -fPIC -DPIC -o .libs/dct64_i386.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../libmp3lame -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT dct64_i386.lo -MD -MP -MF .deps/dct64_i386.Tpo -c dct64_i386.c -o dct64_i386.o >/dev/null 2>&1
+mv -f .deps/dct64_i386.Tpo .deps/dct64_i386.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../libmp3lame -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT decode_i386.lo -MD -MP -MF .deps/decode_i386.Tpo -c -o decode_i386.lo decode_i386.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../libmp3lame -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT decode_i386.lo -MD -MP -MF .deps/decode_i386.Tpo -c decode_i386.c  -fPIC -DPIC -o .libs/decode_i386.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../libmp3lame -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT decode_i386.lo -MD -MP -MF .deps/decode_i386.Tpo -c decode_i386.c -o decode_i386.o >/dev/null 2>&1
+mv -f .deps/decode_i386.Tpo .deps/decode_i386.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../libmp3lame -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT interface.lo -MD -MP -MF .deps/interface.Tpo -c -o interface.lo interface.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../libmp3lame -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT interface.lo -MD -MP -MF .deps/interface.Tpo -c interface.c  -fPIC -DPIC -o .libs/interface.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../libmp3lame -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT interface.lo -MD -MP -MF .deps/interface.Tpo -c interface.c -o interface.o >/dev/null 2>&1
+mv -f .deps/interface.Tpo .deps/interface.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../libmp3lame -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT layer1.lo -MD -MP -MF .deps/layer1.Tpo -c -o layer1.lo layer1.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../libmp3lame -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT layer1.lo -MD -MP -MF .deps/layer1.Tpo -c layer1.c  -fPIC -DPIC -o .libs/layer1.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../libmp3lame -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT layer1.lo -MD -MP -MF .deps/layer1.Tpo -c layer1.c -o layer1.o >/dev/null 2>&1
+mv -f .deps/layer1.Tpo .deps/layer1.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../libmp3lame -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT layer2.lo -MD -MP -MF .deps/layer2.Tpo -c -o layer2.lo layer2.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../libmp3lame -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT layer2.lo -MD -MP -MF .deps/layer2.Tpo -c layer2.c  -fPIC -DPIC -o .libs/layer2.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../libmp3lame -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT layer2.lo -MD -MP -MF .deps/layer2.Tpo -c layer2.c -o layer2.o >/dev/null 2>&1
+mv -f .deps/layer2.Tpo .deps/layer2.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../libmp3lame -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT layer3.lo -MD -MP -MF .deps/layer3.Tpo -c -o layer3.lo layer3.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../libmp3lame -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT layer3.lo -MD -MP -MF .deps/layer3.Tpo -c layer3.c  -fPIC -DPIC -o .libs/layer3.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../libmp3lame -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT layer3.lo -MD -MP -MF .deps/layer3.Tpo -c layer3.c -o layer3.o >/dev/null 2>&1
+mv -f .deps/layer3.Tpo .deps/layer3.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../libmp3lame -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT tabinit.lo -MD -MP -MF .deps/tabinit.Tpo -c -o tabinit.lo tabinit.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../libmp3lame -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT tabinit.lo -MD -MP -MF .deps/tabinit.Tpo -c tabinit.c  -fPIC -DPIC -o .libs/tabinit.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../libmp3lame -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT tabinit.lo -MD -MP -MF .deps/tabinit.Tpo -c tabinit.c -o tabinit.o >/dev/null 2>&1
+mv -f .deps/tabinit.Tpo .deps/tabinit.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe    -o libmpgdecoder.la  common.lo dct64_i386.lo decode_i386.lo interface.lo layer1.lo layer2.lo layer3.lo tabinit.lo  
+libtool: link: ar cru .libs/libmpgdecoder.a .libs/common.o .libs/dct64_i386.o .libs/decode_i386.o .libs/interface.o .libs/layer1.o .libs/layer2.o .libs/layer3.o .libs/tabinit.o 
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libmpgdecoder.a
+libtool: link: ( cd ".libs" && rm -f "libmpgdecoder.la" && ln -s "../libmpgdecoder.la" "libmpgdecoder.la" )
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/mpglib'
+Making all in libmp3lame
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame'
+Making all in i386
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame/i386'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame/i386'
+Making all in vector
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame/vector'
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I../.. -I../../include -I. -I../../libmp3lame -I../../mpglib -I../..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT xmm_quantize_sub.lo -MD -MP -MF .deps/xmm_quantize_sub.Tpo -c -o xmm_quantize_sub.lo xmm_quantize_sub.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I. -I../../libmp3lame -I../../mpglib -I../.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT xmm_quantize_sub.lo -MD -MP -MF .deps/xmm_quantize_sub.Tpo -c xmm_quantize_sub.c  -fPIC -DPIC -o .libs/xmm_quantize_sub.o
+xmm_quantize_sub.c: In function ‘fht_SSE2’:
+xmm_quantize_sub.c:180:20: warning: variable ‘v_s2’ set but not used [-Wunused-but-set-variable]
+  180 |             __m128 v_s2;
+      |                    ^~~~
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I. -I../../libmp3lame -I../../mpglib -I../.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT xmm_quantize_sub.lo -MD -MP -MF .deps/xmm_quantize_sub.Tpo -c xmm_quantize_sub.c -o xmm_quantize_sub.o >/dev/null 2>&1
+mv -f .deps/xmm_quantize_sub.Tpo .deps/xmm_quantize_sub.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=link gcc  -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe    -o liblamevectorroutines.la  xmm_quantize_sub.lo  
+libtool: link: ar cru .libs/liblamevectorroutines.a .libs/xmm_quantize_sub.o 
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/liblamevectorroutines.a
+libtool: link: ( cd ".libs" && rm -f "liblamevectorroutines.la" && ln -s "../liblamevectorroutines.la" "liblamevectorroutines.la" )
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame/vector'
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame'
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT VbrTag.lo -MD -MP -MF .deps/VbrTag.Tpo -c -o VbrTag.lo VbrTag.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT VbrTag.lo -MD -MP -MF .deps/VbrTag.Tpo -c VbrTag.c  -fPIC -DPIC -o .libs/VbrTag.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT VbrTag.lo -MD -MP -MF .deps/VbrTag.Tpo -c VbrTag.c -o VbrTag.o >/dev/null 2>&1
+mv -f .deps/VbrTag.Tpo .deps/VbrTag.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT bitstream.lo -MD -MP -MF .deps/bitstream.Tpo -c -o bitstream.lo bitstream.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT bitstream.lo -MD -MP -MF .deps/bitstream.Tpo -c bitstream.c  -fPIC -DPIC -o .libs/bitstream.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT bitstream.lo -MD -MP -MF .deps/bitstream.Tpo -c bitstream.c -o bitstream.o >/dev/null 2>&1
+mv -f .deps/bitstream.Tpo .deps/bitstream.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT encoder.lo -MD -MP -MF .deps/encoder.Tpo -c -o encoder.lo encoder.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT encoder.lo -MD -MP -MF .deps/encoder.Tpo -c encoder.c  -fPIC -DPIC -o .libs/encoder.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT encoder.lo -MD -MP -MF .deps/encoder.Tpo -c encoder.c -o encoder.o >/dev/null 2>&1
+mv -f .deps/encoder.Tpo .deps/encoder.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT fft.lo -MD -MP -MF .deps/fft.Tpo -c -o fft.lo fft.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT fft.lo -MD -MP -MF .deps/fft.Tpo -c fft.c  -fPIC -DPIC -o .libs/fft.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT fft.lo -MD -MP -MF .deps/fft.Tpo -c fft.c -o fft.o >/dev/null 2>&1
+mv -f .deps/fft.Tpo .deps/fft.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT gain_analysis.lo -MD -MP -MF .deps/gain_analysis.Tpo -c -o gain_analysis.lo gain_analysis.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT gain_analysis.lo -MD -MP -MF .deps/gain_analysis.Tpo -c gain_analysis.c  -fPIC -DPIC -o .libs/gain_analysis.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT gain_analysis.lo -MD -MP -MF .deps/gain_analysis.Tpo -c gain_analysis.c -o gain_analysis.o >/dev/null 2>&1
+mv -f .deps/gain_analysis.Tpo .deps/gain_analysis.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT id3tag.lo -MD -MP -MF .deps/id3tag.Tpo -c -o id3tag.lo id3tag.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT id3tag.lo -MD -MP -MF .deps/id3tag.Tpo -c id3tag.c  -fPIC -DPIC -o .libs/id3tag.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT id3tag.lo -MD -MP -MF .deps/id3tag.Tpo -c id3tag.c -o id3tag.o >/dev/null 2>&1
+mv -f .deps/id3tag.Tpo .deps/id3tag.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT lame.lo -MD -MP -MF .deps/lame.Tpo -c -o lame.lo lame.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT lame.lo -MD -MP -MF .deps/lame.Tpo -c lame.c  -fPIC -DPIC -o .libs/lame.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT lame.lo -MD -MP -MF .deps/lame.Tpo -c lame.c -o lame.o >/dev/null 2>&1
+mv -f .deps/lame.Tpo .deps/lame.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT newmdct.lo -MD -MP -MF .deps/newmdct.Tpo -c -o newmdct.lo newmdct.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT newmdct.lo -MD -MP -MF .deps/newmdct.Tpo -c newmdct.c  -fPIC -DPIC -o .libs/newmdct.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT newmdct.lo -MD -MP -MF .deps/newmdct.Tpo -c newmdct.c -o newmdct.o >/dev/null 2>&1
+mv -f .deps/newmdct.Tpo .deps/newmdct.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT presets.lo -MD -MP -MF .deps/presets.Tpo -c -o presets.lo presets.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT presets.lo -MD -MP -MF .deps/presets.Tpo -c presets.c  -fPIC -DPIC -o .libs/presets.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT presets.lo -MD -MP -MF .deps/presets.Tpo -c presets.c -o presets.o >/dev/null 2>&1
+mv -f .deps/presets.Tpo .deps/presets.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT psymodel.lo -MD -MP -MF .deps/psymodel.Tpo -c -o psymodel.lo psymodel.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT psymodel.lo -MD -MP -MF .deps/psymodel.Tpo -c psymodel.c  -fPIC -DPIC -o .libs/psymodel.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT psymodel.lo -MD -MP -MF .deps/psymodel.Tpo -c psymodel.c -o psymodel.o >/dev/null 2>&1
+mv -f .deps/psymodel.Tpo .deps/psymodel.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT quantize.lo -MD -MP -MF .deps/quantize.Tpo -c -o quantize.lo quantize.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT quantize.lo -MD -MP -MF .deps/quantize.Tpo -c quantize.c  -fPIC -DPIC -o .libs/quantize.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT quantize.lo -MD -MP -MF .deps/quantize.Tpo -c quantize.c -o quantize.o >/dev/null 2>&1
+mv -f .deps/quantize.Tpo .deps/quantize.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT quantize_pvt.lo -MD -MP -MF .deps/quantize_pvt.Tpo -c -o quantize_pvt.lo quantize_pvt.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT quantize_pvt.lo -MD -MP -MF .deps/quantize_pvt.Tpo -c quantize_pvt.c  -fPIC -DPIC -o .libs/quantize_pvt.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT quantize_pvt.lo -MD -MP -MF .deps/quantize_pvt.Tpo -c quantize_pvt.c -o quantize_pvt.o >/dev/null 2>&1
+mv -f .deps/quantize_pvt.Tpo .deps/quantize_pvt.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT reservoir.lo -MD -MP -MF .deps/reservoir.Tpo -c -o reservoir.lo reservoir.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT reservoir.lo -MD -MP -MF .deps/reservoir.Tpo -c reservoir.c  -fPIC -DPIC -o .libs/reservoir.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT reservoir.lo -MD -MP -MF .deps/reservoir.Tpo -c reservoir.c -o reservoir.o >/dev/null 2>&1
+mv -f .deps/reservoir.Tpo .deps/reservoir.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT set_get.lo -MD -MP -MF .deps/set_get.Tpo -c -o set_get.lo set_get.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT set_get.lo -MD -MP -MF .deps/set_get.Tpo -c set_get.c  -fPIC -DPIC -o .libs/set_get.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT set_get.lo -MD -MP -MF .deps/set_get.Tpo -c set_get.c -o set_get.o >/dev/null 2>&1
+mv -f .deps/set_get.Tpo .deps/set_get.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT tables.lo -MD -MP -MF .deps/tables.Tpo -c -o tables.lo tables.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT tables.lo -MD -MP -MF .deps/tables.Tpo -c tables.c  -fPIC -DPIC -o .libs/tables.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT tables.lo -MD -MP -MF .deps/tables.Tpo -c tables.c -o tables.o >/dev/null 2>&1
+mv -f .deps/tables.Tpo .deps/tables.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT takehiro.lo -MD -MP -MF .deps/takehiro.Tpo -c -o takehiro.lo takehiro.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT takehiro.lo -MD -MP -MF .deps/takehiro.Tpo -c takehiro.c  -fPIC -DPIC -o .libs/takehiro.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT takehiro.lo -MD -MP -MF .deps/takehiro.Tpo -c takehiro.c -o takehiro.o >/dev/null 2>&1
+mv -f .deps/takehiro.Tpo .deps/takehiro.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT util.lo -MD -MP -MF .deps/util.Tpo -c -o util.lo util.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT util.lo -MD -MP -MF .deps/util.Tpo -c util.c  -fPIC -DPIC -o .libs/util.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT util.lo -MD -MP -MF .deps/util.Tpo -c util.c -o util.o >/dev/null 2>&1
+mv -f .deps/util.Tpo .deps/util.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT vbrquantize.lo -MD -MP -MF .deps/vbrquantize.Tpo -c -o vbrquantize.lo vbrquantize.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT vbrquantize.lo -MD -MP -MF .deps/vbrquantize.Tpo -c vbrquantize.c  -fPIC -DPIC -o .libs/vbrquantize.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT vbrquantize.lo -MD -MP -MF .deps/vbrquantize.Tpo -c vbrquantize.c -o vbrquantize.o >/dev/null 2>&1
+mv -f .deps/vbrquantize.Tpo .deps/vbrquantize.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT version.lo -MD -MP -MF .deps/version.Tpo -c -o version.lo version.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT version.lo -MD -MP -MF .deps/version.Tpo -c version.c  -fPIC -DPIC -o .libs/version.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT version.lo -MD -MP -MF .deps/version.Tpo -c version.c -o version.o >/dev/null 2>&1
+mv -f .deps/version.Tpo .deps/version.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H  -I. -I.. -I../include -I. -I../mpglib -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -MT mpglib_interface.lo -MD -MP -MF .deps/mpglib_interface.Tpo -c -o mpglib_interface.lo mpglib_interface.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT mpglib_interface.lo -MD -MP -MF .deps/mpglib_interface.Tpo -c mpglib_interface.c  -fPIC -DPIC -o .libs/mpglib_interface.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I. -I../mpglib -I.. -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -MT mpglib_interface.lo -MD -MP -MF .deps/mpglib_interface.Tpo -c mpglib_interface.c -o mpglib_interface.o >/dev/null 2>&1
+mv -f .deps/mpglib_interface.Tpo .deps/mpglib_interface.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe  -version-info 0:0 -export-symbols ../include/libmp3lame.sym -no-undefined  -o libmp3lame.la -rpath /home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/lib VbrTag.lo bitstream.lo encoder.lo fft.lo gain_analysis.lo id3tag.lo lame.lo newmdct.lo presets.lo psymodel.lo quantize.lo quantize_pvt.lo reservoir.lo set_get.lo tables.lo takehiro.lo util.lo vbrquantize.lo version.lo mpglib_interface.lo  ../libmp3lame/vector/liblamevectorroutines.la ../mpglib/libmpgdecoder.la -lm 
+libtool: link: echo "{ global:" > .libs/libmp3lame.ver
+libtool: link:  cat ../include/libmp3lame.sym | sed -e "s/\(.*\)/\1;/" >> .libs/libmp3lame.ver
+libtool: link:  echo "local: *; };" >> .libs/libmp3lame.ver
+libtool: link:  gcc -shared  -fPIC -DPIC  .libs/VbrTag.o .libs/bitstream.o .libs/encoder.o .libs/fft.o .libs/gain_analysis.o .libs/id3tag.o .libs/lame.o .libs/newmdct.o .libs/presets.o .libs/psymodel.o .libs/quantize.o .libs/quantize_pvt.o .libs/reservoir.o .libs/set_get.o .libs/tables.o .libs/takehiro.o .libs/util.o .libs/vbrquantize.o .libs/version.o .libs/mpglib_interface.o  -Wl,--whole-archive ../libmp3lame/vector/.libs/liblamevectorroutines.a ../mpglib/.libs/libmpgdecoder.a -Wl,--no-whole-archive  -lm  -O3   -Wl,-soname -Wl,libmp3lame.so.0 -Wl,-version-script -Wl,.libs/libmp3lame.ver -o .libs/libmp3lame.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libmp3lame.so.0" && ln -s "libmp3lame.so.0.0.0" "libmp3lame.so.0")
+libtool: link: (cd ".libs" && rm -f "libmp3lame.so" && ln -s "libmp3lame.so.0.0.0" "libmp3lame.so")
+libtool: link: (cd .libs/libmp3lame.lax/liblamevectorroutines.a && ar x "/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame/../libmp3lame/vector/.libs/liblamevectorroutines.a")
+libtool: link: (cd .libs/libmp3lame.lax/libmpgdecoder.a && ar x "/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame/../mpglib/.libs/libmpgdecoder.a")
+libtool: link: ar cru .libs/libmp3lame.a  VbrTag.o bitstream.o encoder.o fft.o gain_analysis.o id3tag.o lame.o newmdct.o presets.o psymodel.o quantize.o quantize_pvt.o reservoir.o set_get.o tables.o takehiro.o util.o vbrquantize.o version.o mpglib_interface.o  .libs/libmp3lame.lax/liblamevectorroutines.a/xmm_quantize_sub.o  .libs/libmp3lame.lax/libmpgdecoder.a/common.o .libs/libmp3lame.lax/libmpgdecoder.a/dct64_i386.o .libs/libmp3lame.lax/libmpgdecoder.a/decode_i386.o .libs/libmp3lame.lax/libmpgdecoder.a/interface.o .libs/libmp3lame.lax/libmpgdecoder.a/layer1.o .libs/libmp3lame.lax/libmpgdecoder.a/layer2.o .libs/libmp3lame.lax/libmpgdecoder.a/layer3.o .libs/libmp3lame.lax/libmpgdecoder.a/tabinit.o 
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libmp3lame.a
+libtool: link: rm -fr .libs/libmp3lame.lax
+libtool: link: ( cd ".libs" && rm -f "libmp3lame.la" && ln -s "../libmp3lame.la" "libmp3lame.la" )
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame'
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame'
+Making all in frontend
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/frontend'
+gcc -DHAVE_CONFIG_H  -I. -I.. -I../libmp3lame -I../include -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe      -MT lame_main.o -MD -MP -MF .deps/lame_main.Tpo -c -o lame_main.o lame_main.c
+mv -f .deps/lame_main.Tpo .deps/lame_main.Po
+gcc -DHAVE_CONFIG_H  -I. -I.. -I../libmp3lame -I../include -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe      -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o main.c
+mv -f .deps/main.Tpo .deps/main.Po
+gcc -DHAVE_CONFIG_H  -I. -I.. -I../libmp3lame -I../include -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe      -MT brhist.o -MD -MP -MF .deps/brhist.Tpo -c -o brhist.o brhist.c
+mv -f .deps/brhist.Tpo .deps/brhist.Po
+gcc -DHAVE_CONFIG_H  -I. -I.. -I../libmp3lame -I../include -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe      -MT console.o -MD -MP -MF .deps/console.Tpo -c -o console.o console.c
+In file included from /usr/include/string.h:495,
+                 from console.c:7:
+In function ‘strncpy’,
+    inlined from ‘get_termcap_string’ at console.c:94:9,
+    inlined from ‘apply_termcap_settings.constprop’ at console.c:119:13:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ specified bound 10 equals destination size [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In function ‘strncpy’,
+    inlined from ‘get_termcap_string’ at console.c:94:9,
+    inlined from ‘apply_termcap_settings.constprop’ at console.c:120:13:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ specified bound 10 equals destination size [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In function ‘strncpy’,
+    inlined from ‘get_termcap_string’ at console.c:94:9,
+    inlined from ‘apply_termcap_settings.constprop’ at console.c:121:13:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ specified bound 10 equals destination size [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In function ‘strncpy’,
+    inlined from ‘get_termcap_string’ at console.c:94:9,
+    inlined from ‘apply_termcap_settings.constprop’ at console.c:122:13:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ specified bound 10 equals destination size [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mv -f .deps/console.Tpo .deps/console.Po
+gcc -DHAVE_CONFIG_H  -I. -I.. -I../libmp3lame -I../include -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe      -MT get_audio.o -MD -MP -MF .deps/get_audio.Tpo -c -o get_audio.o get_audio.c
+get_audio.c: In function ‘read_32_bits_high_low’:
+get_audio.c:186:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+  186 |     fread(bytes, 1, 4, fp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+get_audio.c: In function ‘read_16_bits_low_high’:
+get_audio.c:147:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+  147 |     fread(bytes, 1, 2, fp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+get_audio.c: In function ‘read_32_bits_low_high’:
+get_audio.c:160:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+  160 |     fread(bytes, 1, 4, fp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+get_audio.c: In function ‘read_16_bits_high_low’:
+get_audio.c:174:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+  174 |     fread(bytes, 1, 2, fp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+get_audio.c: In function ‘read_ieee_extended_high_low’:
+get_audio.c:115:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+  115 |     fread(bytes, 1, 10, fp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+At top level:
+get_audio.c:1367:18: warning: ‘IFF_ID_MPEG’ defined but not used [-Wunused-const-variable=]
+ 1367 | static int const IFF_ID_MPEG = 0x4d504547; /* "MPEG" */
+      |                  ^~~~~~~~~~~
+mv -f .deps/get_audio.Tpo .deps/get_audio.Po
+gcc -DHAVE_CONFIG_H  -I. -I.. -I../libmp3lame -I../include -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe      -MT lametime.o -MD -MP -MF .deps/lametime.Tpo -c -o lametime.o lametime.c
+mv -f .deps/lametime.Tpo .deps/lametime.Po
+gcc -DHAVE_CONFIG_H  -I. -I.. -I../libmp3lame -I../include -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe      -MT parse.o -MD -MP -MF .deps/parse.Tpo -c -o parse.o parse.c
+mv -f .deps/parse.Tpo .deps/parse.Po
+gcc -DHAVE_CONFIG_H  -I. -I.. -I../libmp3lame -I../include -I..    -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe      -MT timestatus.o -MD -MP -MF .deps/timestatus.Tpo -c -o timestatus.o timestatus.c
+mv -f .deps/timestatus.Tpo .deps/timestatus.Po
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -O3  -ffast-math 				-funroll-loops -fschedule-insns2 			-fbranch-count-reg -fforce-addr -Wall -pipe       -static  -o lame lame_main.o main.o brhist.o console.o get_audio.o lametime.o parse.o timestatus.o ../libmp3lame/libmp3lame.la -lncurses   -lm 
+libtool: link: gcc -O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -Wall -pipe -o lame lame_main.o main.o brhist.o console.o get_audio.o lametime.o parse.o timestatus.o  ../libmp3lame/.libs/libmp3lame.a -lncurses -lm
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/frontend'
+Making all in Dll
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/Dll'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/Dll'
+Making all in doc
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc'
+Making all in html
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc/html'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc/html'
+Making all in man
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc/man'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc/man'
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc'
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc'
+Making all in include
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/include'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/include'
+Making all in misc
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/misc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/misc'
+Making all in dshow
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/dshow'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/dshow'
+Making all in ACM
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM'
+Making all in ADbg
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM/ADbg'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM/ADbg'
+Making all in ddk
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM/ddk'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM/ddk'
+Making all in tinyxml
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM/tinyxml'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM/tinyxml'
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM'
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM'
+Making all in mac
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/mac'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/mac'
+Making all in macosx
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx'
+Making all in English.lproj
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx/English.lproj'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx/English.lproj'
+Making all in LAME.xcodeproj
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx/LAME.xcodeproj'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx/LAME.xcodeproj'
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx'
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx'
+Making all in vc_solution
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/vc_solution'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/vc_solution'
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100'
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100'
+make[1]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100'
+Making install in mpglib
+make[1]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/mpglib'
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/mpglib'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/mpglib'
+make[1]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/mpglib'
+Making install in libmp3lame
+make[1]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame'
+Making install in i386
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame/i386'
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame/i386'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame/i386'
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame/i386'
+Making install in vector
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame/vector'
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame/vector'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame/vector'
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame/vector'
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame'
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame'
+ /usr/bin/mkdir -p '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libmp3lame.la '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/lib'
+libtool: install: /usr/bin/install -c .libs/libmp3lame.so.0.0.0 /home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/lib/libmp3lame.so.0.0.0
+libtool: install: (cd /home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/lib && { ln -s -f libmp3lame.so.0.0.0 libmp3lame.so.0 || { rm -f libmp3lame.so.0 && ln -s libmp3lame.so.0.0.0 libmp3lame.so.0; }; })
+libtool: install: (cd /home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/lib && { ln -s -f libmp3lame.so.0.0.0 libmp3lame.so || { rm -f libmp3lame.so && ln -s libmp3lame.so.0.0.0 libmp3lame.so; }; })
+libtool: install: /usr/bin/install -c .libs/libmp3lame.lai /home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/lib/libmp3lame.la
+libtool: install: /usr/bin/install -c .libs/libmp3lame.a /home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/lib/libmp3lame.a
+libtool: install: chmod 644 /home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/lib/libmp3lame.a
+libtool: install: ranlib /home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/lib/libmp3lame.a
+libtool: finish: PATH="/tmp/pts-compiler-mask-encode-mp31.7.4/:/home/jsy01/.phoronix-test-suite/installed-tests/pts/timed-audio-encode-1.0.1/:/home/jsy01/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/bin/remote-cli:/home/jsy01/.local/bin:/usr/local/cuda-11.0/bin:/usr/local/cuda-11.0/include:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/jsy01/go/bin:/opt/dell/srvadmin/bin:/sbin" ldconfig -n /home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame'
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame'
+make[1]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/libmp3lame'
+Making install in frontend
+make[1]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/frontend'
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/frontend'
+ /usr/bin/mkdir -p '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/bin'
+  /bin/bash ../libtool   --mode=install /usr/bin/install -c lame '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/bin'
+libtool: install: /usr/bin/install -c lame /home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/bin/lame
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/frontend'
+make[1]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/frontend'
+Making install in Dll
+make[1]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/Dll'
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/Dll'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/Dll'
+make[1]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/Dll'
+Making install in doc
+make[1]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc'
+Making install in html
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc/html'
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc/html'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/share/doc/lame/html'
+ /usr/bin/install -c -m 644 about.html abr.html cbr.html contact.html contributors.html detailed.html history.html index.html introduction.html links.html list.html ms_stereo.html usage.html vbr.html '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/share/doc/lame/html'
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc/html'
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc/html'
+Making install in man
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc/man'
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc/man'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/share/man/man1'
+ /usr/bin/install -c -m 644 lame.1 '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/share/man/man1'
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc/man'
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc/man'
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc'
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc'
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc'
+make[1]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/doc'
+Making install in include
+make[1]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/include'
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/include'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/include/lame'
+ /usr/bin/install -c -m 644 lame.h '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4//lame_/include/lame'
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/include'
+make[1]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/include'
+Making install in misc
+make[1]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/misc'
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/misc'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/misc'
+make[1]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/misc'
+Making install in dshow
+make[1]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/dshow'
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/dshow'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/dshow'
+make[1]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/dshow'
+Making install in ACM
+make[1]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM'
+Making install in ADbg
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM/ADbg'
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM/ADbg'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM/ADbg'
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM/ADbg'
+Making install in ddk
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM/ddk'
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM/ddk'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM/ddk'
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM/ddk'
+Making install in tinyxml
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM/tinyxml'
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM/tinyxml'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM/tinyxml'
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM/tinyxml'
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM'
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM'
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM'
+make[1]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/ACM'
+Making install in mac
+make[1]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/mac'
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/mac'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/mac'
+make[1]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/mac'
+Making install in macosx
+make[1]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx'
+Making install in English.lproj
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx/English.lproj'
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx/English.lproj'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx/English.lproj'
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx/English.lproj'
+Making install in LAME.xcodeproj
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx/LAME.xcodeproj'
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx/LAME.xcodeproj'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx/LAME.xcodeproj'
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx/LAME.xcodeproj'
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx'
+make[3]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx'
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx'
+make[1]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/macosx'
+Making install in vc_solution
+make[1]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/vc_solution'
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/vc_solution'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/vc_solution'
+make[1]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100/vc_solution'
+make[1]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100'
+make[2]: Entering directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100'
+make[1]: Leaving directory '/home/jsy01/.phoronix-test-suite/installed-tests/pts/encode-mp3-1.7.4/lame-3.100'

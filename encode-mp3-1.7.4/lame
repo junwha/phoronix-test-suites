@@ -1,0 +1,3 @@
+#!/bin/sh
+./lame_/bin/lame -h $TEST_EXTENDS/pts-trondheim.wav /dev/null 2>&1
+echo $? > ~/test-exit-status
