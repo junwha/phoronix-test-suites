@@ -1,0 +1,26 @@
+{
+    "test_installation": {
+        "status": "INSTALLED",
+        "environment": {
+            "test_identifier": "pts\/encode-mp3-1.7.4",
+            "test_version": "1.7.4",
+            "install_checksum": "8d6cd59c3ea829a77cedaebb01814ce7",
+            "system_hash": "NCB4IEludGVsIFhlb24gR29sZCA1MjE4X19VYnVudHUgMjAuMDRfX0dDQyA5LjQuMCArIENsYW5nIDExLjAuMCArIExMVk0gMTEuMC4wX18=",
+            "compiler_data": {
+                "compiler-type": "CC",
+                "compiler": "gcc",
+                "compiler-options": "-O3 -ffast-math -funroll-loops -fschedule-insns2 -fbranch-count-reg -fforce-addr -pipe -lncurses -lm"
+            },
+            "install_footnote": null
+        },
+        "history": {
+            "install_date_time": "2022-03-28 18:01:53",
+            "last_run_date_time": null,
+            "install_time_length": 36,
+            "times_run": 0,
+            "average_runtime": null,
+            "latest_runtime": null,
+            "per_run_times": null
+        }
+    }
+}

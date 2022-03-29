@@ -1,0 +1,52 @@
+himenobmtxpa.c: In function ‘main’:
+himenobmtxpa.c:80:5: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
+   80 |     strcpy(size,argv[1]);
+      |     ^~~~~~
+himenobmtxpa.c:80:5: warning: incompatible implicit declaration of built-in function ‘strcpy’
+himenobmtxpa.c:41:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+   40 | #include <sys/time.h>
+  +++ |+#include <string.h>
+   41 | 
+himenobmtxpa.c:166:10: warning: too many arguments for format [-Wformat-extra-args]
+  166 |   printf(" Score based on Pentium III 600MHz using Fortran 77: %f\n",
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+himenobmtxpa.c: In function ‘set_param’:
+himenobmtxpa.c:198:7: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+  198 |   if(!strcmp(size,"XS") || !strcmp(size,"xs")){
+      |       ^~~~~~
+himenobmtxpa.c:229:5: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+  229 |     exit(6);
+      |     ^~~~
+himenobmtxpa.c:229:5: warning: incompatible implicit declaration of built-in function ‘exit’
+himenobmtxpa.c:41:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+   40 | #include <sys/time.h>
+  +++ |+#include <stdlib.h>
+   41 | 
+himenobmtxpa.c: In function ‘newMat’:
+himenobmtxpa.c:242:23: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+  242 |  Mat->m= (float ****) malloc(mnums * sizeof(float ***));
+      |                       ^~~~~~
+himenobmtxpa.c:242:23: warning: incompatible implicit declaration of built-in function ‘malloc’
+himenobmtxpa.c:242:23: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+himenobmtxpa.c: In function ‘clearMat’:
+himenobmtxpa.c:263:13: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+  263 |             free(Mat->m[i][j][k]);
+      |             ^~~~
+himenobmtxpa.c:263:13: warning: incompatible implicit declaration of built-in function ‘free’
+himenobmtxpa.c:263:13: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+himenobmtxpa.c:265:9: warning: incompatible implicit declaration of built-in function ‘free’
+  265 |         free(Mat->m[i][j]);
+      |         ^~~~
+himenobmtxpa.c:265:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+himenobmtxpa.c:267:7: warning: incompatible implicit declaration of built-in function ‘free’
+  267 |       free(Mat->m[i]);
+      |       ^~~~
+himenobmtxpa.c:267:7: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+himenobmtxpa.c:269:5: warning: incompatible implicit declaration of built-in function ‘free’
+  269 |     free(Mat->m);
+      |     ^~~~
+himenobmtxpa.c:269:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+himenobmtxpa.c: In function ‘main’:
+himenobmtxpa.c:89:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+   89 |     scanf("%s",size);
+      |     ^~~~~~~~~~~~~~~~

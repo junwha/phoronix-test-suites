@@ -1,0 +1,26 @@
+{
+    "test_installation": {
+        "status": "INSTALLED",
+        "environment": {
+            "test_identifier": "pts\/himeno-1.3.0",
+            "test_version": "1.3.0",
+            "install_checksum": "0e9a061aebeb69a5fa82f5e745f31cc6",
+            "system_hash": "NCB4IEludGVsIFhlb24gR29sZCA1MjE4X19VYnVudHUgMjAuMDRfX0dDQyA5LjQuMCArIENsYW5nIDExLjAuMCArIExMVk0gMTEuMC4wX18=",
+            "compiler_data": {
+                "compiler-type": "CC",
+                "compiler": "gcc",
+                "compiler-options": "-O3 -mavx2"
+            },
+            "install_footnote": null
+        },
+        "history": {
+            "install_date_time": "2022-03-28 17:50:27",
+            "last_run_date_time": null,
+            "install_time_length": 3,
+            "times_run": 0,
+            "average_runtime": null,
+            "latest_runtime": null,
+            "per_run_times": null
+        }
+    }
+}

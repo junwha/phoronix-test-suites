@@ -1,0 +1,12 @@
+prefix=/home/jsy01/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.0.2//gm_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/GraphicsMagick
+
+
+Name: GraphicsMagickWand
+Version: 1.3.33
+Description: GraphicsMagick Wand image processing library
+Requires: GraphicsMagick
+Libs: -lGraphicsMagickWand
+Cflags:
