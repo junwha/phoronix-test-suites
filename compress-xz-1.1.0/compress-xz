@@ -1,0 +1,2 @@
+#!/bin/sh
+./xz-5.2.4/src/xz/xz -7 -k -T$NUM_CPU_CORES ubuntu-16.04.3-server-i386.img > /dev/null 2>&1
